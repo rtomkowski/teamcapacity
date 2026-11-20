@@ -1,0 +1,6711 @@
+{
+  "version": 1,
+  "people": [
+    {
+      "id": "8749487e-4066-5055-92a3-660f131ff84b",
+      "name": "Maja Lindqvist",
+      "capacityHours": 40,
+      "reservedHours": 2,
+      "notes": "",
+      "role": "Professor",
+      "status": "full",
+      "statusNote": "Proposal season",
+      "fullAt": 120
+    },
+    {
+      "id": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "name": "Tomas Berg",
+      "capacityHours": 40,
+      "reservedHours": 2,
+      "notes": "",
+      "role": "Associate professor",
+      "status": "full",
+      "statusNote": "Course and two projects until January"
+    },
+    {
+      "id": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "name": "Elin Sandberg",
+      "capacityHours": 40,
+      "reservedHours": 4,
+      "notes": "",
+      "role": "Researcher",
+      "status": "steady"
+    },
+    {
+      "id": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "name": "Karim Haddad",
+      "capacityHours": 40,
+      "reservedHours": 4,
+      "notes": "",
+      "role": "Researcher",
+      "status": "full"
+    },
+    {
+      "id": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "name": "Sofia Nyström",
+      "capacityHours": 40,
+      "reservedHours": 2,
+      "notes": "",
+      "role": "Postdoc",
+      "status": "steady"
+    },
+    {
+      "id": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+      "name": "Jonas Ek",
+      "capacityHours": 40,
+      "reservedHours": 4,
+      "notes": "",
+      "role": "PhD student",
+      "status": "steady",
+      "statusNote": "Lab campaign in November"
+    },
+    {
+      "id": "709fc4dd-1e51-55b5-b92f-48668b2381f1",
+      "name": "Lina Park",
+      "capacityHours": 40,
+      "reservedHours": 4,
+      "notes": "",
+      "role": "PhD student",
+      "status": "room",
+      "statusNote": "Can help with analysis",
+      "fullAt": 80
+    },
+    {
+      "id": "b2c3d454-163a-5e05-8cc3-3728bca8b866",
+      "name": "Oskar Wahl",
+      "capacityHours": 40,
+      "reservedHours": 2,
+      "notes": "",
+      "role": "Research engineer",
+      "status": "full",
+      "statusNote": "Calibration backlog"
+    },
+    {
+      "id": "f50aab68-e0e9-5fa2-af3f-403644b24ea2",
+      "name": "Aino Virtanen",
+      "capacityHours": 32,
+      "reservedHours": 2,
+      "notes": "",
+      "role": "Research engineer",
+      "status": "room"
+    },
+    {
+      "id": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "name": "David Chen",
+      "capacityHours": 40,
+      "reservedHours": 4,
+      "notes": "",
+      "role": "PhD student",
+      "status": "room",
+      "statusNote": "Free from January"
+    }
+  ],
+  "projects": [
+    {
+      "id": "67fb3749-9cd0-5abc-9824-703df1625521",
+      "kind": "teaching",
+      "name": "MG2045 Surface metrology",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Master course, period 2 and 4: lectures, labs and exam.",
+      "schedule": {
+        "mode": "periods",
+        "periodIds": [
+          "p-423290f4",
+          "p-4068f115"
+        ],
+        "weekdays": [
+          1,
+          3
+        ],
+        "from": "10:00",
+        "to": "12:00"
+      },
+      "milestones": [
+        {
+          "id": "m-mg20",
+          "kind": "deadline",
+          "title": "Exam grading",
+          "date": "2027-01-23"
+        }
+      ],
+      "roles": [
+        {
+          "role": "Course responsible",
+          "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+          "name": "Tomas Berg"
+        }
+      ]
+    },
+    {
+      "id": "4b5439a6-9a7f-5709-9998-8e8d351eda62",
+      "kind": "teaching",
+      "name": "MG1001 Manufacturing basics",
+      "status": "ongoing",
+      "notes": "",
+      "description": "First-year course, period 3.",
+      "schedule": {
+        "mode": "periods",
+        "periodIds": [
+          "p-eea77e3c"
+        ],
+        "from": "13:00",
+        "to": "15:00",
+        "variableDays": true,
+        "weekHours": 4
+      },
+      "roles": [
+        {
+          "role": "Course responsible",
+          "personId": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+          "name": "Jonas Ek"
+        }
+      ]
+    },
+    {
+      "id": "bd404571-ffc7-595a-9a0e-2c43bf2fb1b5",
+      "kind": "supervision",
+      "name": "PhD supervision",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Main and co-supervision of the group's PhD students.",
+      "schedule": {
+        "mode": "span",
+        "start": "2024-09-01",
+        "end": "2030-06-30"
+      },
+      "roles": [
+        {
+          "role": "Supervisor",
+          "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+          "name": "Maja Lindqvist"
+        },
+        {
+          "role": "Assistant supervisor",
+          "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+          "name": "Elin Sandberg"
+        }
+      ]
+    },
+    {
+      "id": "37f678ac-5640-5503-8c04-fe3702b5911e",
+      "kind": "supervision",
+      "name": "MSc theses",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Industrial master theses, spring term.",
+      "schedule": {
+        "mode": "span",
+        "start": "2027-01-18",
+        "end": "2027-06-15"
+      },
+      "roles": [
+        {
+          "role": "Supervisor",
+          "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+          "name": "Tomas Berg"
+        }
+      ]
+    },
+    {
+      "id": "0deb41c2-410d-5ce7-8c1d-0ca772091f76",
+      "kind": "networking",
+      "name": "Networking and conferences",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Monthly network seminar with partners and alumni.",
+      "schedule": {
+        "mode": "recurring",
+        "freq": "monthly",
+        "start": "2026-09-10",
+        "from": "15:00",
+        "to": "16:30"
+      },
+      "roles": [
+        {
+          "role": "Host",
+          "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+          "name": "Maja Lindqvist"
+        }
+      ]
+    },
+    {
+      "id": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "kind": "other",
+      "name": "Team pulse",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Short weekly check-in: what is on your plate, where you need help.",
+      "schedule": {
+        "mode": "recurring",
+        "freq": "weekly",
+        "weekdays": [
+          0
+        ],
+        "start": "2026-08-31",
+        "from": "09:30",
+        "to": "09:50"
+      },
+      "roles": [
+        {
+          "role": "Facilitator",
+          "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+          "name": "Sofia Nyström"
+        }
+      ]
+    },
+    {
+      "id": "ea8ce8f9-87f3-5654-aab1-584540d9a948",
+      "kind": "networking",
+      "name": "Industry partner day",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Afternoon with the industrial partners: results and next steps.",
+      "schedule": {
+        "mode": "once",
+        "start": "2026-12-03",
+        "from": "13:00",
+        "to": "16:00"
+      },
+      "roles": [
+        {
+          "role": "Host",
+          "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+          "name": "Karim Haddad"
+        }
+      ]
+    },
+    {
+      "id": "ea165f3f-48d2-55ca-9829-643296a38398",
+      "kind": "networking",
+      "name": "Surface metrology conference",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Three-day international conference; two talks from the group.",
+      "schedule": {
+        "mode": "event",
+        "start": "2027-05-17",
+        "end": "2027-05-19"
+      }
+    },
+    {
+      "id": "bfb395db-c3c1-56f2-8f95-dd8188c84273",
+      "kind": "other",
+      "name": "Lab safety training",
+      "status": "ongoing",
+      "notes": "",
+      "description": "Mandatory refresher for everyone working in the machining lab.",
+      "schedule": {
+        "mode": "range",
+        "start": "2027-01-12",
+        "from": "13:00",
+        "end": "2027-01-13",
+        "to": "12:00"
+      }
+    },
+    {
+      "id": "0fe4295b-c8cc-56f8-ba16-31e06012c640",
+      "name": "NOVA Surface Lab",
+      "status": "ongoing",
+      "notes": "",
+      "type": "Research",
+      "funder": "Research council",
+      "startYear": 2025,
+      "endYear": 2028,
+      "description": "Functional surfaces for low-friction contacts; texturing trials and tribology tests.",
+      "dates": {
+        "appStart": "2024-09-01",
+        "appDue": "2025-02-15",
+        "decisionOn": "2025-06-10",
+        "start": "2025-09-01",
+        "end": "2028-08-31"
+      },
+      "milestones": [
+        {
+          "id": "m-nov0",
+          "kind": "milestone",
+          "title": "Kick-off meeting held",
+          "date": "2025-09-15",
+          "done": true
+        },
+        {
+          "id": "m-nov1",
+          "kind": "deadline",
+          "title": "D1.2 Measurement protocol",
+          "date": "2026-06-30",
+          "note": "Upload to the funder portal",
+          "done": true
+        },
+        {
+          "id": "m-nov2",
+          "kind": "deadline",
+          "title": "Mid-term report",
+          "date": "2026-12-04",
+          "note": "Draft to all partners two weeks before"
+        },
+        {
+          "id": "m-nov3",
+          "kind": "milestone",
+          "title": "Reference samples measured",
+          "date": "2027-03-31"
+        },
+        {
+          "id": "m-nov4",
+          "kind": "deadline",
+          "title": "Final report",
+          "date": "2028-10-31"
+        }
+      ],
+      "piId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "abbreviation": "NOVA",
+      "fullTitle": "NOVA: New Optical Verification of Advanced surfaces, a surface laboratory for functional surfaces (fictional)"
+    },
+    {
+      "id": "2f0105e2-f62d-5c81-9ea0-117bbb847fa3",
+      "name": "GearSense",
+      "status": "ongoing",
+      "notes": "",
+      "type": "Research",
+      "funder": "Innovation agency",
+      "startYear": 2026,
+      "endYear": 2028,
+      "description": "In-process monitoring of gear grinding with acoustic emission and ML.",
+      "dates": {
+        "appStart": "2025-10-01",
+        "appDue": "2025-12-01",
+        "decisionOn": "2026-03-15",
+        "start": "2026-04-01",
+        "end": "2028-03-31"
+      },
+      "milestones": [
+        {
+          "id": "m-gea0",
+          "kind": "milestone",
+          "title": "Test rig ready",
+          "date": "2026-11-12",
+          "note": "Sensors mounted and calibrated"
+        },
+        {
+          "id": "m-gea1",
+          "kind": "deadline",
+          "title": "Annual report",
+          "date": "2027-02-15"
+        },
+        {
+          "id": "m-gea2",
+          "kind": "milestone",
+          "title": "First field test",
+          "date": "2027-05-20"
+        }
+      ],
+      "piId": "8749487e-4066-5055-92a3-660f131ff84b"
+    },
+    {
+      "id": "4b713396-82f5-5eea-b13c-214690dc86af",
+      "name": "Metrology Core Facility",
+      "status": "ongoing",
+      "notes": "",
+      "type": "Infrastructure",
+      "funder": "University",
+      "startYear": 2024,
+      "endYear": 2030,
+      "description": "Operation and calibration of the shared optical metrology lab.",
+      "dates": {
+        "start": "2024-01-01",
+        "end": "2028-12-31"
+      },
+      "extensions": [
+        {
+          "id": "x-9136d40c",
+          "end": "2030-12-31",
+          "note": "Faculty renewed facility funding",
+          "approvedOn": "2026-05-20"
+        }
+      ],
+      "dateLog": [
+        {
+          "on": "2026-05-20",
+          "field": "Extension 1",
+          "to": "2030-12-31",
+          "note": "Faculty renewed facility funding"
+        }
+      ],
+      "abbreviation": "MCF"
+    },
+    {
+      "id": "3c60d1dc-124e-5f0a-a496-ddcc5f9ad113",
+      "name": "CleanCut",
+      "status": "ongoing",
+      "notes": "",
+      "type": "Development",
+      "funder": "Industry partner",
+      "startYear": 2026,
+      "endYear": 2027,
+      "description": "Dry machining process window for a titanium bracket family.",
+      "dates": {
+        "appStart": "2025-11-01",
+        "appDue": "2025-12-15",
+        "start": "2026-02-01",
+        "end": "2026-12-31"
+      },
+      "extensions": [
+        {
+          "id": "x-44798db0",
+          "end": "2027-06-30",
+          "note": "No-cost extension: titanium stock delayed",
+          "approvedOn": "2026-10-20"
+        }
+      ],
+      "dateLog": [
+        {
+          "on": "2026-10-20",
+          "field": "Extension 1",
+          "to": "2027-06-30",
+          "note": "No-cost extension: titanium stock delayed"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "m-cle0",
+          "kind": "deadline",
+          "title": "Paper submission to CIRP",
+          "date": "2026-11-27"
+        },
+        {
+          "id": "m-cle1",
+          "kind": "milestone",
+          "title": "Coupon batch B machined",
+          "date": "2026-10-15",
+          "done": true
+        },
+        {
+          "id": "m-cle2",
+          "kind": "deadline",
+          "title": "Final report",
+          "date": "2026-12-31"
+        }
+      ],
+      "piId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903"
+    },
+    {
+      "id": "5b0292b5-c0cf-5b4b-a709-c198a978f2b9",
+      "name": "Twin4Line",
+      "status": "planned",
+      "notes": "",
+      "type": "Research",
+      "funder": "EU",
+      "startYear": 2027,
+      "endYear": 2030,
+      "description": "Digital twin of a pilot production line; consortium of six partners.",
+      "dates": {
+        "appStart": "2026-01-15",
+        "appDue": "2026-04-30",
+        "decisionOn": "2026-10-15",
+        "plannedStart": "2027-01-01",
+        "plannedEnd": "2030-06-30"
+      }
+    },
+    {
+      "id": "04bfee4a-a234-54d1-ab2a-96171fce7df8",
+      "name": "ScanQuality",
+      "status": "ongoing",
+      "notes": "",
+      "type": "Development",
+      "funder": "Industry partner",
+      "startYear": 2025,
+      "endYear": 2026,
+      "description": "Automated inspection of milled surfaces from 3D scans.",
+      "dates": {
+        "start": "2025-03-01",
+        "end": "2026-12-31"
+      },
+      "milestones": [
+        {
+          "id": "m-sca0",
+          "kind": "deadline",
+          "title": "Demonstrator video",
+          "date": "2026-12-11"
+        }
+      ],
+      "piId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903"
+    },
+    {
+      "id": "a71ba76b-d1bc-52d9-bbe4-212c07187f64",
+      "name": "Additive Finish",
+      "status": "submitted",
+      "notes": "",
+      "type": "Research",
+      "funder": "Research council",
+      "startYear": 2027,
+      "endYear": 2029,
+      "description": "Post-processing of additively manufactured parts; proposal under review.",
+      "dates": {
+        "appStart": "2026-08-01",
+        "appDue": "2026-10-15",
+        "decisionOn": "2027-02-28",
+        "plannedStart": "2027-04-01",
+        "plannedEnd": "2029-03-31"
+      },
+      "dateLog": [
+        {
+          "on": "2026-10-15",
+          "field": "Status",
+          "from": "Proposal",
+          "to": "Submitted"
+        }
+      ],
+      "milestones": [
+        {
+          "id": "m-add0",
+          "kind": "deadline",
+          "title": "Answer to reviewer questions",
+          "date": "2026-12-01"
+        }
+      ]
+    },
+    {
+      "id": "e4ff06fa-03d1-57da-a044-9d8a7dc3cf33",
+      "name": "Uncertainty Toolkit",
+      "status": "ongoing",
+      "notes": "",
+      "type": "Development",
+      "funder": "Internal",
+      "startYear": 2026,
+      "endYear": 2027,
+      "description": "Open toolkit for GUM and Monte Carlo uncertainty budgets.",
+      "dates": {
+        "start": "2026-01-15",
+        "end": "2027-06-30"
+      },
+      "milestones": [
+        {
+          "id": "m-unc0",
+          "kind": "milestone",
+          "title": "Beta release",
+          "date": "2027-01-29",
+          "note": "Shared with industry partners"
+        }
+      ],
+      "abbreviation": "UTK",
+      "fullTitle": "Uncertainty Toolkit for areal surface topography measurement (fictional)"
+    },
+    {
+      "id": "9f44bc05-df7b-57da-b3fc-e7daebc4c392",
+      "name": "Laser Texture Pilot",
+      "status": "proposal",
+      "notes": "",
+      "type": "Research",
+      "funder": "Innovation agency",
+      "startYear": 2027,
+      "endYear": 2028,
+      "description": "Pilot study on laser surface texturing for sealing faces; application being written.",
+      "dates": {
+        "appStart": "2026-11-01",
+        "appDue": "2027-01-20",
+        "plannedStart": "2027-05-01",
+        "plannedEnd": "2028-04-30"
+      }
+    },
+    {
+      "id": "6d6e6529-5504-5599-89be-95c37b0a489b",
+      "name": "Smart Fixture",
+      "status": "finished",
+      "notes": "",
+      "type": "Development",
+      "funder": "Industry partner",
+      "startYear": 2024,
+      "endYear": 2026,
+      "description": "Sensorised fixture prototype, delivered June 2026.",
+      "dates": {
+        "start": "2024-03-01",
+        "end": "2026-03-31",
+        "finishedOn": "2026-06-15"
+      },
+      "extensions": [
+        {
+          "id": "x-3f06ac81",
+          "end": "2026-08-31",
+          "note": "Extra field test at the partner",
+          "approvedOn": "2026-02-10"
+        }
+      ],
+      "dateLog": [
+        {
+          "on": "2026-02-10",
+          "field": "Extension 1",
+          "to": "2026-08-31",
+          "note": "Extra field test at the partner"
+        },
+        {
+          "on": "2026-06-15",
+          "field": "Finished",
+          "to": "2026-06-15",
+          "note": "Delivered early, field test done"
+        },
+        {
+          "on": "2026-06-15",
+          "field": "Status",
+          "from": "Ongoing",
+          "to": "Finished"
+        }
+      ]
+    },
+    {
+      "id": "66c0fdd4-2611-5f09-a4bc-a6da4b4470dd",
+      "name": "WearSense",
+      "status": "rejected",
+      "notes": "",
+      "type": "Research",
+      "funder": "Research council",
+      "startYear": 2026,
+      "endYear": 2028,
+      "description": "Wear monitoring of forming tools; not funded in the 2026 call.",
+      "dates": {
+        "appStart": "2025-11-01",
+        "appDue": "2026-02-01",
+        "decisionOn": "2026-06-01",
+        "plannedStart": "2026-09-01",
+        "plannedEnd": "2028-08-31"
+      },
+      "dateLog": [
+        {
+          "on": "2026-06-01",
+          "field": "Status",
+          "from": "Submitted",
+          "to": "Rejected",
+          "note": "Not funded; resubmit 2027?"
+        }
+      ]
+    }
+  ],
+  "assignments": [
+    {
+      "id": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "0fe4295b-c8cc-56f8-ba16-31e06012c640",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "PI",
+      "tasks": [
+        {
+          "taskId": "t-coordination",
+          "percent": 13
+        },
+        {
+          "taskId": "t-writing",
+          "note": "Journal paper on texture design",
+          "percent": 12
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "2f0105e2-f62d-5c81-9ea0-117bbb847fa3",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-coordination",
+          "note": "Steering group"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "5b0292b5-c0cf-5b4b-a709-c198a978f2b9",
+      "status": "planned",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-writing",
+          "note": "Consortium agreement"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "a71ba76b-d1bc-52d9-bbe4-212c07187f64",
+      "status": "planned",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-writing",
+          "note": "Proposal revision"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "4b713396-82f5-5eea-b13c-214690dc86af",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-coordination"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "2f0105e2-f62d-5c81-9ea0-117bbb847fa3",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "Project lead, WP1",
+      "tasks": [
+        {
+          "taskId": "t-coordination",
+          "note": "WP1 lead",
+          "percent": 13
+        },
+        {
+          "taskId": "t-analysis",
+          "note": "AE signal features",
+          "percent": 12
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "3c60d1dc-124e-5f0a-a496-ddcc5f9ad113",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-machining",
+          "note": "Dry milling trials",
+          "percent": 13
+        },
+        {
+          "taskId": "t-analysis",
+          "percent": 12
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "04bfee4a-a234-54d1-ab2a-96171fce7df8",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-modelling",
+          "note": "Defect classifier",
+          "workItemId": "w-41593dbc"
+        }
+      ],
+      "percent": 15
+    },
+    {
+      "id": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "9f44bc05-df7b-57da-b3fc-e7daebc4c392",
+      "status": "planned",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-writing",
+          "note": "Work plan"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "projectId": "0fe4295b-c8cc-56f8-ba16-31e06012c640",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-measurement",
+          "note": "Sa/Sq and Sdr on textured discs",
+          "workItemId": "w-1e9d8012",
+          "percent": 13
+        },
+        {
+          "taskId": "t-testing",
+          "note": "Pin-on-disc friction",
+          "workItemId": "w-02feed60",
+          "percent": 12
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "projectId": "e4ff06fa-03d1-57da-a044-9d8a7dc3cf33",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-analysis",
+          "note": "Monte Carlo module"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "projectId": "3c60d1dc-124e-5f0a-a496-ddcc5f9ad113",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-setup",
+          "note": "Fixture and MQL nozzle",
+          "workItemId": "w-3a003a21",
+          "percent": 15
+        },
+        {
+          "taskId": "t-machining",
+          "note": "Ti bracket batches",
+          "workItemId": "w-1e9d8012",
+          "percent": 15
+        }
+      ],
+      "percent": 30
+    },
+    {
+      "id": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "projectId": "04bfee4a-a234-54d1-ab2a-96171fce7df8",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-measurement",
+          "note": "3D scans of milled parts",
+          "workItemId": "w-1e9d8012",
+          "percent": 15
+        },
+        {
+          "taskId": "t-analysis",
+          "percent": 15
+        }
+      ],
+      "percent": 30
+    },
+    {
+      "id": "7296293d-80e9-53be-811d-d7490df517cc",
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "projectId": "5b0292b5-c0cf-5b4b-a709-c198a978f2b9",
+      "status": "planned",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-modelling",
+          "note": "Line model, first draft"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "projectId": "2f0105e2-f62d-5c81-9ea0-117bbb847fa3",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-testing",
+          "note": "Grinding trials at partner site",
+          "workItemId": "w-e1fb4803",
+          "percent": 15
+        },
+        {
+          "taskId": "t-analysis",
+          "percent": 15
+        }
+      ],
+      "percent": 30
+    },
+    {
+      "id": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "projectId": "e4ff06fa-03d1-57da-a044-9d8a7dc3cf33",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-writing",
+          "note": "User guide"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "7e4d321b-12f9-5849-91ae-11b53f1ccaec",
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "projectId": "6d6e6529-5504-5599-89be-95c37b0a489b",
+      "status": "finished",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "personId": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+      "projectId": "0fe4295b-c8cc-56f8-ba16-31e06012c640",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-setup",
+          "note": "Laser texturing setup",
+          "workItemId": "w-02feed60",
+          "percent": 25
+        },
+        {
+          "taskId": "t-measurement",
+          "percent": 25
+        },
+        {
+          "taskId": "t-analysis",
+          "percent": 25
+        }
+      ],
+      "percent": 75
+    },
+    {
+      "id": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "personId": "709fc4dd-1e51-55b5-b92f-48668b2381f1",
+      "projectId": "2f0105e2-f62d-5c81-9ea0-117bbb847fa3",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-analysis",
+          "note": "ML model for burn detection",
+          "workItemId": "w-e1fb4803",
+          "percent": 25
+        },
+        {
+          "taskId": "t-writing",
+          "note": "Conference paper",
+          "percent": 25
+        }
+      ],
+      "percent": 50
+    },
+    {
+      "id": "5a5f2245-e6ad-59db-a8c7-1f6f75f63c82",
+      "personId": "709fc4dd-1e51-55b5-b92f-48668b2381f1",
+      "projectId": "9f44bc05-df7b-57da-b3fc-e7daebc4c392",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-setup",
+          "workItemId": "w-02feed60"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "personId": "b2c3d454-163a-5e05-8cc3-3728bca8b866",
+      "projectId": "4b713396-82f5-5eea-b13c-214690dc86af",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "Instrument responsible",
+      "tasks": [
+        {
+          "taskId": "t-setup",
+          "note": "Instrument calibration",
+          "workItemId": "w-249a190b",
+          "percent": 20
+        },
+        {
+          "taskId": "t-measurement",
+          "note": "Service measurements",
+          "percent": 20
+        }
+      ],
+      "percent": 40
+    },
+    {
+      "id": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "personId": "b2c3d454-163a-5e05-8cc3-3728bca8b866",
+      "projectId": "3c60d1dc-124e-5f0a-a496-ddcc5f9ad113",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-setup",
+          "note": "Machine and sensors",
+          "workItemId": "w-1e9d8012"
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "personId": "b2c3d454-163a-5e05-8cc3-3728bca8b866",
+      "projectId": "04bfee4a-a234-54d1-ab2a-96171fce7df8",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-setup",
+          "note": "Scanner rig"
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "personId": "f50aab68-e0e9-5fa2-af3f-403644b24ea2",
+      "projectId": "4b713396-82f5-5eea-b13c-214690dc86af",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-measurement",
+          "note": "CMM and optical profiler",
+          "workItemId": "w-249a190b"
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "e89a726f-79d6-51b0-b60e-e55fa3e5d4d8",
+      "personId": "f50aab68-e0e9-5fa2-af3f-403644b24ea2",
+      "projectId": "e4ff06fa-03d1-57da-a044-9d8a7dc3cf33",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-testing",
+          "note": "Validation datasets",
+          "workItemId": "w-249a190b"
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "67fb3749-9cd0-5abc-9824-703df1625521",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-teaching",
+          "note": "Lectures 1 to 6"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "bd404571-ffc7-595a-9a0e-2c43bf2fb1b5",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "Main supervisor for Jonas Ek and Lina Park",
+      "tasks": [
+        {
+          "taskId": "t-supervision",
+          "note": "Jonas Ek, Lina Park"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "0deb41c2-410d-5ce7-8c1d-0ca772091f76",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "67fb3749-9cd0-5abc-9824-703df1625521",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "Course responsible and examiner",
+      "tasks": [
+        {
+          "taskId": "t-teaching",
+          "note": "Course responsible"
+        }
+      ],
+      "percent": 15
+    },
+    {
+      "id": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "bd404571-ffc7-595a-9a0e-2c43bf2fb1b5",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-supervision",
+          "note": "Co-supervisor for David Chen"
+        }
+      ],
+      "percent": 15
+    },
+    {
+      "id": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "0deb41c2-410d-5ce7-8c1d-0ca772091f76",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "projectId": "67fb3749-9cd0-5abc-9824-703df1625521",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "Lab sessions",
+      "tasks": [
+        {
+          "taskId": "t-teaching",
+          "note": "Lab sessions"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "projectId": "bd404571-ffc7-595a-9a0e-2c43bf2fb1b5",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-supervision",
+          "note": "Co-supervisor for Jonas Ek"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "projectId": "4b5439a6-9a7f-5709-9998-8e8d351eda62",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "Lectures 4 to 9",
+      "tasks": [
+        {
+          "taskId": "t-teaching",
+          "note": "Lectures 4 to 9"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "projectId": "37f678ac-5640-5503-8c04-fe3702b5911e",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-supervision",
+          "note": "Two industrial theses"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "projectId": "37f678ac-5640-5503-8c04-fe3702b5911e",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-supervision"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "projectId": "0deb41c2-410d-5ce7-8c1d-0ca772091f76",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "projectId": "4b5439a6-9a7f-5709-9998-8e8d351eda62",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-teaching",
+          "note": "Lab assistant"
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "projectId": "04bfee4a-a234-54d1-ab2a-96171fce7df8",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-analysis",
+          "note": "Point cloud processing",
+          "workItemId": "w-41593dbc"
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "projectId": "e4ff06fa-03d1-57da-a044-9d8a7dc3cf33",
+      "status": "ongoing",
+      "estimated": true,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-modelling",
+          "workItemId": "w-e1fb4803"
+        }
+      ],
+      "percent": 25
+    },
+    {
+      "id": "298eb196-81c1-5301-86f3-b0c2e5c58b1b",
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "projectId": "5b0292b5-c0cf-5b4b-a709-c198a978f2b9",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "f9f3d295-2420-58ff-b167-19bfd8920daf",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-coordination",
+          "note": "Hosts the check-in"
+        }
+      ],
+      "percent": 20
+    },
+    {
+      "id": "eba23a01-275d-5ab6-ac2e-3997f6676c7a",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "612922dd-74cb-56f8-bf57-5e55f8811e42",
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "03c09d5d-3e9c-5fb4-aa51-cc3a9786d300",
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "aebef023-aff5-54eb-9516-5427b729ca6a",
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "0a482c7b-18de-5da9-bafd-282f4e2d9079",
+      "personId": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 20
+    },
+    {
+      "id": "826e8ba1-7fc4-53eb-aeb5-66814e94c0e1",
+      "personId": "709fc4dd-1e51-55b5-b92f-48668b2381f1",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 20
+    },
+    {
+      "id": "c4e89b9e-28d9-50d5-943e-fd803575fe8e",
+      "personId": "b2c3d454-163a-5e05-8cc3-3728bca8b866",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "13ee1612-3e7c-5688-9ca1-513383457595",
+      "personId": "f50aab68-e0e9-5fa2-af3f-403644b24ea2",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "70b3dbd7-7223-588d-b2b4-3fa52abeea2c",
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "projectId": "6a88b4f2-8d8a-58bb-967a-b9d38c1a333e",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "86e65670-0d95-50a5-a20a-e2b570475626",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "ea8ce8f9-87f3-5654-aab1-584540d9a948",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-coordination",
+          "note": "Agenda and invitations"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "7716092b-6833-567c-9fca-62aa10ec5dda",
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "projectId": "ea8ce8f9-87f3-5654-aab1-584540d9a948",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "c3b2bb53-fdf8-5cac-be96-fe580c0d2705",
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "projectId": "ea8ce8f9-87f3-5654-aab1-584540d9a948",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "13c51636-9911-50db-bb0c-fc993bc4c3cb",
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "projectId": "ea165f3f-48d2-55ca-9829-643296a38398",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-writing",
+          "note": "Talk on texture metrology"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "1143fe58-a8a3-50c8-9688-facc76bf555a",
+      "personId": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+      "projectId": "ea165f3f-48d2-55ca-9829-643296a38398",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "tasks": [
+        {
+          "taskId": "t-writing",
+          "note": "Poster"
+        }
+      ],
+      "percent": 10
+    },
+    {
+      "id": "b24fd396-79a8-51d7-ae67-122b1abf7eae",
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "projectId": "ea165f3f-48d2-55ca-9829-643296a38398",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "52c48a65-fbdc-5ce6-a2e9-6183614d0d74",
+      "personId": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+      "projectId": "bfb395db-c3c1-56f2-8f95-dd8188c84273",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "0f3b7d38-8871-5984-b79e-522f5fd6816b",
+      "personId": "709fc4dd-1e51-55b5-b92f-48668b2381f1",
+      "projectId": "bfb395db-c3c1-56f2-8f95-dd8188c84273",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    },
+    {
+      "id": "cc7a2927-fe28-5d29-a0f8-8126e88c221f",
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "projectId": "bfb395db-c3c1-56f2-8f95-dd8188c84273",
+      "status": "planned",
+      "estimated": false,
+      "notes": "",
+      "percent": 10
+    }
+  ],
+  "allocations": [
+    {
+      "id": "e14a547a-4798-55ae-926b-ae3f6141c074",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-10-05",
+      "hours": 14
+    },
+    {
+      "id": "a9d1574f-11a5-5ed7-97d7-1d81ecfda7b3",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-10-12",
+      "hours": 14
+    },
+    {
+      "id": "2462a389-2b9d-5b2f-9821-1e436df421a9",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-10-19",
+      "hours": 14
+    },
+    {
+      "id": "6cd1b4e7-9c06-5f24-849d-428cad1675d5",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-10-26",
+      "hours": 14
+    },
+    {
+      "id": "f644fb7b-45c4-56ca-a9ff-e0fedfb98605",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-11-02",
+      "hours": 12
+    },
+    {
+      "id": "eaa50e72-20e8-51f8-a006-d5a1c1e9c780",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-11-09",
+      "hours": 14
+    },
+    {
+      "id": "108dd026-f59e-5c34-9283-6e5295b92b07",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-11-16",
+      "hours": 14
+    },
+    {
+      "id": "2d7a416d-6e58-5a19-8e2b-1335685e8173",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-11-23",
+      "hours": 14
+    },
+    {
+      "id": "612f685c-93fb-592b-8b1e-d5c3364335c2",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-11-30",
+      "hours": 12
+    },
+    {
+      "id": "d65ddb56-66d7-50fd-99e5-a427adaa9212",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-12-07",
+      "hours": 16
+    },
+    {
+      "id": "a6ef84f4-2373-5f15-9ab9-0c9b84b629a6",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2026-12-14",
+      "hours": 14
+    },
+    {
+      "id": "def25195-a5eb-5fe6-b9de-8de7d0f03cea",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-01-04",
+      "hours": 14
+    },
+    {
+      "id": "9cc304d6-6724-53e4-9429-ab7dd1c4c5b8",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-01-11",
+      "hours": 16
+    },
+    {
+      "id": "235f2303-c248-5157-acfa-f8da13ab8429",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-01-18",
+      "hours": 12
+    },
+    {
+      "id": "14f9692b-e23c-5d90-9066-9e49247f0da7",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-01-25",
+      "hours": 14
+    },
+    {
+      "id": "d432ed25-36b9-55b2-8da9-3b5f6b5a5ef4",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-02-01",
+      "hours": 12
+    },
+    {
+      "id": "47112baa-942e-5c22-87c6-bf6469598ced",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-02-08",
+      "hours": 14
+    },
+    {
+      "id": "af08287e-b1f3-5fce-a850-c4ba86a48c15",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-02-15",
+      "hours": 14
+    },
+    {
+      "id": "2214cf27-45e2-5c60-9623-43e928347eef",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-02-22",
+      "hours": 14
+    },
+    {
+      "id": "263acee9-c35b-5e0e-80d3-2de01ecd8cc0",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-03-01",
+      "hours": 14
+    },
+    {
+      "id": "6ed20348-3093-5808-82ef-0770b70eba7b",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-03-08",
+      "hours": 14
+    },
+    {
+      "id": "c6444d89-120d-5c58-954f-a5d07f28a4ac",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-03-15",
+      "hours": 16
+    },
+    {
+      "id": "b5bae798-fd4a-5957-891a-3f8f93992b0f",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-03-22",
+      "hours": 12
+    },
+    {
+      "id": "ce000c2b-8577-597b-9198-4e78420b25eb",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-03-29",
+      "hours": 14
+    },
+    {
+      "id": "915e381e-0e37-59ae-8057-f8aee8b4ef1b",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-04-05",
+      "hours": 14
+    },
+    {
+      "id": "9bd01e5b-fff4-59ba-866f-e185f59babb8",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-04-12",
+      "hours": 14
+    },
+    {
+      "id": "4438713e-7cb7-55ab-8759-a5e151156ef2",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-04-19",
+      "hours": 14
+    },
+    {
+      "id": "7a94402e-c9b4-513f-ab0a-c8c6d0e1f328",
+      "assignmentId": "361e103d-1c5b-5494-825c-229fb2ba2ea1",
+      "week": "2027-04-26",
+      "hours": 14
+    },
+    {
+      "id": "f1510a37-e55a-552e-9da3-dae3f98ac2dd",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-10-05",
+      "hours": 12
+    },
+    {
+      "id": "ad612a08-4645-52bd-9c1d-b6b08fb9c4aa",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-10-12",
+      "hours": 10
+    },
+    {
+      "id": "eb16362a-2a96-55e3-9806-abe08066b746",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-10-19",
+      "hours": 10
+    },
+    {
+      "id": "ab0fc93e-0c2d-56d0-b341-b82dc2b3740b",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-10-26",
+      "hours": 10
+    },
+    {
+      "id": "ef448518-b014-5dcd-a48c-5be9729e7ff2",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-11-02",
+      "hours": 10
+    },
+    {
+      "id": "18af918d-3874-59f0-a8d4-bb46a8a60bcf",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-11-09",
+      "hours": 10
+    },
+    {
+      "id": "628e1013-1fd2-53ab-b34a-5cca556244ae",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-11-16",
+      "hours": 12
+    },
+    {
+      "id": "2e2d4ddd-fc44-5f19-adad-07fe85b93a54",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-11-23",
+      "hours": 10
+    },
+    {
+      "id": "3bf6258d-5967-5127-b76a-6e374a9421e5",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-11-30",
+      "hours": 10
+    },
+    {
+      "id": "a79dc21f-dbef-59df-a1e5-fd4426a9976a",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-12-07",
+      "hours": 12
+    },
+    {
+      "id": "72bf1f7f-6c13-55ed-8083-9752e8706c82",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2026-12-14",
+      "hours": 10
+    },
+    {
+      "id": "23889430-2c8f-502d-91ec-d58c85628f58",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-01-04",
+      "hours": 12
+    },
+    {
+      "id": "0d5bac84-4073-5697-8b42-22b963994862",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-01-11",
+      "hours": 8
+    },
+    {
+      "id": "7876f8f9-4382-587b-b33c-2f405423408d",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-01-18",
+      "hours": 12
+    },
+    {
+      "id": "258c2078-7588-5378-bab7-d0107875b128",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-01-25",
+      "hours": 10
+    },
+    {
+      "id": "609d63ea-6bc2-545f-8e2e-af9bdbd85b4e",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-02-01",
+      "hours": 10
+    },
+    {
+      "id": "9a6a7d9a-4646-5f85-80e8-98fa26d8aab1",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-02-08",
+      "hours": 8
+    },
+    {
+      "id": "13d603cb-4a3f-5646-934c-de8349ee05bc",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-02-15",
+      "hours": 10
+    },
+    {
+      "id": "19ea1f92-e2ac-5140-a3e3-58fdbdea8d8a",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-02-22",
+      "hours": 8
+    },
+    {
+      "id": "0c366be9-af93-5685-90cc-ef1040ee67ed",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-03-01",
+      "hours": 8
+    },
+    {
+      "id": "9fc9ecdb-695d-539e-badd-8f7de282f343",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-03-08",
+      "hours": 12
+    },
+    {
+      "id": "9ee9c377-93fa-5754-9445-5976f7d6b4da",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-03-15",
+      "hours": 8
+    },
+    {
+      "id": "12bdbae4-52c5-5437-8edc-f545f991b6f5",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-03-22",
+      "hours": 12
+    },
+    {
+      "id": "f83e7f3d-6e7e-5410-ad2e-b69b65c49593",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-03-29",
+      "hours": 10
+    },
+    {
+      "id": "803ce429-4d7a-57a4-850d-f0027479c6bb",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-04-05",
+      "hours": 10
+    },
+    {
+      "id": "0c9f31a4-bb5a-51ab-aeb2-549dc515da5a",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-04-12",
+      "hours": 10
+    },
+    {
+      "id": "cb8c2a01-44cd-5224-8e32-b95313b10804",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-04-19",
+      "hours": 10
+    },
+    {
+      "id": "643c4b4a-5f9b-526f-8974-b2edb84c7e65",
+      "assignmentId": "563f75b5-b335-5a8b-9ea5-ba7380b4340e",
+      "week": "2027-04-26",
+      "hours": 10
+    },
+    {
+      "id": "16572132-292f-5570-a51b-c543429b0294",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-01-04",
+      "hours": 8
+    },
+    {
+      "id": "cee1de0f-b309-5df8-84d9-6561c5d5ad59",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-01-11",
+      "hours": 8
+    },
+    {
+      "id": "dc3f72ee-bfba-5193-a2a6-df69c11c4b54",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-01-18",
+      "hours": 8
+    },
+    {
+      "id": "31c10ae4-a6c8-52fd-b53b-63ace1c40404",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-01-25",
+      "hours": 8
+    },
+    {
+      "id": "b106fc54-c831-58a4-a8c2-96e878bc6e3c",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-02-01",
+      "hours": 8
+    },
+    {
+      "id": "64cd0442-f1e6-5a1e-b5fb-df8020657b61",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-02-08",
+      "hours": 8
+    },
+    {
+      "id": "3745c9c6-84f6-52cc-81c0-a21640acfdc5",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-02-15",
+      "hours": 10
+    },
+    {
+      "id": "99696c47-2b74-5f12-8625-d3f736cd4153",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-02-22",
+      "hours": 10
+    },
+    {
+      "id": "202a0b91-e007-565d-8a3f-5819e72970cb",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-03-01",
+      "hours": 10
+    },
+    {
+      "id": "f8686d23-315c-5c9e-a34d-57d0456df237",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-03-08",
+      "hours": 6
+    },
+    {
+      "id": "19c52768-85d8-55e4-a61f-4975247fed9f",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-03-15",
+      "hours": 8
+    },
+    {
+      "id": "093f3c95-29d3-55a9-9789-5175053bee91",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-03-22",
+      "hours": 8
+    },
+    {
+      "id": "b9512eba-9eb0-5e0e-808d-2ba95f64b636",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-03-29",
+      "hours": 8
+    },
+    {
+      "id": "a44b93ad-d140-5bb0-8bc5-78a6c78b4c75",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-04-05",
+      "hours": 10
+    },
+    {
+      "id": "795fafc3-eece-5ff3-9004-63b49dfc17e2",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-04-12",
+      "hours": 8
+    },
+    {
+      "id": "c739eedd-f614-5c3f-ab4b-8caf742c5d22",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-04-19",
+      "hours": 8
+    },
+    {
+      "id": "7e521feb-a22a-59aa-9b57-133a67eb0b37",
+      "assignmentId": "769a447e-80b9-5655-827d-26e73429c5a4",
+      "week": "2027-04-26",
+      "hours": 8
+    },
+    {
+      "id": "36858124-7d8c-5354-8ee3-ce6ef19fd5e8",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-01-04",
+      "hours": 6
+    },
+    {
+      "id": "46ce8e7b-1ef1-5e18-a731-8e128762b824",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-01-11",
+      "hours": 2
+    },
+    {
+      "id": "39e14b64-fda5-53b6-8f67-0117f6488b8e",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-01-18",
+      "hours": 4
+    },
+    {
+      "id": "d89bf029-fc4f-5466-9780-ea342e45b138",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-01-25",
+      "hours": 4
+    },
+    {
+      "id": "5a291076-2788-5b9c-96a0-8c7b25fa4f6b",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-02-01",
+      "hours": 4
+    },
+    {
+      "id": "3b7e0e5f-2dcc-5faa-88b9-9af79527ea32",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-02-08",
+      "hours": 4
+    },
+    {
+      "id": "d1d87cad-0f67-517b-a534-c4862050055e",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-02-15",
+      "hours": 4
+    },
+    {
+      "id": "7a2952a7-bd5c-5a89-a570-a872ca2264df",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-02-22",
+      "hours": 2
+    },
+    {
+      "id": "ea1d6fcd-22dc-5db2-86ce-d400a27519ba",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-03-01",
+      "hours": 4
+    },
+    {
+      "id": "9024d75a-d2cd-5919-8bb1-b7eb28cd2fee",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-03-08",
+      "hours": 4
+    },
+    {
+      "id": "968818a0-7348-5e18-8abb-09a786aa9fc1",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-03-15",
+      "hours": 6
+    },
+    {
+      "id": "52a57200-6032-522a-a52a-beb3f74fbb68",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-03-22",
+      "hours": 4
+    },
+    {
+      "id": "d3b39c71-a6d9-56bc-9a62-baf927c97013",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-03-29",
+      "hours": 4
+    },
+    {
+      "id": "29015917-3a4c-5aef-a024-7f9cd1e1bb3b",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-04-05",
+      "hours": 2
+    },
+    {
+      "id": "c339a5b8-3480-5371-8739-c3e23aa4fb1e",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-04-12",
+      "hours": 2
+    },
+    {
+      "id": "ddb1bf8c-8811-5f97-9bf8-84a0d53e8221",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-04-19",
+      "hours": 4
+    },
+    {
+      "id": "930e61c5-8886-5c6e-a744-bbff869bc6c4",
+      "assignmentId": "436aaad2-83fb-55be-a455-3a7493a2b884",
+      "week": "2027-04-26",
+      "hours": 4
+    },
+    {
+      "id": "1e7ecc26-40ea-52fd-ae92-10086067f410",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-10-05",
+      "hours": 4
+    },
+    {
+      "id": "ba52a97e-a321-59bd-9a12-bfdab859fea6",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-10-12",
+      "hours": 6
+    },
+    {
+      "id": "aa1e6e5c-e028-577b-8f8b-76ca937e2d92",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-10-19",
+      "hours": 4
+    },
+    {
+      "id": "40dfb38f-3f62-502d-9193-34488d73091c",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-10-26",
+      "hours": 6
+    },
+    {
+      "id": "f43eef24-e018-56db-8b12-255bff79cbf3",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-11-02",
+      "hours": 4
+    },
+    {
+      "id": "19a95769-2073-5d7d-b67d-4f322ab6b18b",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-11-09",
+      "hours": 6
+    },
+    {
+      "id": "58a43a33-b901-5759-9da6-95453a9dcd9e",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-11-16",
+      "hours": 6
+    },
+    {
+      "id": "9004073f-9eca-5f20-ae40-a2e40e32bba1",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-11-23",
+      "hours": 8
+    },
+    {
+      "id": "c264d34b-7783-5a57-9669-c3244d1071c4",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-11-30",
+      "hours": 6
+    },
+    {
+      "id": "663d8416-6124-5244-aa5f-ca2b78757e35",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-12-07",
+      "hours": 8
+    },
+    {
+      "id": "7c842a6f-7853-5c26-8ad0-1e1834c80686",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2026-12-14",
+      "hours": 4
+    },
+    {
+      "id": "eb04ee61-afce-507e-b5ac-64b9f6f6ff71",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-01-04",
+      "hours": 4
+    },
+    {
+      "id": "2ff909ce-082d-5b1a-a39c-2d3fcde2fac7",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-01-11",
+      "hours": 6
+    },
+    {
+      "id": "f558e534-0ca3-5f56-8818-d97c1e4369e6",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-01-18",
+      "hours": 6
+    },
+    {
+      "id": "3bffabd1-7122-59f3-90be-7ee5d22f87f1",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-01-25",
+      "hours": 6
+    },
+    {
+      "id": "93c55b3d-a389-5684-8304-1056b6a1399f",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-02-01",
+      "hours": 6
+    },
+    {
+      "id": "9e555c74-1cad-52fd-8235-d9e53be8801d",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-02-08",
+      "hours": 6
+    },
+    {
+      "id": "1176bf2a-ce5f-55d0-917b-66408ec3e1d6",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-02-15",
+      "hours": 6
+    },
+    {
+      "id": "78ad510c-1660-515c-bde0-e47ab4e57245",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-02-22",
+      "hours": 6
+    },
+    {
+      "id": "096c9e2e-94fd-5216-a16f-2f5c66f2b622",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-03-01",
+      "hours": 4
+    },
+    {
+      "id": "c6785074-7281-52a0-9164-d53c08b81ec4",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-03-08",
+      "hours": 6
+    },
+    {
+      "id": "1f34dad9-1155-53b0-894e-3f929253e5d3",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-03-15",
+      "hours": 8
+    },
+    {
+      "id": "f6d4e182-9592-564d-8db1-c3e3730ef91f",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-03-22",
+      "hours": 8
+    },
+    {
+      "id": "15188395-9cc2-5a9b-ab78-968e834244fa",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-03-29",
+      "hours": 8
+    },
+    {
+      "id": "d7694096-ded0-59af-b5bc-16d4d10803f3",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-04-05",
+      "hours": 6
+    },
+    {
+      "id": "ce44cfe6-0a27-5c83-b65f-9e9d853d1a62",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-04-12",
+      "hours": 4
+    },
+    {
+      "id": "0e686117-9f62-5d62-9177-9476991f6772",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-04-19",
+      "hours": 6
+    },
+    {
+      "id": "0f9a64a9-0c31-582c-b44e-c8644d0c3a0c",
+      "assignmentId": "421ae230-8fa2-5546-98bb-b660dcfbb060",
+      "week": "2027-04-26",
+      "hours": 6
+    },
+    {
+      "id": "eb9e8bda-aa0a-593d-995c-9318de59890c",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-10-05",
+      "hours": 12
+    },
+    {
+      "id": "81cac18c-f6b3-5f4e-bc5d-1d41e2bdc47a",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-10-12",
+      "hours": 14
+    },
+    {
+      "id": "5faa195d-7389-5b2c-acf6-7295a052012b",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-10-19",
+      "hours": 16
+    },
+    {
+      "id": "8d830393-df1f-54ac-a32d-52ccf92a344a",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-10-26",
+      "hours": 12
+    },
+    {
+      "id": "3abc9ea3-872d-5b06-b501-f26cd8909cba",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-11-02",
+      "hours": 12
+    },
+    {
+      "id": "bf45fcd6-c4ab-536b-9972-a8ca4414130d",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-11-09",
+      "hours": 14
+    },
+    {
+      "id": "d46f99ca-aaf2-5cef-9cf2-a728f7379d20",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-11-16",
+      "hours": 12
+    },
+    {
+      "id": "b044f6e6-3509-5acd-81ce-0c29866d4ae4",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-11-23",
+      "hours": 16
+    },
+    {
+      "id": "c906e5ee-b878-50bf-badc-91c4906d7585",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-11-30",
+      "hours": 12
+    },
+    {
+      "id": "abf916e2-5f30-590b-961a-b73b71a51a9f",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-12-07",
+      "hours": 16
+    },
+    {
+      "id": "1911b15e-cb68-5545-990e-4c01180015d6",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2026-12-14",
+      "hours": 16
+    },
+    {
+      "id": "4ab649ef-3a61-54af-8152-7d9c5a92d2f7",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-01-04",
+      "hours": 14
+    },
+    {
+      "id": "5a810ea1-625c-59c6-b9d4-cc422a9532fb",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-01-11",
+      "hours": 16
+    },
+    {
+      "id": "c3b0cfb0-d66b-584d-94a8-b0b5f1572182",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-01-18",
+      "hours": 16
+    },
+    {
+      "id": "b02c5a0f-07c7-5a12-aabf-606324cb4fa0",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-01-25",
+      "hours": 16
+    },
+    {
+      "id": "26faa951-578c-533e-b373-4c609ff2b7b7",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-02-01",
+      "hours": 14
+    },
+    {
+      "id": "64fb07be-0d1f-51d1-bb3c-b90e024a6064",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-02-08",
+      "hours": 14
+    },
+    {
+      "id": "04d3000b-4ab2-5e01-91ce-98c2d916f53d",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-02-15",
+      "hours": 14
+    },
+    {
+      "id": "4dc5780e-599b-546b-88ea-a1056ad8be84",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-02-22",
+      "hours": 14
+    },
+    {
+      "id": "27441a1d-0bf4-5804-bf39-9a5473db1aa1",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-03-01",
+      "hours": 12
+    },
+    {
+      "id": "d2c07615-1cfb-5700-88e2-b7491cd1b37b",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-03-08",
+      "hours": 14
+    },
+    {
+      "id": "0bcca00c-3803-5e67-bd32-0eeaed448c0a",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-03-15",
+      "hours": 14
+    },
+    {
+      "id": "29aa477d-1bf7-515d-badc-08e04f1a64df",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-03-22",
+      "hours": 14
+    },
+    {
+      "id": "ca29afb0-956b-5f21-9aa9-a94fa6495d92",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-03-29",
+      "hours": 14
+    },
+    {
+      "id": "66c9414d-2470-5fa4-bcd8-b9f2f6ac6f13",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-04-05",
+      "hours": 14
+    },
+    {
+      "id": "b779fbc9-fc1f-5112-a0aa-2f343d1640ed",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-04-12",
+      "hours": 14
+    },
+    {
+      "id": "af4d0841-fe81-54a9-805d-a8c952b05039",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-04-19",
+      "hours": 12
+    },
+    {
+      "id": "69e6f15b-63de-51df-8a34-5504988decb1",
+      "assignmentId": "9fa5b027-9f26-59b0-91b2-03da9f14f996",
+      "week": "2027-04-26",
+      "hours": 14
+    },
+    {
+      "id": "e0970cb1-7e5f-52f5-a845-95c024205580",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-10-05",
+      "hours": 14
+    },
+    {
+      "id": "09c20357-1883-5b4e-8c5a-4d91f22e859b",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-10-12",
+      "hours": 14
+    },
+    {
+      "id": "f9234916-8c62-5a8a-908c-359800e4fefe",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-10-19",
+      "hours": 14
+    },
+    {
+      "id": "68ab608c-5af6-5266-abe7-32c1d29cd913",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-10-26",
+      "hours": 14
+    },
+    {
+      "id": "19bde44b-dd3d-540c-bdc0-db04bee7ee2a",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-11-02",
+      "hours": 12
+    },
+    {
+      "id": "de03cc4f-efc2-5787-a442-2d958448b283",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-11-09",
+      "hours": 12
+    },
+    {
+      "id": "35bff4fb-d34a-534f-9b54-3080544eb506",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-11-16",
+      "hours": 14
+    },
+    {
+      "id": "de437de8-e859-5508-a300-6c90e9c69678",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-11-23",
+      "hours": 12
+    },
+    {
+      "id": "ae1a3795-b0f8-51fc-9e17-9478ec340d89",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-11-30",
+      "hours": 16
+    },
+    {
+      "id": "3328e684-1f62-51a2-aba2-e1ba1abcd13f",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-12-07",
+      "hours": 16
+    },
+    {
+      "id": "b91ba14d-7b33-5b30-9678-099eb171dccb",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2026-12-14",
+      "hours": 12
+    },
+    {
+      "id": "b23cdbf7-2c15-5b83-b3b7-aa97392d8b0b",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-01-04",
+      "hours": 14
+    },
+    {
+      "id": "eaf4612d-f522-534f-aab3-44c75395b5d0",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-01-11",
+      "hours": 12
+    },
+    {
+      "id": "b1cc273e-47c1-57aa-99ea-0b7df8b6faa4",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-01-18",
+      "hours": 14
+    },
+    {
+      "id": "0ddca83e-6d03-54ad-8dfe-ba4cf06cfe5a",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-01-25",
+      "hours": 14
+    },
+    {
+      "id": "d1c0e24a-d1ff-577d-ba26-6bbbc98a1b43",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-02-01",
+      "hours": 14
+    },
+    {
+      "id": "d26907fd-f62d-541f-b47a-07cdb31b8844",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-02-08",
+      "hours": 14
+    },
+    {
+      "id": "1b60ed88-d71f-5286-8f7b-41a481927907",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-02-15",
+      "hours": 16
+    },
+    {
+      "id": "1803d26e-806b-563a-916a-3fb4319b0f60",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-02-22",
+      "hours": 16
+    },
+    {
+      "id": "f8c2eef5-db6f-509f-91c8-b8b3fa9d5b7e",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-03-01",
+      "hours": 14
+    },
+    {
+      "id": "6017254e-db88-5900-81c4-fe028d12f5b0",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-03-08",
+      "hours": 12
+    },
+    {
+      "id": "763109e2-944c-5802-addf-85662a39679f",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-03-15",
+      "hours": 14
+    },
+    {
+      "id": "6fa4653e-6192-5da1-b2c5-968c955dd90a",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-03-22",
+      "hours": 12
+    },
+    {
+      "id": "cc8b7588-0867-5b48-9680-cb863c471ef2",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-03-29",
+      "hours": 12
+    },
+    {
+      "id": "b22f7af8-17c4-5f15-bbbf-8cb2c7b234fd",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-04-05",
+      "hours": 14
+    },
+    {
+      "id": "50af3cb5-fba6-57ad-b7f8-70be40e80e61",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-04-12",
+      "hours": 14
+    },
+    {
+      "id": "2fcab960-03e8-5774-b7ce-241f31513fd9",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-04-19",
+      "hours": 12
+    },
+    {
+      "id": "16f39c3e-8682-5189-897f-1ed720f0c668",
+      "assignmentId": "ef2d08ff-aaf7-5411-a9f1-45cfca85023f",
+      "week": "2027-04-26",
+      "hours": 14
+    },
+    {
+      "id": "4c4b3d33-7241-5a34-89bd-33c0b5ed72db",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-10-05",
+      "hours": 10
+    },
+    {
+      "id": "976fc7d8-c0c5-5760-864a-da5a43193ba9",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-10-12",
+      "hours": 8
+    },
+    {
+      "id": "bdcdd27e-8274-5c79-9543-14e3b70c59a8",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-10-19",
+      "hours": 10
+    },
+    {
+      "id": "6f5caf88-716d-5d46-b1e2-8dd5a80635a4",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-10-26",
+      "hours": 10
+    },
+    {
+      "id": "c2721941-d83a-5656-88bb-60ab8288caff",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-11-02",
+      "hours": 10
+    },
+    {
+      "id": "aa86396d-b192-5ce7-b26e-070ea4e24963",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-11-09",
+      "hours": 10
+    },
+    {
+      "id": "f407f8af-460e-523f-9bfb-e197867aaf7c",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-11-16",
+      "hours": 12
+    },
+    {
+      "id": "efa497ac-77f8-5467-b2af-5cf2ff5dd81d",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-11-23",
+      "hours": 10
+    },
+    {
+      "id": "9e84c293-7868-531f-97d2-458422be8b70",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-11-30",
+      "hours": 10
+    },
+    {
+      "id": "52d442da-e348-552a-97f2-08be1c2c529f",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-12-07",
+      "hours": 8
+    },
+    {
+      "id": "2ad74339-91d9-56e6-9b79-fafbf5516ccb",
+      "assignmentId": "e9a7419f-90b6-57cf-a2a0-65be3443cf9c",
+      "week": "2026-12-14",
+      "hours": 8
+    },
+    {
+      "id": "56c3a035-3081-52f6-8044-334b1ddc4517",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-01-04",
+      "hours": 8
+    },
+    {
+      "id": "b10a061f-0077-5dbc-b3be-dbd3425ff3de",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-01-11",
+      "hours": 8
+    },
+    {
+      "id": "e2c3597a-7687-5748-bdc7-f863cfccbf95",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-01-18",
+      "hours": 6
+    },
+    {
+      "id": "93f0b930-a38b-54de-852c-275fa7277040",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-01-25",
+      "hours": 6
+    },
+    {
+      "id": "d115a646-d188-593e-8bc4-7a6d2f2f08e6",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-02-01",
+      "hours": 8
+    },
+    {
+      "id": "013d1282-3b54-5a20-a787-6f96dfed7b73",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-02-08",
+      "hours": 6
+    },
+    {
+      "id": "1d19795a-b2f3-54a9-8ef9-027be085f0e3",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-02-15",
+      "hours": 6
+    },
+    {
+      "id": "9191a369-311a-5051-903c-5622dfeebb69",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-02-22",
+      "hours": 6
+    },
+    {
+      "id": "008c17c4-89dd-58f9-b700-21c087a3f645",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-03-01",
+      "hours": 6
+    },
+    {
+      "id": "86f7428c-ee9f-5c8d-a52b-8a33082acb3f",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-03-08",
+      "hours": 6
+    },
+    {
+      "id": "9977a48e-abcb-5b38-8fe8-d42506b7c759",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-03-15",
+      "hours": 6
+    },
+    {
+      "id": "e5dd059e-a260-5405-ae9e-afe8b38edd0b",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-03-22",
+      "hours": 6
+    },
+    {
+      "id": "4331f4b9-022d-5637-a9c8-1e12437e71d3",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-03-29",
+      "hours": 4
+    },
+    {
+      "id": "c326b066-34b4-50c7-aa28-ff980f78025e",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-04-05",
+      "hours": 6
+    },
+    {
+      "id": "b55cb092-8274-5522-a9a3-39be59922bd6",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-04-12",
+      "hours": 6
+    },
+    {
+      "id": "8d6be968-7712-5d1b-9cb3-eb9b86f8d7f1",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-04-19",
+      "hours": 6
+    },
+    {
+      "id": "fe683bab-d4c2-5cd2-9975-3f1e961857be",
+      "assignmentId": "f632e517-73fa-5cda-8a45-0a2a2b5bff38",
+      "week": "2027-04-26",
+      "hours": 6
+    },
+    {
+      "id": "379365ef-b3a8-5463-835d-b03f5da6b189",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-10-05",
+      "hours": 20
+    },
+    {
+      "id": "878ebe1b-e888-510f-8928-cb3fc6bc5db7",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-10-12",
+      "hours": 20
+    },
+    {
+      "id": "cc42eb01-68ce-5e45-ab70-8abd62ea8465",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-10-19",
+      "hours": 22
+    },
+    {
+      "id": "6595a03a-a150-5336-a448-f7cc9d10245b",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-10-26",
+      "hours": 18
+    },
+    {
+      "id": "4143e8ad-710d-5741-a631-37e805336429",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-11-02",
+      "hours": 20
+    },
+    {
+      "id": "8b3c8224-e515-5aa5-91b2-87f17f00c914",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-11-09",
+      "hours": 20
+    },
+    {
+      "id": "d303a83c-d485-55b9-89b9-6c7a9ab14248",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-11-16",
+      "hours": 20
+    },
+    {
+      "id": "d831e3fc-494c-5b30-a6a5-e60ceeb3ba79",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-11-23",
+      "hours": 20
+    },
+    {
+      "id": "4d0f025c-a098-5f35-8a13-afddc014ec87",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-11-30",
+      "hours": 20
+    },
+    {
+      "id": "bb16d77e-131c-5f3a-9590-6fa1f06e3ed3",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-12-07",
+      "hours": 18
+    },
+    {
+      "id": "f28d2fd6-d47a-5332-926b-d92f2456c6e5",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2026-12-14",
+      "hours": 18
+    },
+    {
+      "id": "a4d02fab-9005-52e9-afb5-fdbe5c2413f9",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-01-04",
+      "hours": 22
+    },
+    {
+      "id": "bfd69c99-76fe-5f12-8973-93db28c75020",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-01-11",
+      "hours": 18
+    },
+    {
+      "id": "bfb35f70-3e89-5cbf-ba9e-18ff1bee2e9f",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-01-18",
+      "hours": 20
+    },
+    {
+      "id": "b0255e02-2482-5b0f-860c-c7d38062eba1",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-01-25",
+      "hours": 22
+    },
+    {
+      "id": "30fa21df-2900-5c0f-b547-9741be62c7b6",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-02-01",
+      "hours": 20
+    },
+    {
+      "id": "bae5bbc6-3189-5cbf-9562-db5c3d2644de",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-02-08",
+      "hours": 22
+    },
+    {
+      "id": "da52f383-9133-5b88-8de5-7ca53f06d081",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-02-15",
+      "hours": 20
+    },
+    {
+      "id": "7d16ddaf-a808-52dc-8372-60d2e3291bfe",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-02-22",
+      "hours": 20
+    },
+    {
+      "id": "bb9fb293-adf5-5fcd-ada0-6d803c76551f",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-03-01",
+      "hours": 22
+    },
+    {
+      "id": "be0c99a9-fd6a-5cc4-acc5-f45f3274d0ff",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-03-08",
+      "hours": 18
+    },
+    {
+      "id": "51416f8e-9f43-561a-a5c1-b64bdeab36f7",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-03-15",
+      "hours": 22
+    },
+    {
+      "id": "f512d981-fcf0-50d8-b54e-73321e45d10c",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-03-22",
+      "hours": 22
+    },
+    {
+      "id": "f2fe8928-17d9-5b9d-a269-ae510b758403",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-03-29",
+      "hours": 22
+    },
+    {
+      "id": "ee524b47-fa7a-57f0-bbf6-b7a61a64c307",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-04-05",
+      "hours": 22
+    },
+    {
+      "id": "1d8cc89c-68fb-5e23-903f-480eb683868f",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-04-12",
+      "hours": 18
+    },
+    {
+      "id": "1a0311da-d1c3-53fa-85aa-5f024663fcb9",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-04-19",
+      "hours": 22
+    },
+    {
+      "id": "ec985ed8-8092-5206-a592-c3176daf72f3",
+      "assignmentId": "0ee275f1-4d8e-5654-80ab-7fe863beadfd",
+      "week": "2027-04-26",
+      "hours": 20
+    },
+    {
+      "id": "65ceeb5a-b541-5114-a5c2-b505588f590f",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-10-05",
+      "hours": 6
+    },
+    {
+      "id": "450d19d8-5da1-532f-a7fc-6424c2e2e805",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-10-12",
+      "hours": 6
+    },
+    {
+      "id": "b2f44934-bd08-5c06-9415-34e473a0a091",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-10-19",
+      "hours": 8
+    },
+    {
+      "id": "d1af8482-7ffc-582c-a095-ded844c4b603",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-10-26",
+      "hours": 4
+    },
+    {
+      "id": "3e1eb25b-b972-5c39-a287-db512d4d6096",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-11-02",
+      "hours": 6
+    },
+    {
+      "id": "036b2347-75a4-5575-b693-300c891d6b07",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-11-09",
+      "hours": 4
+    },
+    {
+      "id": "f60f75f3-3326-5ca5-8c91-5d788bfe8849",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-11-16",
+      "hours": 4
+    },
+    {
+      "id": "f72a8b47-50b9-51a4-9422-668799b7cf36",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-11-23",
+      "hours": 8
+    },
+    {
+      "id": "49ab6404-5dc5-5144-a196-fc4dda4dd195",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-11-30",
+      "hours": 4
+    },
+    {
+      "id": "16b67efc-32ac-5eb9-b90c-3476546e5716",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-12-07",
+      "hours": 4
+    },
+    {
+      "id": "4ce8a9da-a6b3-556d-b49e-7b2ecacfd0a5",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2026-12-14",
+      "hours": 6
+    },
+    {
+      "id": "fed6c1c9-299d-5b54-82d0-455ebac62db2",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-01-04",
+      "hours": 4
+    },
+    {
+      "id": "40236374-baa3-5ceb-af9d-ae9808973a60",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-01-11",
+      "hours": 6
+    },
+    {
+      "id": "d615500d-2f4a-58b5-9b97-fb3a235febf3",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-01-18",
+      "hours": 6
+    },
+    {
+      "id": "5accc65e-2216-5326-adca-775fc52e6c1d",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-01-25",
+      "hours": 6
+    },
+    {
+      "id": "a392dc46-1ab7-5c48-aa01-9132c57f2f2f",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-02-01",
+      "hours": 6
+    },
+    {
+      "id": "20b56a00-244b-5277-9ebc-509f1a2f6a38",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-02-08",
+      "hours": 6
+    },
+    {
+      "id": "0cf96d74-e460-55c0-962e-ee69d7e3c14b",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-02-15",
+      "hours": 8
+    },
+    {
+      "id": "2d7a3c98-2587-5167-be9f-52a7995716ed",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-02-22",
+      "hours": 6
+    },
+    {
+      "id": "6d277094-ed09-5a2b-9c3d-c5e57fcace06",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-03-01",
+      "hours": 6
+    },
+    {
+      "id": "4bfdcc6a-04d7-5228-b06e-059b41dadaa8",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-03-08",
+      "hours": 6
+    },
+    {
+      "id": "f43ed037-da43-5f10-ad01-0326e7ae4a7f",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-03-15",
+      "hours": 6
+    },
+    {
+      "id": "af732f0f-fbaa-5bd0-ac90-a1dfa394078c",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-03-22",
+      "hours": 4
+    },
+    {
+      "id": "c4f1bcbb-1224-53eb-b495-c3d0dd70f61b",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-03-29",
+      "hours": 4
+    },
+    {
+      "id": "edaeecb7-195f-5cbc-9d43-ffdb34589980",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-04-05",
+      "hours": 6
+    },
+    {
+      "id": "318a2de7-c086-541e-912e-82c47e80db86",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-04-12",
+      "hours": 8
+    },
+    {
+      "id": "077cd1fa-39ce-5080-9125-3f52de465d25",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-04-19",
+      "hours": 6
+    },
+    {
+      "id": "9318a0f7-731d-54e1-84d2-06211eded53d",
+      "assignmentId": "654d87bb-5b51-52b8-9494-fb38231f00c3",
+      "week": "2027-04-26",
+      "hours": 4
+    },
+    {
+      "id": "e743f60d-252e-5b3d-a8c5-a5acca73e8c0",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-10-05",
+      "hours": 18
+    },
+    {
+      "id": "1ccd7c3a-fc3d-5d92-a2a9-82e0d75ada18",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-10-12",
+      "hours": 18
+    },
+    {
+      "id": "1bc8fa9f-31f5-5358-8f60-761a63181e76",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-10-19",
+      "hours": 18
+    },
+    {
+      "id": "67503f68-77e2-559d-8ed4-8fa55c6c534f",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-10-26",
+      "hours": 20
+    },
+    {
+      "id": "f065a514-4d0f-527c-924c-265f11faac59",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-11-02",
+      "hours": 18
+    },
+    {
+      "id": "7b84c627-a4ae-5575-a0f1-46b702f91ce0",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-11-09",
+      "hours": 18
+    },
+    {
+      "id": "9781931f-562b-537f-b717-b35c934ebd0b",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-11-16",
+      "hours": 18
+    },
+    {
+      "id": "c19044e1-ef63-5e41-b0dc-27f463a83bbd",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-11-23",
+      "hours": 16
+    },
+    {
+      "id": "dcdc408d-a4ea-566c-800d-31328e22c0c6",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-11-30",
+      "hours": 20
+    },
+    {
+      "id": "fdbf2d70-fef6-58d6-8560-c7bc7587b5df",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-12-07",
+      "hours": 18
+    },
+    {
+      "id": "4a58a08b-f720-586d-ab35-4513d8d979cb",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2026-12-14",
+      "hours": 20
+    },
+    {
+      "id": "aea8c285-3c33-5acf-84b8-f58d5a22d75e",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-01-04",
+      "hours": 16
+    },
+    {
+      "id": "f9382361-4708-5551-aea3-84802319e8fd",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-01-11",
+      "hours": 18
+    },
+    {
+      "id": "6c3f403f-3c77-5c9c-a2dd-aa0cba8c7bcf",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-01-18",
+      "hours": 18
+    },
+    {
+      "id": "5e2c6842-2bd6-5f5d-9d6c-f9a76adc760d",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-01-25",
+      "hours": 18
+    },
+    {
+      "id": "b24e78cc-44c6-5724-ac82-85a3022648ad",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-02-01",
+      "hours": 18
+    },
+    {
+      "id": "379bc1b5-99b0-5d03-a5a8-f52c8af0afb5",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-02-08",
+      "hours": 18
+    },
+    {
+      "id": "4af3377f-c5b5-5ce4-a057-07d32d803ec6",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-02-15",
+      "hours": 18
+    },
+    {
+      "id": "3cd4f264-0a5b-58aa-9cc2-1f1706e4e24b",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-02-22",
+      "hours": 18
+    },
+    {
+      "id": "95305b0f-4ee0-5179-9b14-bb8e52e3b1bc",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-03-01",
+      "hours": 18
+    },
+    {
+      "id": "93b6c209-ec4e-59d0-898f-433aa1d0cb91",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-03-08",
+      "hours": 18
+    },
+    {
+      "id": "38ee9cd1-6b44-5072-9571-2ceaf0acae46",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-03-15",
+      "hours": 16
+    },
+    {
+      "id": "79ab4f68-bb04-53ea-81ff-fb75b8681c10",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-03-22",
+      "hours": 18
+    },
+    {
+      "id": "f08ab164-e702-5c35-982a-1e850ac7b6a4",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-03-29",
+      "hours": 18
+    },
+    {
+      "id": "2767f11e-aeeb-54aa-9ff4-f07caac3bff5",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-04-05",
+      "hours": 16
+    },
+    {
+      "id": "924e7d98-6a72-5d3b-80f3-2fa44e2bb0aa",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-04-12",
+      "hours": 20
+    },
+    {
+      "id": "e845952c-e950-578f-aa05-ffc83b29435b",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-04-19",
+      "hours": 18
+    },
+    {
+      "id": "aca68d3f-a4b0-55f0-9487-a5432f234b14",
+      "assignmentId": "f614355b-5a8d-5753-97d7-0512767ecb62",
+      "week": "2027-04-26",
+      "hours": 16
+    },
+    {
+      "id": "dfb822dd-227a-5587-a4a4-e8a96334524f",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-10-05",
+      "hours": 20
+    },
+    {
+      "id": "753a146e-17c8-501d-b934-ee45540bd9bc",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-10-12",
+      "hours": 20
+    },
+    {
+      "id": "f90968e4-7c96-5dfa-a125-0f3047cd8c6d",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-10-19",
+      "hours": 20
+    },
+    {
+      "id": "ec4d83e8-ed1f-57b0-9888-cd638dbcd751",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-10-26",
+      "hours": 20
+    },
+    {
+      "id": "0d86986a-6fad-5196-a96f-527cf7b6bb21",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-11-02",
+      "hours": 20
+    },
+    {
+      "id": "2464f2c2-3257-5fe4-a3eb-6c8c256f5044",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-11-09",
+      "hours": 20
+    },
+    {
+      "id": "57e86106-e352-5dae-a9a8-417ffdbd4f9a",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-11-16",
+      "hours": 20
+    },
+    {
+      "id": "b76d932a-054b-58ad-b9c3-a109dc850461",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-11-23",
+      "hours": 22
+    },
+    {
+      "id": "14673a43-6b91-5369-9a55-37bb4c7f5644",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-11-30",
+      "hours": 18
+    },
+    {
+      "id": "7708f11a-4fb0-5a52-8593-eaa1f8ff7d44",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-12-07",
+      "hours": 20
+    },
+    {
+      "id": "8651d4d5-9930-5816-9546-bafe4f2b4d36",
+      "assignmentId": "81567f43-074c-53db-94cd-295a1ba9995b",
+      "week": "2026-12-14",
+      "hours": 20
+    },
+    {
+      "id": "71f49b2c-9140-5f59-83dc-6eafa6fd660b",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-01-04",
+      "hours": 8
+    },
+    {
+      "id": "f466d504-b667-59c4-8228-84a1b908aa10",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-01-11",
+      "hours": 12
+    },
+    {
+      "id": "02ad90ae-66db-50ed-bb01-6b86e4aaa8d8",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-01-18",
+      "hours": 10
+    },
+    {
+      "id": "67c93027-2eba-515f-a415-bb6c6dc64c02",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-01-25",
+      "hours": 10
+    },
+    {
+      "id": "b17c937b-96b7-561c-8f44-d7b7a9aaa18a",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-02-01",
+      "hours": 10
+    },
+    {
+      "id": "cccf510c-6129-56cb-97ab-aa13e0f66843",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-02-08",
+      "hours": 10
+    },
+    {
+      "id": "a8ac9584-e6ee-5e7a-8e4c-0d85f8fc9363",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-02-15",
+      "hours": 12
+    },
+    {
+      "id": "5f640299-79f1-574c-8d09-284c8afb7cd4",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-02-22",
+      "hours": 8
+    },
+    {
+      "id": "4812c45c-6386-5c70-a9e9-12bc1816061a",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-03-01",
+      "hours": 10
+    },
+    {
+      "id": "5dd99f67-5f45-5baf-b7f7-196ba70905a8",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-03-08",
+      "hours": 12
+    },
+    {
+      "id": "8abaa2fd-5e2f-5aac-873b-89b06bd3b1f2",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-03-15",
+      "hours": 10
+    },
+    {
+      "id": "3415c6fa-8e88-5a6a-b4d4-1e0fadae7683",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-03-22",
+      "hours": 10
+    },
+    {
+      "id": "21954e63-c35e-595c-aef4-73adca9ac4cb",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-03-29",
+      "hours": 10
+    },
+    {
+      "id": "697e6e0d-6186-59a4-8e73-b97fd4843cd4",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-04-05",
+      "hours": 12
+    },
+    {
+      "id": "b0baa8be-5029-5428-9de6-f9e3fbcc0435",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-04-12",
+      "hours": 8
+    },
+    {
+      "id": "0eb0e441-7815-54c1-9840-7aa87150b4f9",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-04-19",
+      "hours": 12
+    },
+    {
+      "id": "5514e459-d20c-5538-9a6f-c99e1233f471",
+      "assignmentId": "7296293d-80e9-53be-811d-d7490df517cc",
+      "week": "2027-04-26",
+      "hours": 10
+    },
+    {
+      "id": "bef161e6-8206-5f86-8ede-052074c7188e",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-10-05",
+      "hours": 24
+    },
+    {
+      "id": "d4febd71-236f-5014-b421-46854638725c",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-10-12",
+      "hours": 24
+    },
+    {
+      "id": "a03cee03-4c7d-5bfd-8bb9-683f1ce92ab1",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-10-19",
+      "hours": 26
+    },
+    {
+      "id": "2a5d1666-c905-5272-b19f-8fed9097f867",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-10-26",
+      "hours": 24
+    },
+    {
+      "id": "8672679c-7ecd-582d-bad2-2d08168a4347",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-11-02",
+      "hours": 22
+    },
+    {
+      "id": "fa6e18ab-a6a4-50f1-b036-451a57df5f42",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-11-09",
+      "hours": 26
+    },
+    {
+      "id": "ddf1b862-4d27-5832-b5e4-2802d4755d62",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-11-16",
+      "hours": 24,
+      "note": "Grinding trials at partner site"
+    },
+    {
+      "id": "36a8e799-bd28-5259-bacb-ffaa99e9e1c0",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-11-23",
+      "hours": 26
+    },
+    {
+      "id": "40206959-63d3-512e-a360-f52176bd3949",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-11-30",
+      "hours": 24
+    },
+    {
+      "id": "0d0b1405-7bcc-59df-9fa1-5e03e902ea36",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-12-07",
+      "hours": 24
+    },
+    {
+      "id": "650dcafa-8b63-50f4-93a3-bf0d8a301de9",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2026-12-14",
+      "hours": 24
+    },
+    {
+      "id": "08cd67ec-ec04-5924-b79a-4c0edf5978e9",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-01-04",
+      "hours": 24
+    },
+    {
+      "id": "12e950a4-191d-5ec8-941a-0e4155c0a098",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-01-11",
+      "hours": 22
+    },
+    {
+      "id": "a44c4ccc-5f41-5726-b76e-61f694092128",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-01-18",
+      "hours": 24
+    },
+    {
+      "id": "93fe271b-3e51-5ebd-b8c6-265191d65c3f",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-01-25",
+      "hours": 24
+    },
+    {
+      "id": "8c952543-4b74-5984-8d67-8f85f873d8a7",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-02-01",
+      "hours": 24
+    },
+    {
+      "id": "1edcf76a-b635-54ca-8209-487703b62617",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-02-08",
+      "hours": 24
+    },
+    {
+      "id": "c5a37bd2-a733-55a6-93e6-f38b9e2454c6",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-02-15",
+      "hours": 26
+    },
+    {
+      "id": "b679cac6-ec32-511e-84a7-4b8473ed59b1",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-02-22",
+      "hours": 24
+    },
+    {
+      "id": "d8da6110-9214-5863-bc91-5b011ef4fe6f",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-03-01",
+      "hours": 22
+    },
+    {
+      "id": "075c6c97-5db7-52f0-b622-c1257d1280dd",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-03-08",
+      "hours": 24
+    },
+    {
+      "id": "56e5a6b8-dacb-539c-a735-d3947bf462f3",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-03-15",
+      "hours": 22
+    },
+    {
+      "id": "5bf92b20-1b03-5d1e-9e6b-13ab1862bfe6",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-03-22",
+      "hours": 24
+    },
+    {
+      "id": "9539e62b-b313-5b10-9654-60f86c643cea",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-03-29",
+      "hours": 22
+    },
+    {
+      "id": "db46faad-04f4-5687-acc6-4ca8568c23e4",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-04-05",
+      "hours": 24
+    },
+    {
+      "id": "737c424c-ba41-59f0-ae12-5a561bc0f2a2",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-04-12",
+      "hours": 22
+    },
+    {
+      "id": "31bd027f-7b70-58b8-9906-1ed123145ca1",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-04-19",
+      "hours": 24
+    },
+    {
+      "id": "48573ef8-bf50-5e13-8edc-3049c6459b46",
+      "assignmentId": "2379f756-f7a9-59be-9f1e-de464e01f0af",
+      "week": "2027-04-26",
+      "hours": 24
+    },
+    {
+      "id": "bfd0077c-c537-5369-a914-b8ec54a1a60d",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-10-05",
+      "hours": 8
+    },
+    {
+      "id": "11c5ce64-cc9a-50c7-b6ad-c7e0d5c535f5",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-10-12",
+      "hours": 10
+    },
+    {
+      "id": "ea80567b-e71d-5d73-9e33-d092971ca98f",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-10-19",
+      "hours": 12
+    },
+    {
+      "id": "b34f2a70-3b58-52df-a1c1-4364913cce39",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-10-26",
+      "hours": 10
+    },
+    {
+      "id": "dd5ed3e8-b164-54b7-81d5-18bd02752733",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-11-02",
+      "hours": 12
+    },
+    {
+      "id": "bc45a430-e76a-584e-aa1f-3a90b1743f1e",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-11-09",
+      "hours": 12
+    },
+    {
+      "id": "05416c0f-1af4-5f79-93f5-fcca4cb796ed",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-11-16",
+      "hours": 10
+    },
+    {
+      "id": "f2c90d43-53d4-5323-872a-5c07fb24a0b0",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-11-23",
+      "hours": 10
+    },
+    {
+      "id": "4f6f424e-274a-5400-bbf8-535a21f77254",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-11-30",
+      "hours": 10
+    },
+    {
+      "id": "b5fff815-1b9e-526c-99bb-bca455949fb3",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-12-07",
+      "hours": 10
+    },
+    {
+      "id": "96af7858-4342-5de5-9924-8f2e5a9acd7f",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2026-12-14",
+      "hours": 8
+    },
+    {
+      "id": "f6af87a3-8ee7-5f44-8007-84885fd32a25",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-01-04",
+      "hours": 10
+    },
+    {
+      "id": "48e4dfea-fff3-5b69-a26f-00645c2d02af",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-01-11",
+      "hours": 10
+    },
+    {
+      "id": "6bbd061a-1506-578a-bc78-fa48145a3c9f",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-01-18",
+      "hours": 10
+    },
+    {
+      "id": "86c323fa-fcf6-5fbd-b114-a472fec0bd66",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-01-25",
+      "hours": 10
+    },
+    {
+      "id": "f71bf2dd-64d2-50d9-945b-bc6b3e20d6f6",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-02-01",
+      "hours": 10
+    },
+    {
+      "id": "b6a02970-5914-5b09-9017-ae0cb5b4ba57",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-02-08",
+      "hours": 8
+    },
+    {
+      "id": "7154131d-5095-5afb-9813-b3131b9a303a",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-02-15",
+      "hours": 10
+    },
+    {
+      "id": "ae9461a1-3c51-5afd-bfee-cefbcee036b2",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-02-22",
+      "hours": 10
+    },
+    {
+      "id": "00248ce2-9526-58b8-a8cb-6276a5cfddcf",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-03-01",
+      "hours": 10
+    },
+    {
+      "id": "ae9f9395-1a7f-588f-b70b-509a75cfc0e9",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-03-08",
+      "hours": 12
+    },
+    {
+      "id": "c816fd23-8077-560b-b119-feaf2b20eb2d",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-03-15",
+      "hours": 10
+    },
+    {
+      "id": "6e5f5d4e-5dc8-543b-bf5f-aea2a8ea9b96",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-03-22",
+      "hours": 10
+    },
+    {
+      "id": "cab3a357-13ff-5056-b13c-4b3d156151f9",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-03-29",
+      "hours": 10
+    },
+    {
+      "id": "7e31ccd0-c6b0-53e9-8998-ff1920bae309",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-04-05",
+      "hours": 10
+    },
+    {
+      "id": "eaf8bf24-be31-57cc-9529-34a6f8a9d09d",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-04-12",
+      "hours": 10
+    },
+    {
+      "id": "82953ec4-551e-5981-bf22-54e5f4503ef7",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-04-19",
+      "hours": 12
+    },
+    {
+      "id": "1e96bcc7-9712-562f-a15b-421dafd90854",
+      "assignmentId": "f1aa2135-bbda-5262-8da3-c232ebc9bb48",
+      "week": "2027-04-26",
+      "hours": 10
+    },
+    {
+      "id": "8445a939-3b25-53ff-a13c-5ee50933640b",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-10-05",
+      "hours": 28
+    },
+    {
+      "id": "1f94df75-c26d-5faa-9fef-99be63888c99",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-10-12",
+      "hours": 30
+    },
+    {
+      "id": "53036fbb-3c21-5451-ba85-e378c60913f0",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-10-19",
+      "hours": 28
+    },
+    {
+      "id": "2aacd05f-ce1f-54f7-9e6d-4d28fcdefd74",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-10-26",
+      "hours": 32
+    },
+    {
+      "id": "21a11fed-ae81-5e4f-9771-bbc78388a38b",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-11-02",
+      "hours": 28
+    },
+    {
+      "id": "b103ebff-f0a2-5d99-a334-1bdecf88a49f",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-11-09",
+      "hours": 30
+    },
+    {
+      "id": "a2fdc621-f1ad-5162-85ed-bd2ce0e3825c",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-11-16",
+      "hours": 30
+    },
+    {
+      "id": "e16af19a-9685-52e8-9cb0-0735f706f6e0",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-11-23",
+      "hours": 28,
+      "note": "Texturing campaign, lab B"
+    },
+    {
+      "id": "b2d561dd-9fe3-527e-aeaf-c6a14ae7cf4c",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-11-30",
+      "hours": 30
+    },
+    {
+      "id": "5b73673c-8810-51c5-8ac2-9a6a78a7a024",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-12-07",
+      "hours": 32
+    },
+    {
+      "id": "b8b7d5cf-f3e7-51b0-9260-ed04a9ab1331",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2026-12-14",
+      "hours": 28
+    },
+    {
+      "id": "2a0c340e-1f3d-520b-9b88-6da352575c62",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-01-04",
+      "hours": 30
+    },
+    {
+      "id": "5834bae6-1d05-5b4e-98a4-d51b90e0e886",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-01-11",
+      "hours": 30
+    },
+    {
+      "id": "7bca0630-451f-5d68-84e7-4ceab20f3fb5",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-01-18",
+      "hours": 28
+    },
+    {
+      "id": "4a236d56-3703-55ab-b178-53f2875e85b0",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-01-25",
+      "hours": 30
+    },
+    {
+      "id": "c5c1e0e0-d0e6-51cc-9524-a9cf6c5eb725",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-02-01",
+      "hours": 30
+    },
+    {
+      "id": "ee80cece-5cf7-5c39-92e1-1d5c7edb1a09",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-02-08",
+      "hours": 28
+    },
+    {
+      "id": "7af007cc-3f09-51c8-998c-ce992c884b6a",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-02-15",
+      "hours": 30
+    },
+    {
+      "id": "fd834c40-0d81-58a8-b714-967c34478a5d",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-02-22",
+      "hours": 30
+    },
+    {
+      "id": "bd0aaf06-e135-528f-b613-7dea35d52328",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-03-01",
+      "hours": 30
+    },
+    {
+      "id": "ef8810fd-7c46-5cc1-90a6-4c74592f12ab",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-03-08",
+      "hours": 30
+    },
+    {
+      "id": "273daf4e-99a9-55d2-beeb-9602c5bf48a1",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-03-15",
+      "hours": 32
+    },
+    {
+      "id": "588cbdf6-b02f-5c52-9302-3ab5ed774b15",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-03-22",
+      "hours": 30
+    },
+    {
+      "id": "6c6b7d3d-19c8-5eae-a323-48a83cfc291b",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-03-29",
+      "hours": 30
+    },
+    {
+      "id": "502d2a33-e279-5a3f-9337-c942d46318ab",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-04-05",
+      "hours": 30
+    },
+    {
+      "id": "b3b20dd6-7769-5c17-ada6-90563b384227",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-04-12",
+      "hours": 30
+    },
+    {
+      "id": "2b32b2bf-a4fc-5d5d-aa67-9babce484303",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-04-19",
+      "hours": 28
+    },
+    {
+      "id": "15100ef8-d06f-5884-b471-444020d94b00",
+      "assignmentId": "b767e03a-abbf-58fd-9f24-01208f0e43a5",
+      "week": "2027-04-26",
+      "hours": 28
+    },
+    {
+      "id": "40e0f21b-47ac-5fbc-bdd1-1103eaea4516",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-10-05",
+      "hours": 22
+    },
+    {
+      "id": "25cd05d2-62e4-52c9-a9c5-047e1b13780f",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-10-12",
+      "hours": 20
+    },
+    {
+      "id": "f9db9732-35cc-5b51-a4ad-a50ca603bda3",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-10-19",
+      "hours": 22
+    },
+    {
+      "id": "fdfbff4b-7ce7-52fc-892e-0f83e36283aa",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-10-26",
+      "hours": 20
+    },
+    {
+      "id": "9d21a4d4-894f-5172-b565-1e0e3c96977a",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-11-02",
+      "hours": 20
+    },
+    {
+      "id": "cd0206a6-2c4c-50fb-80df-f1c57e8571e4",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-11-09",
+      "hours": 22
+    },
+    {
+      "id": "ce911112-0f32-55dc-9b4f-848b2f707dfc",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-11-16",
+      "hours": 18
+    },
+    {
+      "id": "90b72f85-f0d9-533c-b9ed-77fab77b44cf",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-11-23",
+      "hours": 20
+    },
+    {
+      "id": "3990b785-7006-577a-9e57-2115fb4e94f7",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-11-30",
+      "hours": 20
+    },
+    {
+      "id": "dcde6c57-942c-581d-979d-8e7cb1ea6059",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-12-07",
+      "hours": 20
+    },
+    {
+      "id": "650a49be-f856-5adc-ae91-8ee15b555270",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2026-12-14",
+      "hours": 20
+    },
+    {
+      "id": "8197276a-ad0e-5fac-b7b7-92fa3cbdac00",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-01-04",
+      "hours": 20
+    },
+    {
+      "id": "916724ae-7d96-57ba-aadf-c88cd6984d6a",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-01-11",
+      "hours": 20
+    },
+    {
+      "id": "496fe3b3-020e-584f-bb2d-7a103a248ee7",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-01-18",
+      "hours": 20
+    },
+    {
+      "id": "da871154-0798-57c9-930c-1f266a35a308",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-01-25",
+      "hours": 20
+    },
+    {
+      "id": "869500f1-f2d3-5185-a92a-201224717b47",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-02-01",
+      "hours": 20
+    },
+    {
+      "id": "07ec4254-c21a-57bf-b811-e8e4bf8779ea",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-02-08",
+      "hours": 20
+    },
+    {
+      "id": "9de1c754-0a95-533f-a3c0-44ff4aea7593",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-02-15",
+      "hours": 22
+    },
+    {
+      "id": "c2b9df8b-6c9a-5f49-a9f9-689334e7c919",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-02-22",
+      "hours": 20
+    },
+    {
+      "id": "03fa76e7-2523-57b6-af5c-7d47afaa8686",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-03-01",
+      "hours": 20
+    },
+    {
+      "id": "8116156a-ab6a-5481-ac01-cd6d314f2ccd",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-03-08",
+      "hours": 18
+    },
+    {
+      "id": "1c74f655-0cd7-5bb1-bd98-7c310075d5be",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-03-15",
+      "hours": 20
+    },
+    {
+      "id": "d1ef95e3-00a9-5a8e-ba80-199542d49b63",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-03-22",
+      "hours": 20
+    },
+    {
+      "id": "460b3900-ca8a-5c81-9d09-e49c4ab6e927",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-03-29",
+      "hours": 20
+    },
+    {
+      "id": "86db1d4d-5e9f-5cab-b067-ddcb73d58ca6",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-04-05",
+      "hours": 18
+    },
+    {
+      "id": "03376344-a882-59a9-9c4c-093453005a2f",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-04-12",
+      "hours": 18
+    },
+    {
+      "id": "3c6e3d46-9651-5a49-9dfd-22b1f277b44b",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-04-19",
+      "hours": 20
+    },
+    {
+      "id": "1fafd7c7-c6e4-550e-849d-94d387d0c6dd",
+      "assignmentId": "b65efbd7-381e-5a28-9c90-7de996e2cd1d",
+      "week": "2027-04-26",
+      "hours": 20
+    },
+    {
+      "id": "5703d38b-f2cf-5330-9196-be9d5bd0890c",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-10-05",
+      "hours": 22
+    },
+    {
+      "id": "2f322e8e-f546-512e-b13a-8f911a656c60",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-10-12",
+      "hours": 20
+    },
+    {
+      "id": "aa94a755-155c-5307-96b8-ff38f2ec5464",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-10-19",
+      "hours": 22
+    },
+    {
+      "id": "69b84771-debb-5395-89d9-8ed8c4834900",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-10-26",
+      "hours": 24
+    },
+    {
+      "id": "b525fce2-2eb6-5bdd-83d9-e2cd8b01ef3e",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-11-02",
+      "hours": 22
+    },
+    {
+      "id": "55765e9f-5489-50b8-b91d-4ee5132007a8",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-11-09",
+      "hours": 22
+    },
+    {
+      "id": "782daa68-da41-5744-84bb-eea0bc7289ff",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-11-16",
+      "hours": 22
+    },
+    {
+      "id": "c21f8e82-64fd-5982-9aef-ed6eaa4dec5d",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-11-23",
+      "hours": 22
+    },
+    {
+      "id": "4ef73a6c-68f5-5335-820d-bccce925e5e4",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-11-30",
+      "hours": 24
+    },
+    {
+      "id": "fce8d889-1310-5e05-92f7-01d08e74a2be",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-12-07",
+      "hours": 20
+    },
+    {
+      "id": "b6645742-f0ab-56d8-862e-13e77e7d381b",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2026-12-14",
+      "hours": 22
+    },
+    {
+      "id": "925d637a-e5db-5236-a9e4-febe953b6aff",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-01-04",
+      "hours": 22
+    },
+    {
+      "id": "585adc1d-2b12-57d5-842f-b6ac38d28034",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-01-11",
+      "hours": 20
+    },
+    {
+      "id": "ba00745d-d17e-501c-89c5-78d93dfe5508",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-01-18",
+      "hours": 20
+    },
+    {
+      "id": "bd9ef553-ca55-5878-9501-9baae102cc0e",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-01-25",
+      "hours": 22
+    },
+    {
+      "id": "de55ee21-6303-5a44-ac55-9bd904011c91",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-02-01",
+      "hours": 22
+    },
+    {
+      "id": "583fc69c-864d-5bf3-b064-76f08b073b20",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-02-08",
+      "hours": 22
+    },
+    {
+      "id": "7c3456b7-8598-5f76-89d1-82664f0447ef",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-02-15",
+      "hours": 22
+    },
+    {
+      "id": "7c973570-8ec5-54f3-ae23-f7dd7d3af6de",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-02-22",
+      "hours": 20
+    },
+    {
+      "id": "fe3a84b1-30f8-592e-8f14-64fca5685e03",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-03-01",
+      "hours": 24
+    },
+    {
+      "id": "5ee5fc19-2d12-5217-a080-5b6c17476046",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-03-08",
+      "hours": 20
+    },
+    {
+      "id": "a5393e04-7484-51fd-8c55-9cbe418a83cf",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-03-15",
+      "hours": 22
+    },
+    {
+      "id": "98690082-1635-5096-8d07-944bca8be484",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-03-22",
+      "hours": 22
+    },
+    {
+      "id": "7868c52d-135e-50f8-8322-7ed46a9b0661",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-03-29",
+      "hours": 20
+    },
+    {
+      "id": "1c472ab3-574e-5a9c-84b5-7dbcebcda99f",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-04-05",
+      "hours": 24
+    },
+    {
+      "id": "ceb4c20c-d515-5990-b4be-b7ab8c656114",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-04-12",
+      "hours": 22
+    },
+    {
+      "id": "fc9a2b36-d513-5132-b2b3-c2c6c21ea185",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-04-19",
+      "hours": 22
+    },
+    {
+      "id": "74009985-9410-5f22-a78e-94f0d4bddff8",
+      "assignmentId": "4fda1f1d-6ca4-5793-86c6-effa5d13c64a",
+      "week": "2027-04-26",
+      "hours": 20
+    },
+    {
+      "id": "0532e2e8-f4f1-5205-94e2-1400e8281bfb",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-10-05",
+      "hours": 12
+    },
+    {
+      "id": "f8223bce-3b42-5db2-b619-4ebf0fcf1c7c",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-10-12",
+      "hours": 10
+    },
+    {
+      "id": "c53165ff-e41e-5cde-9dc1-4a937827555f",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-10-19",
+      "hours": 10
+    },
+    {
+      "id": "3d92f67e-f6ee-5d49-8517-e77604bd580d",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-10-26",
+      "hours": 10
+    },
+    {
+      "id": "761e9253-6643-5a4a-b50b-1632d6dc0adb",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-11-02",
+      "hours": 10
+    },
+    {
+      "id": "1b7c11ea-3a9c-577b-ba4b-45254d97f8ce",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-11-09",
+      "hours": 8
+    },
+    {
+      "id": "c42042aa-7816-57ed-9693-6ffbdaaa36b0",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-11-16",
+      "hours": 12
+    },
+    {
+      "id": "78475558-f8db-5563-8e7e-74ef2d293f86",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-11-23",
+      "hours": 10
+    },
+    {
+      "id": "628c1593-bd8b-5c07-97f2-7157cb9ca106",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-11-30",
+      "hours": 10
+    },
+    {
+      "id": "40a08859-ed2f-57d7-8cb9-47b63d56cd01",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-12-07",
+      "hours": 10
+    },
+    {
+      "id": "134ec101-8961-522b-8278-6f4a4f2ce992",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2026-12-14",
+      "hours": 8
+    },
+    {
+      "id": "e0ab2c87-037d-56d4-bfb3-6b1d8d6c797d",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-01-04",
+      "hours": 10
+    },
+    {
+      "id": "0f8daab4-fd05-55c6-9624-c6c2dbb914eb",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-01-11",
+      "hours": 10
+    },
+    {
+      "id": "398f44bc-f8b1-5664-ab60-b8782329ebff",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-01-18",
+      "hours": 10
+    },
+    {
+      "id": "53c7aa63-1ff4-5382-9d2e-3a8f31bec157",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-01-25",
+      "hours": 8
+    },
+    {
+      "id": "30bbaf38-f146-510b-a08d-46384ec89369",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-02-01",
+      "hours": 12
+    },
+    {
+      "id": "d8afef82-cbcf-5c52-9194-2fa64d36ff36",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-02-08",
+      "hours": 10
+    },
+    {
+      "id": "9cb2a871-c59c-5c74-8ea4-83a7d515e1b9",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-02-15",
+      "hours": 10
+    },
+    {
+      "id": "edafd0f7-1ebe-5de0-9aa4-067a933e3328",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-02-22",
+      "hours": 10
+    },
+    {
+      "id": "3d042f19-2374-59d5-8da9-7ce198fd4f42",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-03-01",
+      "hours": 10
+    },
+    {
+      "id": "2fc43acf-ffd3-5312-b6bd-6d5a350d6c20",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-03-08",
+      "hours": 10
+    },
+    {
+      "id": "a1ddd26c-cf92-529c-83ef-66234f66a1df",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-03-15",
+      "hours": 10
+    },
+    {
+      "id": "31340fd4-1edf-5fe2-8e86-56bdb8dfaaa4",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-03-22",
+      "hours": 8
+    },
+    {
+      "id": "5f75c21f-d236-5242-9a8f-f31b51967f77",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-03-29",
+      "hours": 10
+    },
+    {
+      "id": "0e1d27bf-a85a-521f-a79b-59da68e7acf9",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-04-05",
+      "hours": 10
+    },
+    {
+      "id": "2fb0bcc2-46a2-54ef-a345-02d91dffda30",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-04-12",
+      "hours": 8
+    },
+    {
+      "id": "d8688f92-c174-5c74-b638-1a2999703c84",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-04-19",
+      "hours": 10
+    },
+    {
+      "id": "45332ad0-b5de-526b-8dc1-4412aa0e7f3f",
+      "assignmentId": "c6b43535-ea15-53cc-a5b5-14a48337b657",
+      "week": "2027-04-26",
+      "hours": 12
+    },
+    {
+      "id": "a0234526-2be3-5dcb-890f-47ca5803ea46",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-10-05",
+      "hours": 8
+    },
+    {
+      "id": "0d36af66-0e4f-5d41-b72f-819da5e8fa24",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-10-12",
+      "hours": 8
+    },
+    {
+      "id": "21767aaa-52b5-5ff0-bd4f-d5ec272e2b3a",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-10-19",
+      "hours": 8
+    },
+    {
+      "id": "fc42f417-f2c0-589f-9c10-2123c0a5610e",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-10-26",
+      "hours": 6
+    },
+    {
+      "id": "f0341aeb-eab9-5bc3-af54-e8343172ad33",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-11-02",
+      "hours": 8
+    },
+    {
+      "id": "4cf0f8b8-7cd8-5db4-b969-ce8b3877992a",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-11-09",
+      "hours": 6
+    },
+    {
+      "id": "9cf63673-cbce-543c-8b89-99eca3fb13c5",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-11-16",
+      "hours": 8
+    },
+    {
+      "id": "6c884d30-b1a8-5e53-9d2a-d2e5cb68b8f0",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-11-23",
+      "hours": 10
+    },
+    {
+      "id": "d5d3fb79-b132-52ca-83e0-ec80412aa672",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-11-30",
+      "hours": 8
+    },
+    {
+      "id": "104d2203-d5b6-50d2-9b45-5550c29bd1fc",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-12-07",
+      "hours": 10
+    },
+    {
+      "id": "ee89d6e9-a8f4-508e-bd26-9685dfcdcbad",
+      "assignmentId": "7a3879a3-8dec-5284-9e2f-4f09ddb64906",
+      "week": "2026-12-14",
+      "hours": 8
+    },
+    {
+      "id": "c0335850-e041-5191-87c7-f3f247fd90db",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-10-05",
+      "hours": 14
+    },
+    {
+      "id": "1795be00-baee-5fee-b406-4998273a3396",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-10-12",
+      "hours": 12
+    },
+    {
+      "id": "96328a62-0394-543b-8e40-4acf2abf360e",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-10-19",
+      "hours": 12
+    },
+    {
+      "id": "a2cbc01d-718a-523d-957e-8540567538b4",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-10-26",
+      "hours": 10
+    },
+    {
+      "id": "0822526a-3a35-559f-991f-239c6d02d217",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-11-02",
+      "hours": 14
+    },
+    {
+      "id": "ec695cc0-8504-54d6-927b-3e8fec482274",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-11-09",
+      "hours": 12
+    },
+    {
+      "id": "db4d04d2-bd19-5eb5-8dfd-bb5086b74c05",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-11-16",
+      "hours": 12
+    },
+    {
+      "id": "7f292497-6692-54fd-bb0d-dc862b9fc934",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-11-23",
+      "hours": 12
+    },
+    {
+      "id": "2ff07e08-5f18-5091-9390-636c55aefeae",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-11-30",
+      "hours": 14
+    },
+    {
+      "id": "194b906c-cceb-5638-a975-74913fe81417",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-12-07",
+      "hours": 10
+    },
+    {
+      "id": "151b94e0-d347-5be3-8566-86cc78cbcc1a",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2026-12-14",
+      "hours": 12
+    },
+    {
+      "id": "60272bb2-b5e2-5cb2-878b-0eb8f288e699",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-01-04",
+      "hours": 14
+    },
+    {
+      "id": "bb6c9a25-0153-5233-af44-084855be2816",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-01-11",
+      "hours": 12
+    },
+    {
+      "id": "e1bfcddc-aa09-5512-be20-7765898a47e7",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-01-18",
+      "hours": 12
+    },
+    {
+      "id": "a7cf3aae-4e75-50ba-99f1-53c5a5530ab5",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-01-25",
+      "hours": 12
+    },
+    {
+      "id": "ecf5bcab-cc62-51b9-9316-640df9fe2751",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-02-01",
+      "hours": 12
+    },
+    {
+      "id": "56c2eccb-18fd-5621-a130-07f2a3d11fde",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-02-08",
+      "hours": 12
+    },
+    {
+      "id": "b97a28d4-c050-51c5-a80b-0fd5cec13668",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-02-15",
+      "hours": 10
+    },
+    {
+      "id": "ddbc97c0-ef7a-5368-83d8-0dba2d3bb2fb",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-02-22",
+      "hours": 12
+    },
+    {
+      "id": "670f686a-70ec-5fdb-868e-9e12fb0d405a",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-03-01",
+      "hours": 12
+    },
+    {
+      "id": "d755a7f2-2415-51a1-97f8-35f0d21fccaa",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-03-08",
+      "hours": 12
+    },
+    {
+      "id": "26c73cf4-5547-5b47-a653-88142cc43ff8",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-03-15",
+      "hours": 12
+    },
+    {
+      "id": "6c9d45d7-61e1-5b7d-808c-e2f660d8a39b",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-03-22",
+      "hours": 10
+    },
+    {
+      "id": "b8bf3fd4-0cc4-5cc2-a75c-45e581387ad0",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-03-29",
+      "hours": 12
+    },
+    {
+      "id": "a64399c5-01d0-59f0-a727-800791a5f1d3",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-04-05",
+      "hours": 12
+    },
+    {
+      "id": "d7a9cd03-039e-5af1-83db-29b10afab5a3",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-04-12",
+      "hours": 10
+    },
+    {
+      "id": "8243f1ce-5a3a-5fb5-b9ad-b0d4d7f95e96",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-04-19",
+      "hours": 12
+    },
+    {
+      "id": "c875b12f-2403-5463-9187-47de6bef312e",
+      "assignmentId": "e16ea67d-7652-53d7-9e37-35a74683296a",
+      "week": "2027-04-26",
+      "hours": 12
+    },
+    {
+      "id": "cacd24de-3cd5-527c-9544-b6180323f18c",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2026-11-02",
+      "hours": 6
+    },
+    {
+      "id": "27bb2bcf-9ef3-52cb-b67c-4ae71dda814c",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2026-11-09",
+      "hours": 4
+    },
+    {
+      "id": "dc5ba92b-3213-54f8-be53-f54696f8ea25",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2026-11-16",
+      "hours": 2
+    },
+    {
+      "id": "7cbdacd4-1576-509b-b40d-61e2e4e42b0b",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2026-11-23",
+      "hours": 2
+    },
+    {
+      "id": "217e653b-0e09-51a2-8965-23b170fabb82",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2026-11-30",
+      "hours": 4
+    },
+    {
+      "id": "dac8a64d-5f29-53e4-a851-f468d66257d3",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2026-12-07",
+      "hours": 4
+    },
+    {
+      "id": "4bc302ca-6b43-5c76-9448-e9675bfab808",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2026-12-14",
+      "hours": 4
+    },
+    {
+      "id": "4b779ff5-877e-5a9f-916d-ef817bbd1926",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-01-04",
+      "hours": 4
+    },
+    {
+      "id": "b10f0a22-b7f1-5571-b99e-de0e1b468425",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-01-11",
+      "hours": 4,
+      "note": "Exam and marking"
+    },
+    {
+      "id": "9bbeb5d8-c201-5d23-a828-c53c870d4a33",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-03-22",
+      "hours": 6
+    },
+    {
+      "id": "e1d5f983-c2f9-5a73-8dc1-3b979d4d73b2",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-03-29",
+      "hours": 4
+    },
+    {
+      "id": "f555f7be-3cd4-59a0-a8ce-e9c7fb7462a1",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-04-05",
+      "hours": 6
+    },
+    {
+      "id": "5da49228-b790-5acb-9102-9032f2fce125",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-04-12",
+      "hours": 4
+    },
+    {
+      "id": "1532a66a-ca37-58a9-8510-48b2fd0abee4",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-04-19",
+      "hours": 4
+    },
+    {
+      "id": "0971bb5f-43e2-57bf-a42a-44be6c3756ee",
+      "assignmentId": "20b24b54-8a5f-5f2c-901a-da1683222acd",
+      "week": "2027-04-26",
+      "hours": 4
+    },
+    {
+      "id": "7f1fea47-5ce0-5edf-b8e9-64083c0fec8d",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-10-05",
+      "hours": 4
+    },
+    {
+      "id": "a0cbce4e-676c-5bc8-ab47-be3dcc3cb06f",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-10-12",
+      "hours": 4
+    },
+    {
+      "id": "1b437dd6-c73d-5c0a-88ec-2a1a53ad8047",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-10-19",
+      "hours": 4
+    },
+    {
+      "id": "c0abf805-d149-597e-8e0b-89400e290bd5",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-10-26",
+      "hours": 4
+    },
+    {
+      "id": "c554b52e-e7de-517d-b30b-dfef32b9a72b",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-11-02",
+      "hours": 6
+    },
+    {
+      "id": "42111227-d140-5ac8-b642-72bc5a95a3e2",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-11-09",
+      "hours": 4
+    },
+    {
+      "id": "e64f68d9-2805-5500-965e-b412fc2c5ef3",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-11-16",
+      "hours": 4
+    },
+    {
+      "id": "02d63786-5b92-5612-9182-2ee349891988",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-11-23",
+      "hours": 6
+    },
+    {
+      "id": "04a5f1e3-7de5-5927-a20b-246ec2a14940",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-11-30",
+      "hours": 2
+    },
+    {
+      "id": "f91e1586-65d3-5f22-b8a0-89e52a4e5788",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-12-07",
+      "hours": 6
+    },
+    {
+      "id": "ae067287-aca7-5d80-8fc5-4e66e1d8da1a",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2026-12-14",
+      "hours": 4
+    },
+    {
+      "id": "e283282f-aa1b-5002-9157-ec25055c7077",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-01-04",
+      "hours": 4
+    },
+    {
+      "id": "b7f1bc8f-4936-5fe3-95f8-ed4a8576733a",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-01-11",
+      "hours": 4
+    },
+    {
+      "id": "a4bfa8ee-81d4-5472-ad87-af106b63023f",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-01-18",
+      "hours": 4
+    },
+    {
+      "id": "3b1fbef9-5282-50dc-bdaa-73c592a423c5",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-01-25",
+      "hours": 2
+    },
+    {
+      "id": "4be4f16f-40f3-513a-82be-7ae9e07e73c4",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-02-01",
+      "hours": 4
+    },
+    {
+      "id": "299ca4a4-7cec-5d7d-96c5-a194a9f69375",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-02-08",
+      "hours": 2
+    },
+    {
+      "id": "2f85d96f-597c-5578-bbbf-b18e37f713ea",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-02-15",
+      "hours": 6
+    },
+    {
+      "id": "566de81c-f2c8-5aa6-9bb3-f5d534ba6233",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-02-22",
+      "hours": 6
+    },
+    {
+      "id": "3d707d9b-bfb9-5924-b6c0-5c78235e640e",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-03-01",
+      "hours": 4
+    },
+    {
+      "id": "558bac91-a435-57c2-baf8-d141d73168de",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-03-08",
+      "hours": 2
+    },
+    {
+      "id": "998f4565-3f74-5601-8e13-fedf8ded0ec0",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-03-15",
+      "hours": 4
+    },
+    {
+      "id": "cc2461ce-74ec-58aa-9ed2-3cf60f2dfb1f",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-03-22",
+      "hours": 4
+    },
+    {
+      "id": "72258216-d059-5019-b626-f33d27e73b0b",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-03-29",
+      "hours": 4
+    },
+    {
+      "id": "417354a1-fc96-5ee8-8897-3b3e531e855c",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-04-05",
+      "hours": 4
+    },
+    {
+      "id": "66e1b6ec-4af0-5576-a30d-77e0adec1fbe",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-04-12",
+      "hours": 6
+    },
+    {
+      "id": "c7261f96-d950-5c21-ae0d-7b17a38e2d40",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-04-19",
+      "hours": 2
+    },
+    {
+      "id": "4487b687-64b0-5eef-bff6-a01dea8cae69",
+      "assignmentId": "8d9fe301-ae49-59dc-a318-da870fa4b6f4",
+      "week": "2027-04-26",
+      "hours": 6
+    },
+    {
+      "id": "d97dc470-aaad-5622-8e56-2f4c2516b949",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-10-05",
+      "hours": 2
+    },
+    {
+      "id": "9b82c350-a4c1-5e75-98d9-cc37caafc66e",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-10-12",
+      "hours": 2
+    },
+    {
+      "id": "60683419-ad5d-599c-ba56-8276a718724f",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-10-19",
+      "hours": 4
+    },
+    {
+      "id": "cc51f0d1-7a54-5d6b-8e88-f45b4fb1cb8d",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-10-26",
+      "hours": 2
+    },
+    {
+      "id": "a82dcddd-5c3a-5f62-9a2e-7a7c87387eb0",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-11-02",
+      "hours": 2
+    },
+    {
+      "id": "c6219da6-75d1-5591-8859-d544ff774a02",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-11-09",
+      "hours": 1
+    },
+    {
+      "id": "9f6f7c6c-ebdd-58c3-8ce2-9f8f1e86c684",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-11-16",
+      "hours": 2
+    },
+    {
+      "id": "2d7b720c-945a-5265-ace0-76baca3d9ea4",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-11-23",
+      "hours": 2
+    },
+    {
+      "id": "470f0a2a-b9c0-5bae-827d-31e19ef37d37",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-11-30",
+      "hours": 2,
+      "note": "Consortium meeting for Twin4Line"
+    },
+    {
+      "id": "beec7b01-b70b-51fa-b026-b9a73905b996",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-12-07",
+      "hours": 2
+    },
+    {
+      "id": "e7574358-35f5-5d5a-96b6-3b6ba0e639fa",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2026-12-14",
+      "hours": 2
+    },
+    {
+      "id": "c5888860-2130-5120-acd5-d53e9b4e8a9e",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-01-04",
+      "hours": 1
+    },
+    {
+      "id": "d3d4976d-64e5-5e02-9ac2-bcf8b3c65a70",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-01-11",
+      "hours": 4
+    },
+    {
+      "id": "48402423-d457-5e6b-95e5-bd1725667a66",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-01-18",
+      "hours": 4
+    },
+    {
+      "id": "47293767-eb74-5603-88ce-4e24c8841e5d",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-01-25",
+      "hours": 2
+    },
+    {
+      "id": "40183109-78e3-5e08-bff7-e79951b8534a",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-02-01",
+      "hours": 4
+    },
+    {
+      "id": "3bdac702-18cc-53f6-bdb7-1c9a3c971c78",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-02-08",
+      "hours": 2
+    },
+    {
+      "id": "75bf05a9-11f7-5d79-9145-2ab83d7ccd11",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-02-15",
+      "hours": 1
+    },
+    {
+      "id": "ae90c08e-76ef-561a-b9d3-a4b55bf9d15d",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-02-22",
+      "hours": 4
+    },
+    {
+      "id": "48205f4a-d4ee-56f0-8585-0d4266531589",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-03-01",
+      "hours": 2
+    },
+    {
+      "id": "933b11a7-bccd-5249-9215-cda98d19828d",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-03-08",
+      "hours": 1
+    },
+    {
+      "id": "64896fcb-41af-5a5a-b08e-13b92d2e6f13",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-03-15",
+      "hours": 1
+    },
+    {
+      "id": "17eb0754-fae0-5378-8cd9-b7cc2cf5aa4d",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-03-22",
+      "hours": 4
+    },
+    {
+      "id": "3e2b6035-ccb0-5b89-b3e0-8e087b8855b4",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-03-29",
+      "hours": 2
+    },
+    {
+      "id": "fbe8a550-e0de-58e2-8ffa-a1829e3a4c7c",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-04-05",
+      "hours": 2
+    },
+    {
+      "id": "026039fb-eb7b-586d-86c0-9e8cf700ea9d",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-04-12",
+      "hours": 4
+    },
+    {
+      "id": "18913372-a47d-51a2-bf6f-390088af6385",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-04-19",
+      "hours": 2
+    },
+    {
+      "id": "c06f52f6-c70d-5638-b144-4f2f50acf0b3",
+      "assignmentId": "9ef666f9-226e-5827-afce-e6ac8e28fc2b",
+      "week": "2027-04-26",
+      "hours": 2
+    },
+    {
+      "id": "86ec3aea-876a-5f23-8f96-59fb3a5a5933",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2026-11-02",
+      "hours": 4
+    },
+    {
+      "id": "f7040be4-dfb8-5611-bdb7-9a141c4de3d2",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2026-11-09",
+      "hours": 6
+    },
+    {
+      "id": "53006005-955a-584d-bd1f-cb6ee0c1f87b",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2026-11-16",
+      "hours": 4
+    },
+    {
+      "id": "b7f23dda-c847-5402-97d4-ff5633c94e57",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2026-11-23",
+      "hours": 6
+    },
+    {
+      "id": "48c138b6-9b0d-5b2a-8d3d-29ef8fba5f92",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2026-11-30",
+      "hours": 6
+    },
+    {
+      "id": "cb8a5f98-f355-5dd3-a017-68c092706b02",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2026-12-07",
+      "hours": 6
+    },
+    {
+      "id": "3cd79ffb-bf4a-566f-9821-8ef41d94a18b",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2026-12-14",
+      "hours": 4
+    },
+    {
+      "id": "1631e5b7-824f-558d-91d7-6479626b1104",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-01-04",
+      "hours": 4
+    },
+    {
+      "id": "6ec6c453-c731-5585-aeba-c6a99968863e",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-01-11",
+      "hours": 6,
+      "note": "Exam and marking"
+    },
+    {
+      "id": "d35617ec-45a8-552b-b7f4-be7fe3d5e5bf",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-03-22",
+      "hours": 6
+    },
+    {
+      "id": "8690ac05-21fb-5cb3-83a5-2ffb1293ffdc",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-03-29",
+      "hours": 6
+    },
+    {
+      "id": "5b514329-ba3a-5483-a35e-07c9b98b9c6d",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-04-05",
+      "hours": 8
+    },
+    {
+      "id": "5946286e-9327-5428-9aa6-f3e1cbef8f50",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-04-12",
+      "hours": 6
+    },
+    {
+      "id": "96b9f828-783b-5dea-aa90-23ef37b2de33",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-04-19",
+      "hours": 6
+    },
+    {
+      "id": "c7235072-da19-597a-9ad6-7b7ad129a5f8",
+      "assignmentId": "c03beb58-aa21-5658-9d14-de2f187c935a",
+      "week": "2027-04-26",
+      "hours": 8
+    },
+    {
+      "id": "24e6d2e2-105e-5aa0-bed9-89c1b2144d10",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-10-05",
+      "hours": 3
+    },
+    {
+      "id": "379e81ff-063b-5937-a80e-d574e2649e1c",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-10-12",
+      "hours": 3
+    },
+    {
+      "id": "73e89128-147a-54a8-aa77-66f5dc9893ca",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-10-19",
+      "hours": 3
+    },
+    {
+      "id": "d8b707f7-a013-5fcd-9e0f-5b2f482a297a",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-10-26",
+      "hours": 3
+    },
+    {
+      "id": "51d64a00-28a8-5b76-9d24-3b50ae33adf5",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-11-02",
+      "hours": 3
+    },
+    {
+      "id": "85d0469d-1dfb-51e5-8a33-44d1c6c4b886",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-11-09",
+      "hours": 5
+    },
+    {
+      "id": "9cb9aa8c-14e8-58fd-b407-2f96a199ce62",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-11-16",
+      "hours": 5
+    },
+    {
+      "id": "bdb97cc4-f66d-553a-8c67-c0ea90d2d745",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-11-23",
+      "hours": 1
+    },
+    {
+      "id": "f3ec8985-ac56-50fe-a7bd-b91ddf24bdd3",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-11-30",
+      "hours": 3
+    },
+    {
+      "id": "8d4c6f37-b04f-5488-a765-60ab6c106142",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-12-07",
+      "hours": 3
+    },
+    {
+      "id": "f7941063-6b3e-5cc6-9455-d23a98eb5035",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2026-12-14",
+      "hours": 3
+    },
+    {
+      "id": "c9fdd9c8-b4c0-50d4-95ad-86ec2c443ddd",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-01-04",
+      "hours": 1
+    },
+    {
+      "id": "93475a01-4afd-50e6-b74b-0f9acff748e7",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-01-11",
+      "hours": 3
+    },
+    {
+      "id": "b1430322-c29a-51de-87b6-8e73022c5245",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-01-18",
+      "hours": 1
+    },
+    {
+      "id": "5b8683b6-e038-5d0f-94ae-dfd39666a879",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-01-25",
+      "hours": 5
+    },
+    {
+      "id": "16f7d4d1-0700-593c-ad8d-6939a36a4837",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-02-01",
+      "hours": 3
+    },
+    {
+      "id": "7705cc30-cb06-5d33-b857-ca303f6e1dc4",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-02-08",
+      "hours": 1
+    },
+    {
+      "id": "177b7658-f472-5260-86d5-b1f9445fecac",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-02-15",
+      "hours": 3
+    },
+    {
+      "id": "188f2c8d-337e-524e-98e0-644bed928a3b",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-02-22",
+      "hours": 1
+    },
+    {
+      "id": "64c6da84-b721-5e6e-9404-882209835500",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-03-01",
+      "hours": 1
+    },
+    {
+      "id": "f550f9c0-84d0-55fc-b88d-bafa848e25e2",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-03-08",
+      "hours": 5
+    },
+    {
+      "id": "c175bf12-1ef4-517a-87a9-268c0a087073",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-03-15",
+      "hours": 3
+    },
+    {
+      "id": "6921aba0-71d9-5f05-b6f9-a7f75c8790ad",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-03-22",
+      "hours": 5
+    },
+    {
+      "id": "fc979eee-346f-533a-8510-4d27957a1b69",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-03-29",
+      "hours": 1
+    },
+    {
+      "id": "7aa8a3db-56a3-5045-a7b8-9398fd88637d",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-04-05",
+      "hours": 3
+    },
+    {
+      "id": "8b5b661f-abe7-53b3-85a0-35d7da260153",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-04-12",
+      "hours": 3
+    },
+    {
+      "id": "508ee476-88d7-519f-86e5-a784421bc871",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-04-19",
+      "hours": 1
+    },
+    {
+      "id": "2bee6ef2-83dc-50ee-b0d8-01e3b06d189b",
+      "assignmentId": "e894516b-6d8b-5df1-888d-ee4c5a85a697",
+      "week": "2027-04-26",
+      "hours": 1
+    },
+    {
+      "id": "7793c231-6f9d-5e6c-aacd-97ce101eada8",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-10-05",
+      "hours": 2
+    },
+    {
+      "id": "5a3e0a31-2850-5bf1-931c-21a60de85ad1",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-10-12",
+      "hours": 2
+    },
+    {
+      "id": "49106d57-49f1-5446-aa1b-976604a66808",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-10-19",
+      "hours": 2
+    },
+    {
+      "id": "8b0fbfd4-b764-5058-859c-ef740027a219",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-10-26",
+      "hours": 2
+    },
+    {
+      "id": "e1e71b76-e73a-5831-80ea-1264d0e1f054",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-11-02",
+      "hours": 1
+    },
+    {
+      "id": "4e8d0575-cd5a-5daa-952d-d6c3170daf6c",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-11-09",
+      "hours": 2
+    },
+    {
+      "id": "bfa4644a-f16b-535c-87f8-315f4a44694f",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-11-16",
+      "hours": 2
+    },
+    {
+      "id": "12df7856-6b7f-542e-97c4-1800ebdc2fb4",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-11-23",
+      "hours": 4
+    },
+    {
+      "id": "95065c57-0e8e-5b5e-b55d-b480a2e8c374",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-11-30",
+      "hours": 2
+    },
+    {
+      "id": "7494de3b-daab-5b34-b8d6-60b8f9a3f719",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-12-07",
+      "hours": 1
+    },
+    {
+      "id": "83d47051-afb0-5e78-9a6f-85c372e16954",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2026-12-14",
+      "hours": 1
+    },
+    {
+      "id": "c6bb65c8-3a54-57cb-ba47-98c5bd7d2dfd",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-01-04",
+      "hours": 1
+    },
+    {
+      "id": "5127dbc7-1f44-50a4-8151-60ea2c527388",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-01-11",
+      "hours": 1
+    },
+    {
+      "id": "c8f20efd-5c7e-5f51-82b3-6782f8d4f733",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-01-18",
+      "hours": 2
+    },
+    {
+      "id": "f579901b-158a-553e-9b7c-ac52954b50dc",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-01-25",
+      "hours": 1
+    },
+    {
+      "id": "daec0bab-9539-554b-bcaa-28f232011b63",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-02-01",
+      "hours": 2
+    },
+    {
+      "id": "a5301686-fb4a-52a4-9463-bfb19c43094d",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-02-08",
+      "hours": 1
+    },
+    {
+      "id": "57ca4bda-be7d-58c1-9b4c-b3bdf5bc61d9",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-02-15",
+      "hours": 2
+    },
+    {
+      "id": "10e2a9fd-76f4-5dc6-b4e2-8fd903e0ba83",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-02-22",
+      "hours": 1
+    },
+    {
+      "id": "61d901e7-3666-59f0-b8e4-b0ca8da6ac64",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-03-01",
+      "hours": 2
+    },
+    {
+      "id": "20477888-f142-5a91-b4d6-3d99314e5e81",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-03-08",
+      "hours": 2
+    },
+    {
+      "id": "d6bb4eff-14be-5ce2-a6f6-8dacea4407af",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-03-15",
+      "hours": 4
+    },
+    {
+      "id": "f502e14a-40c4-5046-af82-f4af98607fd3",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-03-22",
+      "hours": 4
+    },
+    {
+      "id": "5d6bd2b9-db29-569b-81e3-95a93fffe88e",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-03-29",
+      "hours": 2
+    },
+    {
+      "id": "ce63da94-e90c-5ba0-ad33-9c4e0aa0f4d2",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-04-05",
+      "hours": 2
+    },
+    {
+      "id": "d421366a-c833-583a-a817-72b44edf8410",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-04-12",
+      "hours": 2
+    },
+    {
+      "id": "c5d7da1c-8217-5c5b-bee3-c6ce88b11503",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-04-19",
+      "hours": 1
+    },
+    {
+      "id": "dbe4f907-d9d6-5514-a8ce-63e169e38b4d",
+      "assignmentId": "1c13a4b3-f323-5ecc-97d1-e6759991ad27",
+      "week": "2027-04-26",
+      "hours": 1
+    },
+    {
+      "id": "ac598459-4ee7-5512-b5fc-19fc6f86da42",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2026-11-02",
+      "hours": 6
+    },
+    {
+      "id": "27dd66b7-d272-5856-86ec-b40d082200fe",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2026-11-09",
+      "hours": 4
+    },
+    {
+      "id": "b1b96b0c-aa5e-500f-9b93-c3d45737f7b0",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2026-11-16",
+      "hours": 4
+    },
+    {
+      "id": "c7c56882-5eef-58ce-8066-a54171daaf8a",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2026-11-23",
+      "hours": 2
+    },
+    {
+      "id": "2508fd00-c16e-5e32-b247-f07246ed4b3a",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2026-11-30",
+      "hours": 2
+    },
+    {
+      "id": "bae5f554-9d4f-50b7-a033-5de9a0e7f042",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2026-12-07",
+      "hours": 4
+    },
+    {
+      "id": "4783cac9-c155-5eb9-9911-85cca14e0dbc",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2026-12-14",
+      "hours": 6
+    },
+    {
+      "id": "bf925cf9-3088-5545-992c-6792e3fd4649",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-01-04",
+      "hours": 4
+    },
+    {
+      "id": "30f6f987-f88a-5f0d-b5a2-3400d076af99",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-01-11",
+      "hours": 4
+    },
+    {
+      "id": "e4f99752-df30-590c-b1d5-713cb82ce00d",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-03-22",
+      "hours": 4
+    },
+    {
+      "id": "23fdb2ba-b214-5368-96e7-b5f63a17516d",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-03-29",
+      "hours": 6
+    },
+    {
+      "id": "4f4ea7c7-3bf6-5ed1-ba3a-3208e3c145d8",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-04-05",
+      "hours": 4
+    },
+    {
+      "id": "476dba69-c1da-56de-ba28-534372cc550b",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-04-12",
+      "hours": 6
+    },
+    {
+      "id": "015294b1-b9e7-56c5-b8e2-85c0ef164605",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-04-19",
+      "hours": 4
+    },
+    {
+      "id": "2d30d342-7b47-54c5-9b4b-f1b064a78cd9",
+      "assignmentId": "86dcca46-ba33-5d61-9de9-0609ec5a9a84",
+      "week": "2027-04-26",
+      "hours": 4
+    },
+    {
+      "id": "05e9e109-ef31-5777-bff1-b2441d737bf4",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-10-05",
+      "hours": 2
+    },
+    {
+      "id": "c3ce9eb8-b854-5142-8854-f605f0c67c64",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-10-12",
+      "hours": 2
+    },
+    {
+      "id": "3ef3a836-3e57-5945-a0c4-2c3b9de330f7",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-10-19",
+      "hours": 2
+    },
+    {
+      "id": "d78be194-64c1-51c7-a1d4-eab41f2a1e5d",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-10-26",
+      "hours": 2
+    },
+    {
+      "id": "8100893e-0f9e-526b-96ba-3ba7e2a5140e",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-11-02",
+      "hours": 4
+    },
+    {
+      "id": "e002383e-3839-5fcc-9186-84173fedab24",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-11-09",
+      "hours": 2
+    },
+    {
+      "id": "f3ca30ad-2dea-508f-96f5-3cffd7d7118f",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-11-16",
+      "hours": 2
+    },
+    {
+      "id": "3a11b4b4-3bd6-5c58-b3f1-938b81630507",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-11-23",
+      "hours": 2
+    },
+    {
+      "id": "823ac482-f983-51d3-81c3-0ba38498eed1",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-11-30",
+      "hours": 2
+    },
+    {
+      "id": "1da21afa-0871-5c8c-aee6-a31110baa8a2",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-12-07",
+      "hours": 2
+    },
+    {
+      "id": "bde1c995-ea84-5cdf-893c-7b0c650b75c5",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2026-12-14",
+      "hours": 1
+    },
+    {
+      "id": "301badc7-b46f-56b4-9ce9-9981ab186c51",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-01-04",
+      "hours": 1
+    },
+    {
+      "id": "7a25f7fb-6032-5d3d-ad69-ebd709b36b67",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-01-11",
+      "hours": 2
+    },
+    {
+      "id": "1fd48fa3-c20d-5edc-9f62-ec618f2bbf6f",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-01-18",
+      "hours": 2
+    },
+    {
+      "id": "127b5f1a-b3bd-541f-8c37-59735968a5d2",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-01-25",
+      "hours": 2
+    },
+    {
+      "id": "e695afdb-868c-511a-8d06-5e62c008962b",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-02-01",
+      "hours": 1
+    },
+    {
+      "id": "26616378-42b6-5743-a44c-238cf1a7a013",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-02-08",
+      "hours": 1
+    },
+    {
+      "id": "c37ce8d2-86a2-5fd5-a2a9-775986af536e",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-02-15",
+      "hours": 2
+    },
+    {
+      "id": "daed7cbd-0af5-5afa-b62a-37fea889a0e2",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-02-22",
+      "hours": 1
+    },
+    {
+      "id": "e4d4cd24-832d-5ce8-93af-9e0267fcf0b9",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-03-01",
+      "hours": 2
+    },
+    {
+      "id": "924ba272-3d3a-5697-a874-68d730870d85",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-03-08",
+      "hours": 4
+    },
+    {
+      "id": "c956427a-07a3-5a8c-8c29-c83144cbd27e",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-03-15",
+      "hours": 2
+    },
+    {
+      "id": "ca359d96-e7d1-5ccf-8be2-8f23d313a12a",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-03-22",
+      "hours": 2
+    },
+    {
+      "id": "e90a4329-abaa-5a19-a7a2-b983d14fce53",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-03-29",
+      "hours": 2
+    },
+    {
+      "id": "c9d8bdda-6817-5b6e-9d09-0495172f3382",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-04-05",
+      "hours": 2
+    },
+    {
+      "id": "0c5baa60-2c02-5b11-a65a-8290db316f4f",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-04-12",
+      "hours": 2
+    },
+    {
+      "id": "1d144550-3e11-53f6-9048-509d6086adae",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-04-19",
+      "hours": 4
+    },
+    {
+      "id": "628154f6-ff39-59c6-9bc3-b6886ac07305",
+      "assignmentId": "51f64db4-d19a-5b93-a295-45c0847b0b6b",
+      "week": "2027-04-26",
+      "hours": 2
+    },
+    {
+      "id": "aec396ff-1b66-5033-bd4b-a04a74e6dd6c",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-01-18",
+      "hours": 8
+    },
+    {
+      "id": "8c9ea822-7125-5a64-afb3-46aaf3f91418",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-01-25",
+      "hours": 6
+    },
+    {
+      "id": "02553f43-760a-5ca6-b334-b93aa69a077f",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-02-01",
+      "hours": 6
+    },
+    {
+      "id": "373f6fe4-1cc3-5627-bc86-fe765bfe80f0",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-02-08",
+      "hours": 6
+    },
+    {
+      "id": "be542657-ca38-5db6-be60-c3b79269c678",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-02-15",
+      "hours": 4
+    },
+    {
+      "id": "c277a582-97db-57c2-b13e-f38d39540aea",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-02-22",
+      "hours": 6
+    },
+    {
+      "id": "3d4bfcc3-ca34-5d77-9db2-c9970c237c49",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-03-01",
+      "hours": 6
+    },
+    {
+      "id": "413761a6-1878-524e-8921-506137ba74da",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-03-08",
+      "hours": 6
+    },
+    {
+      "id": "3d5a404f-b0e7-5af8-a8a6-c120bae959ce",
+      "assignmentId": "e8a6114c-e565-5f94-814d-f65afe8ce1a9",
+      "week": "2027-03-15",
+      "hours": 4
+    },
+    {
+      "id": "2723e9bc-c29c-52ea-9ce8-f008be668b1a",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-01-18",
+      "hours": 2
+    },
+    {
+      "id": "051003dd-ef52-529c-a8be-c9daf2944f54",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-01-25",
+      "hours": 2
+    },
+    {
+      "id": "d3f56378-0f02-56b3-b400-8e8778810962",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-02-01",
+      "hours": 2
+    },
+    {
+      "id": "4b21f075-6be3-50d5-94f1-aafdf88421a0",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-02-08",
+      "hours": 1
+    },
+    {
+      "id": "388ca785-85ab-554e-85ad-be8cda39ce20",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-02-15",
+      "hours": 4
+    },
+    {
+      "id": "0aed7f16-e2f4-5071-88dc-c9adb5eb5f5e",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-02-22",
+      "hours": 2
+    },
+    {
+      "id": "c5c7a26d-b1cc-565a-bac4-5cf3bd1e76d2",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-03-01",
+      "hours": 1
+    },
+    {
+      "id": "65f2c49c-0cf1-5587-bc95-dafc31cfeb4c",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-03-08",
+      "hours": 2
+    },
+    {
+      "id": "3335c2aa-1626-55ec-8679-4a9296bf3866",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-03-15",
+      "hours": 2
+    },
+    {
+      "id": "3cd27ae3-dc8c-5ed0-af95-5f3ca569503c",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-03-22",
+      "hours": 2
+    },
+    {
+      "id": "8e31b5d0-6a1e-5407-bdee-5beafc3c4159",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-03-29",
+      "hours": 2
+    },
+    {
+      "id": "c7c7a662-40fb-5cdb-bf53-e71883415074",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-04-05",
+      "hours": 2
+    },
+    {
+      "id": "56e21904-7b42-5ae1-af80-12eee55be10e",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-04-12",
+      "hours": 2
+    },
+    {
+      "id": "4c5ccc75-3353-59d9-9668-fa4b4243dd8f",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-04-19",
+      "hours": 1
+    },
+    {
+      "id": "a4c39438-c496-5b59-b14a-044cb3cd6375",
+      "assignmentId": "a00c59b1-410a-5e18-aa3b-54bc8d6fed93",
+      "week": "2027-04-26",
+      "hours": 4
+    },
+    {
+      "id": "be3c9c7d-d426-5e6b-a907-269df62ed159",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-01-18",
+      "hours": 2
+    },
+    {
+      "id": "79b580c0-0d98-50b5-9deb-fb4748db0dee",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-01-25",
+      "hours": 1
+    },
+    {
+      "id": "a3cafb90-e806-5173-a7a2-0dbd157ad05a",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-02-01",
+      "hours": 2
+    },
+    {
+      "id": "18d43a59-2423-5fa1-b707-f4c5127b024d",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-02-08",
+      "hours": 2
+    },
+    {
+      "id": "853284a3-99d5-522b-8900-3adce9932ed5",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-02-15",
+      "hours": 1
+    },
+    {
+      "id": "5502c929-f270-5be7-86e6-afafbba7aec9",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-02-22",
+      "hours": 2
+    },
+    {
+      "id": "026652b2-d027-5c0d-9f5d-25fe440dc36a",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-03-01",
+      "hours": 4
+    },
+    {
+      "id": "270e7a77-c7c7-5b20-b069-368360fee117",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-03-08",
+      "hours": 2
+    },
+    {
+      "id": "bdfc152f-0e32-56e6-8163-889603870b58",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-03-15",
+      "hours": 2
+    },
+    {
+      "id": "a3905da5-889c-5104-9c20-5f7592c9418c",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-03-22",
+      "hours": 1
+    },
+    {
+      "id": "89e2fcca-cbaa-517f-a329-b7382c5fd9e4",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-03-29",
+      "hours": 2
+    },
+    {
+      "id": "69104dee-18e6-559b-8bd5-f49c4bc1d16d",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-04-05",
+      "hours": 4
+    },
+    {
+      "id": "a81b3d1d-85dc-580c-991c-fef4a03c68b2",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-04-12",
+      "hours": 2
+    },
+    {
+      "id": "335d9260-a438-5d91-ad11-1b4b71fbfe37",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-04-19",
+      "hours": 2
+    },
+    {
+      "id": "8c634244-aed4-5f0d-b37f-3e7ed2bb8c07",
+      "assignmentId": "011933ab-86b6-5d66-97a6-f71cc92ddcf4",
+      "week": "2027-04-26",
+      "hours": 2
+    },
+    {
+      "id": "9ede58bf-c552-5d4a-8e42-3bc85dd60078",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-10-05",
+      "hours": 2
+    },
+    {
+      "id": "1b2cfc18-1cf5-50cf-b367-de1c0008ce9c",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-10-12",
+      "hours": 2
+    },
+    {
+      "id": "33066b4f-12a6-5550-b11d-0a1479b47c79",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-10-19",
+      "hours": 2
+    },
+    {
+      "id": "1bf8c68d-bd15-573d-ac0c-da2eccac1df0",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-10-26",
+      "hours": 2
+    },
+    {
+      "id": "c374241f-842d-5819-9782-9b4c4cb110fb",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-11-02",
+      "hours": 2
+    },
+    {
+      "id": "72e587b6-5059-5b78-b96c-1a2e2bbe8e11",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-11-09",
+      "hours": 2
+    },
+    {
+      "id": "5b5ea083-3030-58c2-9540-f7a5d29a9c1d",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-11-16",
+      "hours": 2
+    },
+    {
+      "id": "54450dfd-91f5-59c0-a49c-5f3cbe6c64ed",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-11-23",
+      "hours": 2
+    },
+    {
+      "id": "a8e9e889-f035-5858-b4cd-b7ae8a957146",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-11-30",
+      "hours": 1
+    },
+    {
+      "id": "12883d82-ad80-5e6a-bb29-ff1dbc4ada27",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-12-07",
+      "hours": 2
+    },
+    {
+      "id": "47d07b3a-eb9c-58c7-bcb7-641dbe52f57e",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2026-12-14",
+      "hours": 2
+    },
+    {
+      "id": "459226ac-4013-50a6-8c63-6837cb88d2bb",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-01-04",
+      "hours": 1
+    },
+    {
+      "id": "b27f1be4-be95-5b89-870b-8272f0970f3d",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-01-11",
+      "hours": 4
+    },
+    {
+      "id": "ca715402-3b6c-5f8d-84cf-6ff3edb41ce0",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-01-18",
+      "hours": 2
+    },
+    {
+      "id": "6763652a-4777-51a7-ac34-e909c600f0da",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-01-25",
+      "hours": 2
+    },
+    {
+      "id": "846c26e6-6eb4-57bb-a8e3-7cb493977ebb",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-02-01",
+      "hours": 1
+    },
+    {
+      "id": "8e6621b7-6fbc-5fb9-8a22-97471d9fdf88",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-02-08",
+      "hours": 2
+    },
+    {
+      "id": "e3254c9b-9f96-5685-9b68-5ca4c18929fc",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-02-15",
+      "hours": 2
+    },
+    {
+      "id": "bcb98876-7abc-5eee-95e5-00fed2d8cf38",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-02-22",
+      "hours": 1
+    },
+    {
+      "id": "b54b4687-9395-5365-a461-08aa40dab289",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-03-01",
+      "hours": 2
+    },
+    {
+      "id": "c703906c-1d6e-568b-b23e-eadadbec50a5",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-03-08",
+      "hours": 2
+    },
+    {
+      "id": "a3455721-b8af-5772-beb9-874de731545d",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-03-15",
+      "hours": 2
+    },
+    {
+      "id": "83c18b67-e572-55d9-b44a-31a752934f64",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-03-22",
+      "hours": 2
+    },
+    {
+      "id": "c652fb07-f5e3-5a8a-81e4-7871f97828ce",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-03-29",
+      "hours": 2
+    },
+    {
+      "id": "1a589fc6-2c5b-51c1-a468-62ccf8de29bb",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-04-05",
+      "hours": 4
+    },
+    {
+      "id": "10d5504a-051b-522b-bf0c-e1b572aad722",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-04-12",
+      "hours": 1
+    },
+    {
+      "id": "c68e697e-d72d-54f5-a950-a21fbff26d29",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-04-19",
+      "hours": 4
+    },
+    {
+      "id": "54751887-e3cd-51c4-9ec7-8ca94141e76d",
+      "assignmentId": "9573d56f-4211-53cc-9a38-5be6f2298eb6",
+      "week": "2027-04-26",
+      "hours": 2
+    },
+    {
+      "id": "6353d881-0668-5fb9-9e57-ab5d50467f47",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-01-18",
+      "hours": 6
+    },
+    {
+      "id": "3a79c650-8646-5ef6-8e6f-4768381b964b",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-01-25",
+      "hours": 4
+    },
+    {
+      "id": "c787c72e-b044-5434-bdf5-6d74422193f8",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-02-01",
+      "hours": 2
+    },
+    {
+      "id": "86d09351-a890-5ab8-b7a7-437e6cb4f7ac",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-02-08",
+      "hours": 4
+    },
+    {
+      "id": "99078dae-a0c5-574f-bec7-c581617b7d4f",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-02-15",
+      "hours": 4
+    },
+    {
+      "id": "5dade13a-fc52-5c15-903c-d0db31775b49",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-02-22",
+      "hours": 6
+    },
+    {
+      "id": "d579527a-d838-5656-86d7-7e31ea4bb492",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-03-01",
+      "hours": 4
+    },
+    {
+      "id": "0234928d-346c-553e-9c4c-30e5ffe35af9",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-03-08",
+      "hours": 4
+    },
+    {
+      "id": "4f09f6c9-13da-5704-8c8b-1fea2c7008b1",
+      "assignmentId": "449cceee-614a-58f9-9797-9336f22f7db6",
+      "week": "2027-03-15",
+      "hours": 4
+    },
+    {
+      "id": "d46f53fc-1eca-52bb-9f2b-4984d06449b6",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-10-05",
+      "hours": 14
+    },
+    {
+      "id": "beaac355-75ac-5200-93a9-f34f5914e498",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-10-12",
+      "hours": 16
+    },
+    {
+      "id": "446cf4cb-7702-5993-b4bc-9f643745ec19",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-10-19",
+      "hours": 18
+    },
+    {
+      "id": "106460dd-f8bc-59a2-b58d-b7d6f6a11994",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-10-26",
+      "hours": 16
+    },
+    {
+      "id": "1ae67444-8be5-5c10-b5bd-2911db1d0c79",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-11-02",
+      "hours": 16
+    },
+    {
+      "id": "569e9420-1989-5699-a81a-0540d25a33ef",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-11-09",
+      "hours": 14
+    },
+    {
+      "id": "a5ac2939-d5bc-560c-8950-5e70d12ec679",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-11-16",
+      "hours": 16
+    },
+    {
+      "id": "8f77e09a-1d3a-5bb1-b250-4a5e17b4ada7",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-11-23",
+      "hours": 14
+    },
+    {
+      "id": "698b3003-6c29-5437-adf5-213400363b98",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-11-30",
+      "hours": 14
+    },
+    {
+      "id": "708cbd50-07ad-52a4-8202-0576680fcdd0",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-12-07",
+      "hours": 16
+    },
+    {
+      "id": "1b599df0-a970-5782-8f58-636e10036eb9",
+      "assignmentId": "98a40232-1ee4-5cc1-98bd-bab6c619334c",
+      "week": "2026-12-14",
+      "hours": 14
+    },
+    {
+      "id": "8a7b28cb-564e-5aec-b1bc-16040b81c8a3",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-10-05",
+      "hours": 10
+    },
+    {
+      "id": "22919995-875e-52a4-a046-3f3ed0311bdd",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-10-12",
+      "hours": 10
+    },
+    {
+      "id": "63ea5729-dc8f-5eb7-9a03-f66cb401a0b9",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-10-19",
+      "hours": 10
+    },
+    {
+      "id": "298b1474-d7e8-52e0-811d-c6cd738a7da6",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-10-26",
+      "hours": 10
+    },
+    {
+      "id": "f286f68c-af06-52fe-9dcd-7e1e1d2590f0",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-11-02",
+      "hours": 12
+    },
+    {
+      "id": "dec9be89-9fe4-5bba-9181-bd1dc4ec42a7",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-11-09",
+      "hours": 10
+    },
+    {
+      "id": "bafa99b0-bf9f-5223-b16a-4d009f077ef4",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-11-16",
+      "hours": 10
+    },
+    {
+      "id": "305ed020-3e3b-52f0-a47d-82fec94ffedc",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-11-23",
+      "hours": 12
+    },
+    {
+      "id": "1a2950de-d205-548b-8f07-96bc50ee8a08",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-11-30",
+      "hours": 10
+    },
+    {
+      "id": "6e1105bf-d892-5dc4-96de-15a192647c6a",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-12-07",
+      "hours": 10
+    },
+    {
+      "id": "83fa369c-ee8d-5cc3-bf25-054b72d98f4c",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2026-12-14",
+      "hours": 12
+    },
+    {
+      "id": "0743ec48-75bd-56ef-9b6d-2f5aa1feafeb",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-01-04",
+      "hours": 12
+    },
+    {
+      "id": "23a52db8-704d-5fc0-811b-e0e5a29d487a",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-01-11",
+      "hours": 10
+    },
+    {
+      "id": "8a52e0cf-9c05-5ff1-93eb-3058e01c0991",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-01-18",
+      "hours": 8
+    },
+    {
+      "id": "9af5cdd3-6a54-50b1-91a7-a0d11e8c1834",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-01-25",
+      "hours": 10
+    },
+    {
+      "id": "6b57e1d2-c1f5-5e05-a944-c05b4b5c30da",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-02-01",
+      "hours": 10
+    },
+    {
+      "id": "3a18e391-3df3-5a6a-b8cf-6ff06edaa5d9",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-02-08",
+      "hours": 8
+    },
+    {
+      "id": "342a0cc7-28ea-5fa8-8e97-77cbfbce9ff3",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-02-15",
+      "hours": 8
+    },
+    {
+      "id": "77117d3d-4af5-514c-9d2b-a4dadfd44347",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-02-22",
+      "hours": 12
+    },
+    {
+      "id": "5856ba67-29c1-5238-af3d-4413b5f5bb9f",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-03-01",
+      "hours": 12
+    },
+    {
+      "id": "241918da-8a07-5ba0-b8cd-582319a24eb8",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-03-08",
+      "hours": 10
+    },
+    {
+      "id": "a4ef9a4d-7993-5f7a-9b21-527dadab2289",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-03-15",
+      "hours": 8
+    },
+    {
+      "id": "64426acd-0ce7-56d0-95e6-5776f9cda497",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-03-22",
+      "hours": 10
+    },
+    {
+      "id": "6f24f5ed-7886-5c9b-9501-f4862d713a17",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-03-29",
+      "hours": 8
+    },
+    {
+      "id": "f3603a3a-f325-52cc-8523-f3f05c9abc7a",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-04-05",
+      "hours": 12
+    },
+    {
+      "id": "026cbf86-a474-57db-a42a-9a211cd77696",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-04-12",
+      "hours": 12
+    },
+    {
+      "id": "5e4cb0fb-cd1f-5571-bf44-4bbf58c426b5",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-04-19",
+      "hours": 12
+    },
+    {
+      "id": "f7132037-f32c-5fae-9136-590e65963f33",
+      "assignmentId": "9e2ba73e-7062-5308-973e-ab872f776c2a",
+      "week": "2027-04-26",
+      "hours": 8
+    }
+  ],
+  "capacityOverrides": [
+    {
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "8749487e-4066-5055-92a3-660f131ff84b",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "1ebfd0a0-f32a-5a20-a1a7-b32bb2dfe903",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "3c63df2d-fafe-5733-80d1-f4ef38786df7",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "6eb98830-cb9b-564e-8c25-aaf2ca379cfd",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "8d2f3669-e550-5d29-a5ce-3ee55a542654",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "709fc4dd-1e51-55b5-b92f-48668b2381f1",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "709fc4dd-1e51-55b5-b92f-48668b2381f1",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "b2c3d454-163a-5e05-8cc3-3728bca8b866",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "b2c3d454-163a-5e05-8cc3-3728bca8b866",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "f50aab68-e0e9-5fa2-af3f-403644b24ea2",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "f50aab68-e0e9-5fa2-af3f-403644b24ea2",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "week": "2026-12-21",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "week": "2026-12-28",
+      "hours": 0,
+      "note": "Christmas break"
+    },
+    {
+      "personId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d",
+      "week": "2026-11-30",
+      "hours": 18,
+      "note": "Conference in Lyon"
+    },
+    {
+      "personId": "35cdf000-34d5-53de-99ce-880dac41c2e9",
+      "week": "2026-12-07",
+      "hours": 20,
+      "note": "PhD course week"
+    }
+  ],
+  "settings": {
+    "weekCount": 8,
+    "periods": [
+      {
+        "id": "p-22940add",
+        "name": "Period 1",
+        "start": "2026-08-31",
+        "end": "2026-10-30"
+      },
+      {
+        "id": "p-423290f4",
+        "name": "Period 2",
+        "start": "2026-11-02",
+        "end": "2027-01-15"
+      },
+      {
+        "id": "p-eea77e3c",
+        "name": "Period 3",
+        "start": "2027-01-18",
+        "end": "2027-03-19"
+      },
+      {
+        "id": "p-4068f115",
+        "name": "Period 4",
+        "start": "2027-03-22",
+        "end": "2027-06-04"
+      }
+    ],
+    "overloadPercent": 100
+  },
+  "workItems": [
+    {
+      "id": "w-3a003a21",
+      "name": "Fixture and MQL nozzle",
+      "status": "done",
+      "note": "Fixture for the Ti bracket family, delivered October"
+    },
+    {
+      "id": "w-1e9d8012",
+      "name": "Ti test coupons batch A",
+      "status": "active",
+      "note": "12 Ti-6Al-4V coupons, two finishes; machined in CleanCut, measured for NOVA and ScanQuality",
+      "waitsOn": [
+        "w-3a003a21"
+      ]
+    },
+    {
+      "id": "w-249a190b",
+      "name": "Profiler recalibration",
+      "status": "active",
+      "note": "Optical profiler recalibration and reference datasets"
+    },
+    {
+      "id": "w-02feed60",
+      "name": "Textured disc set 2",
+      "status": "planned",
+      "note": "Second set of laser-textured discs for friction tests",
+      "waitsOn": [
+        "w-249a190b"
+      ],
+      "waitsOnProjects": [
+        {
+          "projectId": "4b713396-82f5-5eea-b13c-214690dc86af",
+          "taskId": "t-setup"
+        }
+      ]
+    },
+    {
+      "id": "w-e1fb4803",
+      "name": "Grinding AE dataset",
+      "status": "active",
+      "note": "Acoustic emission recordings from the partner's grinding trials",
+      "waitsOnProjects": [
+        {
+          "projectId": "6d6e6529-5504-5599-89be-95c37b0a489b"
+        }
+      ]
+    },
+    {
+      "id": "w-41593dbc",
+      "name": "Surface defect library",
+      "status": "planned",
+      "note": "Labelled scans of machining defects for the classifier",
+      "waitsOn": [
+        "w-1e9d8012"
+      ],
+      "links": [
+        {
+          "projectId": "e4ff06fa-03d1-57da-a044-9d8a7dc3cf33",
+          "taskId": "t-analysis"
+        }
+      ]
+    }
+  ],
+  "profile": {
+    "abbreviation": "NML",
+    "fullName": "Northfield Manufacturing Lab",
+    "organisation": "Department of Production Engineering, Northfield Institute of Technology (fictional)",
+    "description": "We study how machining and surface treatment shape the function of engineered surfaces, from tool wear and texture to measurement uncertainty. The lab runs funded research projects with industry partners, teaches two master's courses and supervises PhD students.",
+    "focus": [
+      "Surface metrology",
+      "Precision machining",
+      "Laser surface texturing",
+      "Measurement uncertainty"
+    ],
+    "website": "www.example.org/nml",
+    "email": "nml@example.org",
+    "leadId": "8749487e-4066-5055-92a3-660f131ff84b",
+    "coordinatorId": "d8250578-0ff6-5705-8157-5cb9e07c4e8d"
+  },
+  "source": "Fictional demo team (Northfield Manufacturing Lab)"
+}

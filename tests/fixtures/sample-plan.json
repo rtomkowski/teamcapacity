@@ -1,0 +1,756 @@
+{
+  "version": 1,
+  "people": [
+    {
+      "id": "person-1",
+      "name": "Person 1",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-2",
+      "name": "Person 2",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-3",
+      "name": "Person 3",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-4",
+      "name": "Person 4",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-5",
+      "name": "Person 5",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-6",
+      "name": "Person 6",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-7",
+      "name": "Person 7",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-8",
+      "name": "Person 8",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-9",
+      "name": "Person 9",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-10",
+      "name": "Person 10",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-11",
+      "name": "Person 11",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-12",
+      "name": "Person 12",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    },
+    {
+      "id": "person-13",
+      "name": "Person 13",
+      "capacityHours": null,
+      "reservedHours": 0,
+      "notes": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "project-1",
+      "name": "Project 1",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-2",
+      "name": "Project 2",
+      "status": "finished",
+      "notes": ""
+    },
+    {
+      "id": "project-3",
+      "name": "Project 3",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-4",
+      "name": "Project 4",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-5",
+      "name": "Project 5",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-6",
+      "name": "Project 6",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-7",
+      "name": "Project 7",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-8",
+      "name": "Project 8",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-9",
+      "name": "Project 9",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-10",
+      "name": "Project 10",
+      "status": "finished",
+      "notes": ""
+    },
+    {
+      "id": "project-11",
+      "name": "Project 11",
+      "status": "finished",
+      "notes": ""
+    },
+    {
+      "id": "project-12",
+      "name": "Project 12",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-13",
+      "name": "Project 13",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-14",
+      "name": "Project 14",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-15",
+      "name": "Project 15",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-16",
+      "name": "Project 16",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-17",
+      "name": "Project 17",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-18",
+      "name": "Project 18",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-19",
+      "name": "Project 19",
+      "status": "ongoing",
+      "notes": ""
+    },
+    {
+      "id": "project-20",
+      "name": "Project 20",
+      "status": "unspecified",
+      "notes": ""
+    },
+    {
+      "id": "project-21",
+      "name": "Project 21",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-22",
+      "name": "Project 22",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-23",
+      "name": "Project 23",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-24",
+      "name": "Project 24",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-25",
+      "name": "Project 25",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-26",
+      "name": "Project 26",
+      "status": "planned",
+      "notes": ""
+    },
+    {
+      "id": "project-27",
+      "name": "Project 27",
+      "status": "planned",
+      "notes": ""
+    }
+  ],
+  "assignments": [
+    {
+      "id": "assignment-1",
+      "personId": "person-2",
+      "projectId": "project-1",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-2",
+      "personId": "person-3",
+      "projectId": "project-1",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-3",
+      "personId": "person-4",
+      "projectId": "project-1",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-4",
+      "personId": "person-2",
+      "projectId": "project-2",
+      "status": "finished",
+      "estimated": true,
+      "notes": ""
+    },
+    {
+      "id": "assignment-5",
+      "personId": "person-4",
+      "projectId": "project-2",
+      "status": "finished",
+      "estimated": true,
+      "notes": ""
+    },
+    {
+      "id": "assignment-6",
+      "personId": "person-2",
+      "projectId": "project-3",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-7",
+      "personId": "person-1",
+      "projectId": "project-4",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-8",
+      "personId": "person-6",
+      "projectId": "project-4",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-9",
+      "personId": "person-8",
+      "projectId": "project-4",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-10",
+      "personId": "person-13",
+      "projectId": "project-4",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-11",
+      "personId": "person-4",
+      "projectId": "project-5",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-12",
+      "personId": "person-1",
+      "projectId": "project-6",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-13",
+      "personId": "person-5",
+      "projectId": "project-6",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-14",
+      "personId": "person-6",
+      "projectId": "project-6",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-15",
+      "personId": "person-7",
+      "projectId": "project-6",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-16",
+      "personId": "person-10",
+      "projectId": "project-6",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-17",
+      "personId": "person-2",
+      "projectId": "project-7",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-18",
+      "personId": "person-2",
+      "projectId": "project-8",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-19",
+      "personId": "person-3",
+      "projectId": "project-8",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-20",
+      "personId": "person-4",
+      "projectId": "project-8",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-21",
+      "personId": "person-10",
+      "projectId": "project-9",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-22",
+      "personId": "person-2",
+      "projectId": "project-10",
+      "status": "finished",
+      "estimated": true,
+      "notes": ""
+    },
+    {
+      "id": "assignment-23",
+      "personId": "person-3",
+      "projectId": "project-10",
+      "status": "finished",
+      "estimated": true,
+      "notes": ""
+    },
+    {
+      "id": "assignment-24",
+      "personId": "person-1",
+      "projectId": "project-11",
+      "status": "finished",
+      "estimated": true,
+      "notes": ""
+    },
+    {
+      "id": "assignment-25",
+      "personId": "person-2",
+      "projectId": "project-11",
+      "status": "finished",
+      "estimated": true,
+      "notes": ""
+    },
+    {
+      "id": "assignment-26",
+      "personId": "person-1",
+      "projectId": "project-12",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-27",
+      "personId": "person-5",
+      "projectId": "project-12",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-28",
+      "personId": "person-7",
+      "projectId": "project-12",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-29",
+      "personId": "person-1",
+      "projectId": "project-13",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-30",
+      "personId": "person-2",
+      "projectId": "project-14",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-31",
+      "personId": "person-3",
+      "projectId": "project-14",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-32",
+      "personId": "person-5",
+      "projectId": "project-14",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-33",
+      "personId": "person-2",
+      "projectId": "project-15",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-34",
+      "personId": "person-3",
+      "projectId": "project-15",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-35",
+      "personId": "person-5",
+      "projectId": "project-15",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-36",
+      "personId": "person-1",
+      "projectId": "project-16",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-37",
+      "personId": "person-5",
+      "projectId": "project-16",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-38",
+      "personId": "person-6",
+      "projectId": "project-16",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-39",
+      "personId": "person-3",
+      "projectId": "project-17",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-40",
+      "personId": "person-5",
+      "projectId": "project-17",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-41",
+      "personId": "person-2",
+      "projectId": "project-18",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-42",
+      "personId": "person-3",
+      "projectId": "project-18",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-43",
+      "personId": "person-5",
+      "projectId": "project-18",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-44",
+      "personId": "person-7",
+      "projectId": "project-19",
+      "status": "ongoing",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-45",
+      "personId": "person-1",
+      "projectId": "project-21",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-46",
+      "personId": "person-6",
+      "projectId": "project-21",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-47",
+      "personId": "person-9",
+      "projectId": "project-21",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-48",
+      "personId": "person-12",
+      "projectId": "project-21",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-49",
+      "personId": "person-1",
+      "projectId": "project-22",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-50",
+      "personId": "person-2",
+      "projectId": "project-22",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-51",
+      "personId": "person-2",
+      "projectId": "project-23",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-52",
+      "personId": "person-1",
+      "projectId": "project-24",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-53",
+      "personId": "person-2",
+      "projectId": "project-24",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-54",
+      "personId": "person-3",
+      "projectId": "project-24",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-55",
+      "personId": "person-4",
+      "projectId": "project-24",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-56",
+      "personId": "person-5",
+      "projectId": "project-25",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-57",
+      "personId": "person-7",
+      "projectId": "project-25",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-58",
+      "personId": "person-6",
+      "projectId": "project-26",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-59",
+      "personId": "person-7",
+      "projectId": "project-26",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-60",
+      "personId": "person-2",
+      "projectId": "project-27",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    },
+    {
+      "id": "assignment-61",
+      "personId": "person-4",
+      "projectId": "project-27",
+      "status": "planned",
+      "estimated": false,
+      "notes": ""
+    }
+  ],
+  "allocations": [],
+  "capacityOverrides": [],
+  "settings": {
+    "weekCount": 8
+  },
+  "source": "sample-workbook.xlsx"
+}

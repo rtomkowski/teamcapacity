@@ -1,0 +1,431 @@
+/* MIT License, Copyright (c) 2026 Robert Tomkowski <rtom@kth.se>. See LICENSE. */
+/*
+ * v35 "Calm" design layer, loaded last.
+ * Principles: neutral surfaces with one accent colour, hairline borders instead of glows,
+ * a 4 px spacing grid, three radii (8 controls, 12 cards, 16 dialogs), the system font at 14 px,
+ * text colours that reach WCAG AA (4.5:1) on every surface, visible keyboard focus, and a
+ * colour-blind-checked chart palette. Colour never carries meaning alone: status chips keep a label.
+ */
+
+/* ---------------------------------------------------------------- tokens */
+:root,
+:root[data-theme="light"] {
+  color-scheme: light;
+  --canvas: #f6f7f9;
+  --side: #f6f7f9;
+  --surface: #ffffff;
+  --surface-secondary: #f2f3f6;
+  --surface-hover: #eceef2;
+  --glass: #f6f7f9;
+  --ink: #15171c;
+  --secondary: #474c57;
+  --tertiary: #5f6570;
+  --line: #e3e5ea;
+  --line-strong: #cbcfd7;
+  --accent: #3347b8;
+  --accent-fill: #3e5bd8;
+  --accent-soft: #eaeefd;
+  --green: #17734a;
+  --green-soft: #e6f4ec;
+  --orange: #9a4f00;
+  --orange-soft: #fdf0e1;
+  --red: #c02a2f;
+  --red-soft: #fdecec;
+  --purple: #6345c8;
+  --purple-soft: #f0ecfc;
+  --blue: #2a78d6;
+  --gold: #b88a12;
+  --gold-soft: #fbf3d9;
+  --glow-a: transparent;
+  --shadow: 0 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-raised: 0 4px 16px rgba(16, 24, 40, 0.08), 0 1px 2px rgba(16, 24, 40, 0.05);
+  --focus: #3e5bd8;
+  /* Chart and tag hues: the colour-blind-checked categorical order (light steps). */
+  --c-blue: #2a78d6;
+  --c-orange: #eb6834;
+  --c-teal: #1baf7a;
+  --c-amber: #eda100;
+  --c-rose: #e87ba4;
+  --c-green: #008300;
+  --c-violet: #6250d6;
+  --c-red: #e34948;
+  --c-slate: #8a909c;
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --canvas: #111214;
+  --side: #141517;
+  --surface: #1a1b1e;
+  --surface-secondary: #222327;
+  --surface-hover: #2a2b30;
+  --glass: #141517;
+  --ink: #eceef2;
+  --secondary: #b6bac3;
+  --tertiary: #959aa4;
+  --line: #2d2f34;
+  --line-strong: #3e4148;
+  --accent: #a5b4ff;
+  --accent-fill: #3e5bd8;
+  --accent-soft: #23294a;
+  --green: #5bd49a;
+  --green-soft: #15291f;
+  --orange: #f5b35c;
+  --orange-soft: #2d2214;
+  --red: #ff8f8a;
+  --red-soft: #33191a;
+  --purple: #b9a6ff;
+  --purple-soft: #261f3d;
+  --blue: #3987e5;
+  --gold: #e0b43c;
+  --gold-soft: #2e2713;
+  --glow-a: transparent;
+  --shadow: none;
+  --shadow-raised: 0 8px 28px rgba(0, 0, 0, 0.45);
+  --focus: #a5b4ff;
+  --c-blue: #3987e5;
+  --c-orange: #d95926;
+  --c-teal: #199e70;
+  --c-amber: #c98500;
+  --c-rose: #d55181;
+  --c-green: #0ca30c;
+  --c-violet: #9085e9;
+  --c-red: #e66767;
+  --c-slate: #7d828e;
+}
+
+/* ---------------------------------------------------------------- base */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+body,
+.app,
+.app .workspace {
+  background: var(--canvas) !important;
+}
+::selection { background: color-mix(in srgb, var(--accent-fill) 22%, transparent); }
+table, .num, .inv-meter em, .metric strong, .kpi strong, .busiest-list em, kbd { font-variant-numeric: tabular-nums; }
+
+/* One visible focus ring for every control, only for keyboard use. */
+:focus { outline: none; }
+:focus-visible {
+  outline: 2px solid var(--focus) !important;
+  outline-offset: 2px !important;
+  border-radius: 6px;
+}
+input:focus-visible, select:focus-visible, textarea:focus-visible { outline-offset: 0 !important; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
+
+/* ---------------------------------------------------------------- layout */
+.app .sidebar {
+  background: var(--side) !important;
+  border-right: 1px solid var(--line);
+  backdrop-filter: none;
+}
+.app .topbar {
+  background: color-mix(in srgb, var(--canvas) 88%, transparent) !important;
+  border-bottom: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+}
+main { padding: 20px 32px 0; }
+.app h1 { font-size: 24px; font-weight: 650; letter-spacing: -0.015em; line-height: 1.2; }
+.page-header { margin-bottom: 20px; align-items: flex-end; }
+.page-subtitle { color: var(--secondary); margin-top: 4px; }
+.home-greet { margin: 0 0 12px; }
+
+/* Sidebar navigation */
+.app .sidebar nav button,
+.app .bottom-nav {
+  border-radius: var(--r-sm);
+  min-height: 34px;
+  color: var(--secondary);
+  font-weight: 500;
+}
+.app .sidebar nav button:hover,
+.app .bottom-nav:hover { background: var(--surface-hover); color: var(--ink); }
+.app .sidebar nav button.active,
+.app .bottom-nav.active {
+  background: var(--surface) !important;
+  color: var(--ink);
+  box-shadow: 0 0 0 1px var(--line), var(--shadow) !important;
+}
+.app .sidebar nav button.active svg { color: var(--accent); }
+.app .workspace-switch {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm);
+  box-shadow: var(--shadow);
+}
+
+/* ---------------------------------------------------------------- surfaces */
+.card,
+.app .card,
+.panel,
+.pcard,
+.tile,
+.app .metric,
+.kpi,
+.home-hero,
+.member-head,
+.mini-person {
+  border: 1px solid var(--line) !important;
+  border-radius: var(--r-md) !important;
+  box-shadow: var(--shadow) !important;
+  background: var(--surface);
+}
+/* No coloured top edges or glows: identity is carried by tags and dots. */
+.app .metric,
+.app .dashboard-grid .card,
+.pcard,
+.kpi,
+.home-hero,
+.pdetail-head,
+.app .dm-node.head { border-top-width: 1px !important; border-top-color: var(--line) !important; border-top-style: solid !important; }
+.pcard:hover,
+.tile:hover {
+  transform: none !important;
+  box-shadow: var(--shadow-raised) !important;
+  border-color: var(--line-strong) !important;
+}
+.pdetail-head { background: none !important; }
+.tile.selected,
+.pcard.selected,
+.mini-person.selected {
+  border-color: var(--accent-fill) !important;
+  box-shadow: 0 0 0 1px var(--accent-fill), var(--shadow) !important;
+  background: color-mix(in srgb, var(--accent-fill) 5%, var(--surface)) !important;
+}
+/* Coordinator: a calm gold outline, still unmistakable. */
+.tile.coord,
+.mini-person.coord {
+  border-color: var(--gold) !important;
+  box-shadow: 0 0 0 1px var(--gold), var(--shadow) !important;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--gold-soft) 70%, var(--surface)), var(--surface) 70%) !important;
+}
+.coord-badge {
+  color: color-mix(in srgb, var(--gold) 60%, var(--ink)) !important;
+  background: var(--gold-soft) !important;
+  border-color: color-mix(in srgb, var(--gold) 55%, transparent) !important;
+}
+
+/* ---------------------------------------------------------------- controls */
+.btn {
+  min-height: 34px;
+  padding: 0 14px;
+  border-radius: var(--r-sm) !important;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--ink);
+  font-weight: 550;
+  box-shadow: var(--shadow);
+  transition: background 0.12s, border-color 0.12s;
+}
+.btn:hover { background: var(--surface-hover); border-color: var(--line-strong); }
+.btn.primary {
+  background: var(--accent-fill) !important;
+  border-color: var(--accent-fill) !important;
+  color: #fff !important;
+  box-shadow: 0 1px 2px rgba(16, 24, 40, 0.12) !important;
+}
+.btn.primary:hover { background: color-mix(in srgb, var(--accent-fill) 88%, #000) !important; }
+.btn.danger, .btn.destructive { color: var(--red); }
+.icon-btn { border-radius: var(--r-sm); min-width: 34px; min-height: 34px; }
+.text-btn { color: var(--accent); font-weight: 550; }
+
+input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+select,
+textarea {
+  border-radius: var(--r-sm) !important;
+  border: 1px solid var(--line-strong) !important;
+  background-color: var(--surface) !important;
+  color: var(--ink);
+  min-height: 34px;
+}
+input:hover, select:hover, textarea:hover { border-color: color-mix(in srgb, var(--line-strong) 60%, var(--ink)) !important; }
+input:focus, select:focus, textarea:focus { border-color: var(--accent-fill) !important; box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-fill) 18%, transparent) !important; }
+input::placeholder, textarea::placeholder { color: var(--tertiary); opacity: 1; }
+input[type="checkbox"], input[type="radio"] { accent-color: var(--accent-fill); width: 16px; height: 16px; }
+.search-field { border-radius: var(--r-sm) !important; }
+
+/* Filter row: compact selects that size to their text. */
+.filter-bar { gap: 8px; row-gap: 8px; margin-bottom: 16px; }
+.filter-bar select {
+  width: auto !important;
+  max-width: 220px;
+  min-width: 0;
+  padding: 0 30px 0 12px;
+  font-size: 13px;
+}
+.filter-bar .search-field { min-width: 220px; }
+.filter-bar .count { color: var(--tertiary); font-size: 13px; }
+
+/* Segmented controls and scope tabs */
+.segmented {
+  background: var(--surface-secondary) !important;
+  border: 1px solid var(--line);
+  border-radius: var(--r-sm) !important;
+  padding: 2px !important;
+}
+.segmented button { border-radius: 6px !important; min-height: 28px; color: var(--secondary); }
+.segmented button.selected,
+.segmented button[aria-pressed="true"],
+.segmented button[aria-checked="true"] {
+  background: var(--surface) !important;
+  color: var(--ink) !important;
+  box-shadow: 0 0 0 1px var(--line), var(--shadow) !important;
+}
+.scope-tabs button {
+  border-radius: 999px !important;
+  border: 1px solid var(--line) !important;
+  background: var(--surface) !important;
+  color: var(--secondary) !important;
+  min-height: 32px;
+}
+.scope-tabs button.on,
+.scope-tabs button[aria-selected="true"] {
+  background: var(--accent-soft) !important;
+  border-color: color-mix(in srgb, var(--accent-fill) 45%, transparent) !important;
+  color: var(--accent) !important;
+}
+.settings-tabs button.on,
+.settings-tabs button[aria-selected="true"] { color: var(--ink); box-shadow: inset 0 -2px 0 var(--accent-fill); }
+
+/* Tags and status chips: soft fill, readable text, small dot for colour. */
+.pill, .chip, .tag {
+  border-radius: 999px;
+  font-weight: 550;
+}
+
+/* ---------------------------------------------------------------- dialogs */
+dialog.dialog, .dialog {
+  border-radius: var(--r-lg) !important;
+  border: 1px solid var(--line) !important;
+  box-shadow: var(--shadow-raised) !important;
+}
+dialog::backdrop { background: rgba(15, 18, 25, 0.38); backdrop-filter: blur(2px); }
+.dialog-actions { gap: 8px; }
+
+/* ---------------------------------------------------------------- tables */
+table th { font-weight: 600; color: var(--secondary); }
+.list-table th, .list-table td { padding-top: 10px; padding-bottom: 10px; }
+.list-table thead th {
+  font-size: 12px;
+  text-transform: none;
+  letter-spacing: 0;
+  background: var(--surface-secondary);
+}
+.list-table tbody tr:hover > * { background: var(--surface-hover); }
+
+/* ---------------------------------------------------------------- engagement matrix (v35) */
+.eng-cell {
+  display: inline-grid;
+  place-items: center;
+  min-width: 34px;
+  height: 24px;
+  padding: 0 6px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+}
+.eng-cell.ongoing { background: var(--accent-fill); color: #fff; }
+.eng-cell.planned { background: var(--surface); color: var(--accent); box-shadow: inset 0 0 0 1.5px var(--accent-fill); }
+.eng-cell.finished { background: var(--surface-secondary); color: var(--tertiary); box-shadow: inset 0 0 0 1px var(--line-strong); }
+.eng-head-abbr { font-weight: 650; color: var(--ink); font-size: 12.5px; }
+.eng-head-full { display: block; font-weight: 400; color: var(--tertiary); font-size: 11.5px; margin-top: 2px; }
+
+/* ---------------------------------------------------------------- small details */
+.app-footer, footer.page-foot { color: var(--tertiary); }
+.sidebar-credit { padding-left: 8px; }
+.attention-icon { border-radius: var(--r-sm) !important; }
+.attention-row { border-radius: var(--r-sm); }
+.attention-row:hover { background: var(--surface-hover); }
+.toast { border-radius: var(--r-md) !important; box-shadow: var(--shadow-raised) !important; border: 1px solid var(--line); }
+
+/* Charts keep thin marks with rounded data ends. */
+.inv-track { height: 6px; }
+.inv-track > i { border-radius: 3px; }
+
+/* Engagement matrix cells (v35): % or a dot, never a letter. */
+.app .matrix-mark {
+  width: 40px;
+  height: 28px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 11.5px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+.app .matrix-mark.ongoing { background: var(--accent-fill); color: #fff; }
+.app .matrix-mark.planned { background: var(--surface); color: var(--accent); border-color: var(--accent-fill); }
+.app .matrix-mark.finished { background: var(--surface-secondary); color: var(--tertiary); border-color: var(--line); }
+.app .matrix-mark.blank { background: transparent; color: transparent; border-color: transparent; }
+.app .matrix-table td:hover .matrix-mark.blank,
+.app .matrix-mark.blank:focus-visible { color: var(--tertiary); border-color: var(--line-strong); border-style: dashed; }
+.app .matrix-mark:hover:not(.blank) { filter: brightness(1.06); }
+.matrix-mark .mm-dot { width: 8px; height: 8px; border-radius: 50%; background: currentColor; display: block; }
+.matrix-mark.planned .mm-dot { background: transparent; box-shadow: inset 0 0 0 1.5px currentColor; }
+.app .legend-item .dot.ongoing { background: var(--accent-fill); }
+.app .legend-item .dot.planned { background: transparent; box-shadow: inset 0 0 0 1.5px var(--accent-fill); }
+.app .legend-item .dot.finished { background: var(--surface-secondary); box-shadow: inset 0 0 0 1px var(--line-strong); }
+.matrix-table thead button { font-size: 12px; font-weight: 600; color: var(--secondary); }
+.matrix-table thead button:hover { color: var(--accent); }
+.matrix-table th, .matrix-table td { border-color: var(--line) !important; }
+.matrix-table tbody tr:hover > * { background: var(--surface-hover); }
+.app .matrix-table .total-col { color: var(--ink); background: var(--surface-secondary); }
+
+/* Text in a series colour is darkened (light) or lightened (dark) towards the ink colour so it
+   reaches 4.5:1 on cards and on the grey secondary surface. Fills keep the pure series colour. */
+:root, :root[data-theme="light"] { --tx-p: 55%; }
+:root[data-theme="dark"] { --tx-p: 72%; }
+.kpi-value { color: var(--ink) !important; font-size: 28px; font-weight: 650; letter-spacing: -0.01em; }
+
+/* Search fields: one box, not a box inside a box. */
+.search-field input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]),
+.app .search-field input:not([type="checkbox"]):not([type="radio"]):not([type="range"]):not([type="color"]) {
+  border: 0 !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  min-height: 0 !important;
+  padding: 0 !important;
+}
+.app .search-field {
+  border: 1px solid var(--line-strong) !important;
+  background: var(--surface) !important;
+  min-height: 36px;
+  padding: 0 12px;
+}
+.app .search-field input:focus { box-shadow: none !important; }
+.app .search-field:focus-within { border-color: var(--accent-fill) !important; box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent-fill) 18%, transparent); }
+
+/* Engagement header: short labels, no tall empty band. */
+.app .matrix-table thead th:not(:first-child):not(.total-col) {
+  height: auto;
+  min-width: 84px;
+  max-width: 120px;
+  padding: 12px 8px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.app .matrix-table thead th:not(:first-child):not(.total-col) button { text-align: center; width: 100%; line-height: 1.3; }
+.app .matrix-table td { padding: 6px 8px; }
+
+.sidebar-credit { white-space: nowrap; font-size: 11.5px; }
+
+/* Review fixes (v35): small grey text that fell below 4.5:1 in the light theme. */
+.app .nav-caption { color: var(--tertiary) !important; opacity: 1 !important; }
+.home-greet, .home-greet * { opacity: 1 !important; }
+.home-greet { color: var(--tertiary) !important; }
+.home-greet .hg-hello { color: var(--ink) !important; }
+.home-greet .hg-weather { color: var(--accent) !important; }
+:root[data-theme="light"] .app .avatar.small { color: color-mix(in srgb, currentColor 55%, #15171c); font-size: 9.5px; font-weight: 700; }

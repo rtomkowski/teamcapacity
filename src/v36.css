@@ -1,0 +1,244 @@
+/* MIT License, Copyright (c) 2026 Robert Tomkowski <rtom@kth.se>. See LICENSE. */
+/*
+ * v36: Bento Home, a one-line takeaway on each chart, and the optional warm "Paper" palette.
+ * Loaded after calm.css.
+ */
+
+/* ---------------------------------------------------------------- Bento Home */
+.home.bento {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-areas:
+    "head head head head head head head hero hero hero hero hero"
+    "wide wide wide wide wide wide wide wide wide wide wide wide"
+    "busy busy busy busy busy busy busy ppl  ppl  ppl  ppl  ppl"
+    "ms   ms   ms   ms   ms   ms   ms   ppl  ppl  ppl  ppl  ppl";
+  gap: 16px;
+  align-items: stretch;
+}
+.home.bento > * { margin: 0 !important; min-width: 0; }
+.bento-headline { grid-area: head; }
+.home.bento > .home-hero { grid-area: hero; }
+.bento-wide { grid-area: wide; }
+.home.bento > .home-busiest { grid-area: busy; }
+.bento-coming { grid-area: come; }
+.home.bento > .home-ms { grid-area: ms; }
+.bento-people { grid-area: ppl; }
+.bento-people { align-self: start; }
+.home.bento > .home-busiest, .home.bento > .home-ms { align-self: start; }
+.bento-people .home-people { max-height: 720px; overflow: auto; }
+
+@media (max-width: 1100px) {
+  .home.bento {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-areas: "head" "hero" "wide" "busy" "ms" "ppl";
+  }
+}
+
+/* Headline tile: one large sentence, then what it is about. */
+.bento-headline {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 22px 24px 18px !important;
+}
+.bento-eyebrow {
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--tertiary);
+}
+.bento-big {
+  margin: 2px 0 12px;
+  font-size: 26px;
+  line-height: 1.2;
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  text-wrap: balance;
+}
+.insight-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; }
+.insight {
+  display: grid;
+  grid-template-columns: 10px 1fr 16px;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  min-height: 40px;
+  padding: 8px 10px;
+  margin: 0 -10px;
+  width: calc(100% + 20px);
+  border: 0;
+  border-radius: var(--r-sm);
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  font-size: 14.5px;
+  line-height: 1.4;
+  text-align: left;
+  cursor: pointer;
+}
+.insight:hover { background: var(--surface-hover); }
+.insight > svg { color: var(--tertiary); }
+.insight-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--accent-fill); }
+/* Tone is shown by the dot's shape as well as its colour. */
+.insight.warn .insight-dot { background: var(--orange); border-radius: 2px; transform: rotate(45deg); }
+.insight.info .insight-dot { background: var(--accent-fill); }
+.insight.good .insight-dot { background: var(--green); }
+.bento-foot {
+  margin: auto 0 0;
+  padding-top: 12px;
+  font-size: 12.5px;
+  color: var(--tertiary);
+}
+.bento-headline.all-clear .bento-big { color: var(--green); }
+
+/* Team tile in the narrow column */
+.home.bento > .home-hero {
+  flex-direction: column;
+  gap: 14px;
+  padding: 22px 24px !important;
+}
+.home.bento .home-abbr {
+  min-width: 56px;
+  height: 56px;
+  font-size: 18px;
+  border-radius: 14px;
+}
+.home.bento .home-hero h2 { font-size: 20px; margin-bottom: 6px; }
+.home.bento .home-desc {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: normal;
+}
+.home.bento .home-edit {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  min-height: 32px;
+  padding: 0 12px;
+  font-size: 13px;
+}
+.home.bento .home-meta { gap: 6px 14px; }
+
+/* ---------------------------------------------------------------- takeaways */
+.kpi { flex-wrap: wrap; row-gap: 6px; }
+.kpi-takeaway {
+  flex: 1 0 100%;
+  margin: 0 0 6px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+  font-size: 13.5px;
+  line-height: 1.4;
+  font-weight: 550;
+  color: var(--ink);
+  min-height: 2.8em;
+}
+.chart-takeaway {
+  margin: 4px 0 2px;
+  font-size: 13.5px;
+  font-weight: 550;
+  color: var(--ink);
+  line-height: 1.4;
+}
+.inv-chart-card .home-section-head { align-items: flex-start; }
+
+/* ---------------------------------------------------------------- Paper palette (optional) */
+:root[data-palette="warm"],
+:root[data-palette="warm"][data-theme="light"] {
+  --canvas: #f7f5f0;
+  --side: #f4f1ea;
+  --glass: #f4f1ea;
+  --surface: #fffdf9;
+  --surface-secondary: #f2efe8;
+  --surface-hover: #ebe7de;
+  --line: #e6e1d6;
+  --line-strong: #d3ccbd;
+  --ink: #1c1a17;
+  --secondary: #4d4943;
+  --tertiary: #66615a;
+  --shadow: 0 1px 2px rgba(60, 45, 20, 0.06);
+  --shadow-raised: 0 4px 16px rgba(60, 45, 20, 0.09), 0 1px 2px rgba(60, 45, 20, 0.06);
+}
+:root[data-palette="warm"][data-theme="dark"] {
+  --canvas: #151412;
+  --side: #181715;
+  --glass: #181715;
+  --surface: #1e1c1a;
+  --surface-secondary: #262421;
+  --surface-hover: #2e2b28;
+  --line: #34312d;
+  --line-strong: #45413b;
+  --ink: #efece6;
+  --secondary: #bcb6ac;
+  --tertiary: #9c968c;
+}
+:root[data-palette="warm"] body { background: var(--canvas); }
+
+/* Appearance settings */
+.palette-choices { display: flex; flex-wrap: wrap; gap: 12px; margin: 8px 0 4px; }
+.palette-choice {
+  display: grid;
+  gap: 8px;
+  width: 180px;
+  padding: 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--r-md);
+  background: var(--surface);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.palette-choice[aria-checked="true"] { border-color: var(--accent-fill); box-shadow: 0 0 0 1px var(--accent-fill); }
+.palette-choice small { color: var(--tertiary); font-size: 12px; }
+.palette-sample { display: flex; height: 36px; border-radius: 8px; overflow: hidden; border: 1px solid var(--line); }
+.palette-sample i { flex: 1; }
+
+/* Next up, inside the headline tile */
+.bento-next { margin-top: 14px; padding-top: 12px; border-top: 1px solid var(--line); }
+.bento-next ul { list-style: none; margin: 6px 0 0; padding: 0; display: grid; gap: 2px; }
+.bento-next button {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 12px;
+  align-items: baseline;
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: var(--r-sm);
+  background: none;
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.bento-next button:hover { background: var(--surface-hover); }
+.bn-date { font-size: 13px; color: var(--secondary); font-variant-numeric: tabular-nums; }
+.bn-what { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 13.5px; }
+.bn-what small { color: var(--tertiary); font-size: 12.5px; }
+.kpi { align-content: flex-start; }
+.home.bento .home-desc { -webkit-line-clamp: 3; }
+
+/* v37: own full-plate level shown next to the percentage */
+.inv-meter em .inv-own { font-weight: 500; color: var(--tertiary); font-size: 11px; margin-left: 1px; }
+
+/* v40: remove a team from the team list */
+.team-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px; align-items: center; }
+.team-row > .team-option { margin: 0; }
+.team-remove { color: var(--tertiary); }
+.team-remove:hover:not(:disabled) { color: var(--red); background: var(--red-soft); }
+.team-remove:disabled { opacity: 0.4; cursor: not-allowed; }
+.team-remove-confirm {
+  grid-column: 1 / -1;
+  padding: 12px 14px;
+  border: 1px solid color-mix(in srgb, var(--red) 35%, var(--line));
+  background: var(--red-soft);
+  border-radius: var(--r-md);
+}
+.team-remove-confirm p { margin: 0 0 10px; color: var(--ink); line-height: 1.45; }
+.team-remove-actions { display: flex; flex-wrap: wrap; gap: 8px; justify-content: flex-end; }
+.btn.danger-solid { background: var(--red) !important; border-color: var(--red) !important; color: #fff !important; }
+:root[data-theme="dark"] .btn.danger-solid { background: #c02a2f !important; border-color: #c02a2f !important; }

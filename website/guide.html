@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Team capacity: user guide</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="site.css" />
+  <meta name="description" content="How to use Team capacity: teams, people, projects and activities, assignments, milestones, shared work, analytics, saving and sharing.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Crect x='2' y='2' width='20' height='20' rx='6' fill='%235b6bf0'/%3E%3Crect x='6' y='13' width='3' height='5' rx='1' fill='%23fff'/%3E%3Crect x='10.5' y='9' width='3' height='9' rx='1' fill='%23fff'/%3E%3Crect x='15' y='6' width='3' height='12' rx='1' fill='%23fff'/%3E%3C/svg%3E">
+</head>
+<body>
+<header class="topbar"><div class="in">
+  <a class="brand" href="./"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="6" fill="#5b6bf0"/><rect x="6" y="13" width="3" height="5" rx="1" fill="#fff"/><rect x="10.5" y="9" width="3" height="9" rx="1" fill="#fff"/><rect x="15" y="6" width="3" height="12" rx="1" fill="#fff"/></svg>Team capacity</a>
+  <nav aria-label="Site">
+    <a href="./">Home</a>
+    <a href="guide.html" aria-current="page">Guide</a>
+    <a href="app/">Open the app</a>
+    <a href="downloads/Team-capacity.zip">Download</a>
+    <a href="https://github.com/rtomkowski/team-capacity">GitHub</a>
+  </nav>
+</div></header>
+<main class="guide">
+<a class="getpdf" href="downloads/Team-capacity-User-Guide.pdf">Download this guide as a PDF</a>
+<h1 id="team-capacity-user-guide">Team capacity: user guide</h1>
+<p><strong>See who works on what, and how full everyone’s plate
+is.</strong> Team capacity is a planner for research groups and other
+small teams: people, projects and activities (teaching, supervision,
+networking), who is on what, with an optional involvement percentage,
+tasks, milestones and deadlines. It gives the team leader and the team
+the same picture, as a starting point for conversations rather than a
+time sheet.</p>
+<p>It is one file, <code>Team capacity.html</code>, that you open in
+your web browser. There is nothing to install, no account and no server.
+Your teams are saved in the browser on your own computer, and you share
+them as files.</p>
+<figure>
+<img src="images/home.png"
+alt="Home: what may be worth a look, the next dates and the team at a glance (the fictional Northfield demo team)." />
+<figcaption aria-hidden="true">Home: what may be worth a look, the next
+dates and the team at a glance (the fictional Northfield demo
+team).</figcaption>
+</figure>
+<h2 id="contents">Contents</h2>
+<ol type="1">
+<li>Getting started</li>
+<li>Teams</li>
+<li>People</li>
+<li>Projects and activities</li>
+<li>Assignments, involvement and tasks</li>
+<li>Milestones, deadlines and timelines</li>
+<li>Shared work across projects</li>
+<li>Engagement and Analytics</li>
+<li>Settings</li>
+<li>Saving, sharing and backups</li>
+<li>Exports</li>
+<li>Tips and questions</li>
+</ol>
+<h2 id="getting-started">1. Getting started</h2>
+<p><strong>What you need:</strong> the file
+<code>Team capacity.html</code> and a web browser. <strong>Google
+Chrome</strong>, <strong>Microsoft Edge</strong>, Arc or Opera work
+best, because they can keep writing to a team file in a shared folder.
+Safari and Firefox work too, but each save downloads a new copy (see
+section 10).</p>
+<ol type="1">
+<li>Download <code>Team-capacity.zip</code> from the website and unzip
+it, or save <code>Team capacity.html</code> on its own. Put it somewhere
+you can find again, for example in your team’s OneDrive folder.</li>
+<li>Double-click it. The first time, it opens with <strong>Northfield
+(demo)</strong>, a fictional team of ten people with research projects,
+courses and meetings, so you can look around straight away.</li>
+<li>When you are ready, click the team name at the top of the menu and
+choose <strong>Create new team</strong> (empty, or with three example
+people to replace).</li>
+<li>Click <strong>Save team</strong> in the top bar now and then, and
+keep the file in a shared folder so colleagues can open it (section
+10).</li>
+</ol>
+<p>The menu on the left has the pages <strong>Home</strong>,
+<strong>Team</strong>, <strong>Projects</strong>, <strong>Shared
+work</strong>, <strong>Engagement</strong> and
+<strong>Analytics</strong>, with <strong>Settings</strong>,
+<strong>Help</strong> and <strong>License</strong> at the bottom. Press
+<code>?</code> for the keyboard shortcuts, for example <code>/</code> to
+search and <code>1</code> to <code>6</code> for the pages. The moon or
+sun button in the top bar switches between light and dark.</p>
+<h3 id="indications-not-measurements">Indications, not measurements</h3>
+<p>The numbers in the app (involvement, workload, task counts) are there
+to start a conversation: “you look very full, is that right?”. They do
+not measure anyone’s effort or productivity, and weekly hours are
+switched off unless the team asks for them (section 9).</p>
+<h2 id="teams">2. Teams</h2>
+<p>The app can hold several teams side by side, for example your
+research group and a centre you coordinate. Click the team name at the
+top of the menu to:</p>
+<ul>
+<li><strong>switch</strong> to another team;</li>
+<li><strong>Create new team</strong>, empty or with example data;</li>
+<li><strong>Load team from JSON file</strong>: a team file a colleague
+saved is added next to your teams;</li>
+<li><strong>Merge a colleague’s file</strong> into the team you have
+open (section 10);</li>
+<li><strong>Add demo team</strong>: the fictional <em>Experimental
+Engineering</em> team of 24 people with illustrated portraits, 13
+research projects in two research centres, four courses and guest
+lectures;</li>
+<li><strong>remove</strong> a team with the bin button. The app asks
+first and offers <em>Download a copy first</em>; the message that
+follows has <strong>Undo</strong>. The last team cannot be removed.</li>
+</ul>
+<p><strong>Home</strong> shows the team’s details (abbreviation, full
+name, organisation, description, focus areas, lead, website and email).
+Fill them in with <strong>Edit team details</strong>. Above them, a
+short list says what may be worth a look: people above their full-plate
+level, milestones that are overdue or due soon, projects past their end
+date or without people, and who has room. Each line links to the place
+where you can act on it.</p>
+<h2 id="people">3. People</h2>
+<figure>
+<img src="images/team.png"
+alt="Team: the people on the left, the selected person’s involvement, deadlines and assignments on the right (the fictional Experimental Engineering demo team)." />
+<figcaption aria-hidden="true">Team: the people on the left, the
+selected person’s involvement, deadlines and assignments on the right
+(the fictional Experimental Engineering demo team).</figcaption>
+</figure>
+<p><strong>Team</strong> lists everyone, with the team coordinator first
+in a gold frame. Click a person to see their card: role, involvement per
+project, deadlines and milestones in the next three months, how full
+their plate is, and their assignments with tasks. Add someone with
+<strong>Add person</strong> (or <code>P</code>).</p>
+<p>A person has a name, an optional role, an optional photo (cropped and
+shrunk to about 15 kB) and two things that are theirs to say:</p>
+<ul>
+<li><strong>How full is the plate?</strong> <em>Full plate</em>,
+<em>Steady</em> or <em>Has room</em>. The person’s own word counts:
+someone above the warning level who says <em>Steady</em> shows in amber
+as a question, not in red.</li>
+<li><strong>My plate is full at</strong>, for example 80% for someone
+part time or 50% for an industrial PhD candidate. Without it the team’s
+warning level applies (Settings, General).</li>
+</ul>
+<p>The Team page has three layouts (side by side, big cards and a list)
+and can be sorted by name, role or involvement. The download button on a
+person’s card gives their card as a <strong>PDF</strong>,
+<strong>Excel</strong> workbook, <strong>picture (PNG)</strong> or
+<strong>PowerPoint slide</strong> (a picture, or an editable slide built
+from text boxes).</p>
+<h2 id="projects-and-activities">4. Projects and activities</h2>
+<figure>
+<img src="images/projects.png"
+alt="Projects as cards, with stage, PI, funder, the next deadline, people and tasks." />
+<figcaption aria-hidden="true">Projects as cards, with stage, PI,
+funder, the next deadline, people and tasks.</figcaption>
+</figure>
+<p><strong>Projects</strong> holds two kinds of work, switched with the
+tabs at the top:</p>
+<ul>
+<li><strong>Research projects</strong>, which move through stages:
+<em>Proposal</em> (writing), <em>Submitted</em>, <em>Granted</em> or
+<em>Rejected</em>, <em>Ongoing</em> and <em>Finished</em>, or
+<em>Planned</em> for internal work without an application. The edit
+dialog opens only the dates that matter for the stage: application,
+funding decision, proposed period, contract period with extensions, and
+closing.</li>
+<li><strong>Activities</strong>: <em>Teaching</em> (one or more teaching
+periods, weekdays and times, or variable days), <em>Supervision</em> (a
+time span), <em>Networking</em> (a single meeting, a recurring meeting
+or an event) and <em>Other</em>. A recurring meeting can be weekly on
+chosen days, every 1 to 4 weeks, or monthly.</li>
+</ul>
+<p>Every project or activity can have a type, funder, research centre,
+abbreviation and full title, a PI (or course responsible, supervisor and
+so on), a description and its own <strong>task groups</strong> (Writing,
+Measurement, Data analysis, …). Tick <strong>Add the whole team</strong>
+for things everyone attends, such as a weekly meeting.</p>
+<p>Projects can be shown as <strong>cards</strong> (click one for its
+overview), a <strong>list</strong> with a <em>Next deadline</em> column,
+a <strong>timeline</strong> and a <strong>milestones</strong> list.
+Filter by type, stage, team member, year, funder or centre, and sort by
+name, stage, dates or next deadline. Your own types, funders and stages
+are set in Settings, Project lists.</p>
+<p><strong>Extensions.</strong> On an ongoing project, <em>Add
+extension</em> sets a new end date with a reason. The original end is
+kept, and the dialog offers to move the open milestones and deadlines
+that sat at the old end.</p>
+<h2 id="assignments-involvement-and-tasks">5. Assignments, involvement
+and tasks</h2>
+<figure>
+<img src="images/assignment.png"
+alt="Adding an assignment: person, project, status, involvement and task groups." />
+<figcaption aria-hidden="true">Adding an assignment: person, project,
+status, involvement and task groups.</figcaption>
+</figure>
+<p>An <strong>assignment</strong> says that a person works on a project
+or activity. Add one with <strong>Add assignment</strong> (or
+<code>A</code>), from a person’s card, from a project’s overview, or by
+clicking a cell on the Engagement page. It has:</p>
+<ul>
+<li>a <strong>status</strong>: <em>Planned</em>, <em>Ongoing</em> or
+<em>Finished</em>. Only ongoing work counts towards someone’s
+involvement, unless you ask for planned work too;</li>
+<li>an optional <strong>involvement</strong> in percent of full time (an
+indication, not a timesheet);</li>
+<li><strong>task groups</strong> the person does there, each with an
+optional percentage and a numbered list of <strong>detailed
+tasks</strong> to tick off (paste a list and it is split into
+lines);</li>
+<li>an optional description, for example “WP2 lead, lab tests”.</li>
+</ul>
+<p>If you pick a person and project that already have an assignment, the
+dialog says so and shows what would change before it saves.</p>
+<h2 id="milestones-deadlines-and-timelines">6. Milestones, deadlines and
+timelines</h2>
+<p>Any project or activity can have dated points: a
+<strong>milestone</strong> (something reached, such as “Test rig ready”)
+or a <strong>deadline</strong> (something due, such as “Mid-term
+report”). Add them in the project dialog under <em>Milestones and
+deadlines</em>, and tick them off wherever they are listed: Home, the
+project overview, a person’s card and the Milestones layout on Projects.
+When a date changes, the point remembers it and shows “Moved from
+…”.</p>
+<p>The <strong>timeline</strong> on Projects (and on a person’s card)
+draws each project on a shared year axis with a red line for today:
+application writing, waiting for the decision, the proposed period, the
+contract period and each extension, plus milestones as diamonds and
+deadlines as triangles. Teaching periods, meetings and events are drawn
+too. <em>Export to Markwhen</em> writes the same timeline as a
+<code>.mw</code> text file for the <a
+href="https://markwhen.com">Markwhen</a> editor.</p>
+<h2 id="shared-work-across-projects">7. Shared work across projects</h2>
+<figure>
+<img src="images/shared-work.png"
+alt="Shared work: tasks that several projects build on, and what waits on what." />
+<figcaption aria-hidden="true">Shared work: tasks that several projects
+build on, and what waits on what.</figcaption>
+</figure>
+<p><strong>Shared work</strong> is for work that several projects build
+on, such as a batch of test coupons that one project machines and
+another measures. Each item lists the projects and tasks that work
+together on it, the people on those tasks, a status (<em>Planned</em>,
+<em>In progress</em>, <em>Done</em>) and what it <strong>waits
+on</strong>: another shared item, a whole project or one task. You can
+also connect tasks from the assignment dialog with <em>Connect a
+task</em>.</p>
+<p>The <strong>Map</strong> layout shows each project as a column with
+its tasks as boxes: a solid line means the tasks work together, a dashed
+arrow means one waits on the other. Drag from one box to another to
+connect them.</p>
+<h2 id="engagement-and-analytics">8. Engagement and Analytics</h2>
+<figure>
+<img src="images/engagement.png"
+alt="Engagement: everyone against every project, with involvement in each cell." />
+<figcaption aria-hidden="true">Engagement: everyone against every
+project, with involvement in each cell.</figcaption>
+</figure>
+<p><strong>Engagement</strong> is the whole team against every project
+and activity as a grid. Each cell shows the involvement (filled for
+ongoing, outlined for planned, a tick for finished). Click a cell to
+add, change or remove an assignment.</p>
+<figure>
+<img src="images/analytics.png"
+alt="Analytics: involvement per person and the team at a glance, each chart with a one-line takeaway." />
+<figcaption aria-hidden="true">Analytics: involvement per person and the
+team at a glance, each chart with a one-line takeaway.</figcaption>
+</figure>
+<p><strong>Analytics</strong> collects the charts. The <em>Show</em>
+chips at the top switch each section on or off: your own chart, the team
+at a glance, involvement per person, team workload, tasks, people per
+project and what needs attention. In <strong>Your chart</strong> you
+choose a measure (involvement, assignments, projects, people, task
+groups, open tasks), how to group it (person, project, type, funder,
+stage, role, research centre) and the chart type (bars, columns, donut
+or a table). Every chart has a takeaway in plain words above it.</p>
+<h2 id="settings">9. Settings</h2>
+<figure>
+<img src="images/settings.png"
+alt="Settings, General: capacity tracking, the warning level, the greeting and the optional weather." />
+<figcaption aria-hidden="true">Settings, General: capacity tracking, the
+warning level, the greeting and the optional weather.</figcaption>
+</figure>
+<p><strong>Settings</strong> has these tabs:</p>
+<ul>
+<li><strong>General:</strong> <em>Capacity tracking</em> (weekly hours,
+capacity and the Capacity page; off by default), the <em>involvement
+warning level</em> (100% unless you change it), your name for the
+greeting on Home, and the optional weather.</li>
+<li><strong>Team details:</strong> the same details as <em>Edit team
+details</em> on Home, plus the team lead and coordinator.</li>
+<li><strong>Teaching periods:</strong> the periods of your academic year
+(names and dates), used by teaching activities. The demo periods are
+placeholders.</li>
+<li><strong>Task library:</strong> the task groups offered in
+assignments.</li>
+<li><strong>Project lists:</strong> project types, funders and stages,
+with rename, reorder and hide.</li>
+<li><strong>Data and backups:</strong> download and load backups, import
+Excel, auto-save to a file and versions set aside while merging (section
+10).</li>
+<li><strong>Appearance:</strong> the <em>Calm</em> (cool grey) or
+<em>Paper</em> (warm off-white) palette. Saved per browser.</li>
+<li><strong>Shortcuts:</strong> change or switch off the keyboard
+shortcuts. Saved per computer.</li>
+</ul>
+<p><strong>Weather</strong> is the only feature that uses the internet,
+and it is off until you pick a place. Then the app asks <a
+href="https://open-meteo.com">Open-Meteo</a> (free, no account) for that
+place’s current weather every 30 minutes. Only the place is sent, never
+team data.</p>
+<h2 id="saving-sharing-and-backups">10. Saving, sharing and backups</h2>
+<p>The app saves every change in the browser you use (IndexedDB), on
+that computer. That is convenient but not a backup: clearing the
+browser’s site data, a private window or another browser starts again
+with the demo team. So keep files:</p>
+<ul>
+<li><strong>Save team</strong> (top bar, <code>Ctrl+S</code> or
+<code>Cmd+S</code>) downloads the open team as a <code>.json</code>
+file.</li>
+<li><strong>Export, All teams (JSON)</strong> downloads every team in
+one file; <strong>Backup</strong> at the bottom of the menu does the
+same.</li>
+<li>To open a file, use <strong>Load team from JSON file</strong> in the
+team switcher, or Settings, Data and backups.</li>
+</ul>
+<p><strong>Working together.</strong> Each person opens the app on their
+own computer; there is no live server. To share one team:</p>
+<ol type="1">
+<li>Put the team’s <code>.json</code> file in a shared folder, for
+example OneDrive or Teams.</li>
+<li>In <strong>Chrome, Edge, Arc or Opera</strong>, turn on Settings,
+Data and backups, <strong>Auto-save to a file</strong> and choose that
+file. The app saves every few minutes when something changed. Before
+each save it reads the file, and if a colleague saved in the meantime it
+<strong>merges</strong> their version with yours, record by record
+(person, project, assignment, shared work). After reopening the app,
+click <em>Resume auto-save</em> to give permission again.</li>
+<li>In <strong>Safari and Firefox</strong>, which cannot write to a
+chosen file, use <strong>Merge a colleague’s file</strong> to bring in
+their saved copy.</li>
+</ol>
+<p>When the same record was changed on both sides, your version is kept
+and theirs is set aside under <em>Set aside while merging</em> in
+Settings, Data and backups, with <em>Use this version</em> to take
+theirs instead. Nothing is lost silently. Two people editing different
+fields of the same project at the same time count as a conflict on that
+project.</p>
+<h2 id="exports">11. Exports</h2>
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>What</th>
+<th>Where</th>
+<th>Gives</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Team or all teams</td>
+<td>Export menu, Save team</td>
+<td><code>.json</code> backup that opens in the app</td>
+</tr>
+<tr class="even">
+<td>Excel workbook</td>
+<td>Export menu</td>
+<td>A readable engagement sheet and lists, plus the full plan so it can
+be imported again</td>
+</tr>
+<tr class="odd">
+<td>Person card</td>
+<td>Download button on a person’s card</td>
+<td>PDF (print), Excel, picture (PNG) or PowerPoint slide</td>
+</tr>
+<tr class="even">
+<td>Timeline</td>
+<td>Projects, Timeline layout</td>
+<td>Markwhen <code>.mw</code> file</td>
+</tr>
+</tbody>
+</table>
+<p>Excel import (Settings, Data and backups) also reads a simple
+engagement sheet: a header row starting with <em>Team member</em>, one
+row per person and one column per project, with <code>x</code> for
+ongoing, <code>p</code> for planned and <code>d</code> for finished.</p>
+<h2 id="tips-and-questions">12. Tips and questions</h2>
+<p><strong>Is my data sent anywhere?</strong> No. Teams live in your
+browser and in the files you save. The only network request is the
+optional weather, which sends the chosen place and nothing else. The
+online version on the website is the same file; it saves in your
+browser, never on the website.</p>
+<p><strong>I opened the app and my team is gone.</strong> You are
+probably in another browser or a private window, or the browser’s site
+data was cleared. Each browser keeps its own copy. Load your last saved
+<code>.json</code> file, and turn on auto-save to a file to keep it
+current.</p>
+<p><strong>Can I track hours?</strong> Yes, switch on <em>Capacity
+tracking</em> in Settings, General. You then set weekly working hours
+per person, plan hours per assignment and week, and get a Capacity page.
+Planned hours count as tentative, ongoing hours as committed.</p>
+<p><strong>Can people only see their own part?</strong> No. Everyone can
+see and edit everything; the tool is built on trust and avoids
+micro-management. Each person can export their own card.</p>
+<p><strong>Which browsers?</strong> Current Chrome, Edge, Firefox,
+Safari, Arc and Opera. On phones the app works for looking things up;
+editing is easier on a computer.</p>
+<p><strong>Licence.</strong> MIT. Made by Robert Tomkowski
+(rtom@kth.se), developed with the assistance of Claude Code. Source: <a
+href="https://github.com/rtomkowski/team-capacity">github.com/rtomkowski/team-capacity</a>.</p>
+</main>
+<footer>
+  © 2026 Robert Tomkowski (rtom@kth.se) · <a href="https://github.com/rtomkowski/team-capacity/blob/main/LICENSE">MIT License</a> ·
+  Developed with the assistance of Claude Code · <a href="https://github.com/rtomkowski/team-capacity">Source on GitHub</a>
+</footer>
+</body>
+</html>

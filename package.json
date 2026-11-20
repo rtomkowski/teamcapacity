@@ -1,0 +1,38 @@
+{
+  "name": "team-capacity",
+  "version": "1.0.0",
+  "description": "See who works on what, and how full everyone's plate is. One HTML file, offline.",
+  "author": "Robert Tomkowski <rtom@kth.se>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtomkowski/team-capacity.git"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "TZ=Europe/Stockholm node --experimental-strip-types --test tests/*.test.ts"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "html-to-image": "^1.11.11",
+    "lucide-react": "^0.468.0",
+    "pptxgenjs": "^3.12.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "prettier": "^3.10.1",
+    "typescript": "^5.9.0",
+    "vite": "^7.1.0",
+    "vite-plugin-singlefile": "^2.3.0"
+  },
+  "overrides": {
+    "uuid": "^11.1.1"
+  }
+}

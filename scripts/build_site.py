@@ -42,12 +42,12 @@ See who works on what, and how full everyone's plate is.
 3. Click "Save team" now and then and keep the .json file in a shared folder.
 
 The user guide is in Team-capacity-User-Guide.pdf, and online at
-https://rtomkowski.github.io/team-capacity/guide.html
+https://rtomkowski.github.io/teamcapacity/guide.html
 
 demo-data/ holds the two fictional demo teams as files you can load.
 
 MIT License, Copyright (c) 2026 Robert Tomkowski (rtom@kth.se). See LICENSE.txt.
-Source: https://github.com/rtomkowski/team-capacity
+Source: https://github.com/rtomkowski/teamcapacity
 """
 
 PDF_SCRIPT = """

@@ -6,13 +6,13 @@ supervision, networking), who is on what, with involvement, tasks, milestones an
 is a single HTML file that runs in your browser: no installation, no account, no server, and your
 data stays on your own computer.
 
-[![Tests](https://github.com/rtomkowski/team-capacity/actions/workflows/tests.yml/badge.svg)](https://github.com/rtomkowski/team-capacity/actions/workflows/tests.yml)
+[![Tests](https://github.com/rtomkowski/teamcapacity/actions/workflows/tests.yml/badge.svg)](https://github.com/rtomkowski/teamcapacity/actions/workflows/tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-**[Try it online](https://rtomkowski.github.io/team-capacity/app/)** ·
-**[User guide](https://rtomkowski.github.io/team-capacity/guide.html)** ·
-**[Download](https://rtomkowski.github.io/team-capacity/downloads/Team-capacity.zip)** ·
-**[Website](https://rtomkowski.github.io/team-capacity/)**
+**[Try it online](https://rtomkowski.github.io/teamcapacity/app/)** ·
+**[User guide](https://rtomkowski.github.io/teamcapacity/guide.html)** ·
+**[Download](https://rtomkowski.github.io/teamcapacity/downloads/Team-capacity.zip)** ·
+**[Website](https://rtomkowski.github.io/teamcapacity/)**
 
 ![Home for a fictional research lab: what may be worth a look, the next dates and the team at a glance](docs/images/home.png)
 
@@ -42,14 +42,14 @@ data stays on your own computer.
 
 ## Get started
 
-1. Download [`Team-capacity.zip`](https://rtomkowski.github.io/team-capacity/downloads/Team-capacity.zip)
-   and unzip it, or just save [`Team capacity.html`](https://rtomkowski.github.io/team-capacity/downloads/Team%20capacity.html).
+1. Download [`Team-capacity.zip`](https://rtomkowski.github.io/teamcapacity/downloads/Team-capacity.zip)
+   and unzip it, or just save [`Team capacity.html`](https://rtomkowski.github.io/teamcapacity/downloads/Team%20capacity.html).
 2. Double-click `Team capacity.html`. It opens in Chrome, Edge, Firefox, Safari, Arc or Opera.
 3. Look around the fictional Northfield demo team, then click the team name and **Create new team**.
 4. Click **Save team** now and then and keep the `.json` file in a shared folder. In Chrome and
    Edge the app can auto-save to that file and merge colleagues' changes.
 
-The [user guide](https://rtomkowski.github.io/team-capacity/guide.html) explains everything.
+The [user guide](https://rtomkowski.github.io/teamcapacity/guide.html) explains everything.
 
 **Privacy:** teams are stored in your browser and in the files you save. The only network request
 is the optional weather on Home (off until you pick a place), which sends that place to

@@ -20,7 +20,7 @@ concurrency:
 
 jobs:
   deploy:
-    if: github.repository == 'rtomkowski/team-capacity'
+    if: github.repository == 'rtomkowski/teamcapacity'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

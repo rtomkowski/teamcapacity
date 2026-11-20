@@ -272,4 +272,4 @@ built on trust and avoids micro-management. Each person can export their own car
 works for looking things up; editing is easier on a computer.
 
 **Licence.** MIT. Made by Robert Tomkowski (rtom@kth.se), developed with the assistance of
-Claude Code. Source: [github.com/rtomkowski/team-capacity](https://github.com/rtomkowski/team-capacity).
+Claude Code. Source: [github.com/rtomkowski/teamcapacity](https://github.com/rtomkowski/teamcapacity).
